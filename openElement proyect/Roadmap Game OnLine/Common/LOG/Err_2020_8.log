@@ -1,0 +1,2563 @@
+02/08/2020 20:40:05 | 
+02/08/2020 20:40:05 | 
+Message : Script timed out
+02/08/2020 20:40:05 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+02/08/2020 20:40:05 | 
+Params : 
+02/08/2020 20:40:05 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+02/08/2020 20:40:05 | 
+Stamp : 02/08/2020 20:40:03
+02/08/2020 20:40:05 | 
+OSFullName : Microsoft Windows 7 Professional 
+02/08/2020 20:40:05 | 
+AvailablePhysicalMemory : 615,11 Mo 
+02/08/2020 20:40:05 | 
+TotalPhysicalMemory : 1,99 Go 
+02/08/2020 20:40:05 | 
+AvailableVirtualMemory : 1,1 Go 
+02/08/2020 20:40:05 | 
+TotalVirtualMemory : 2 Go 
+02/08/2020 20:40:05 | 
+WorkingSet : 422,52 Mo 
+02/08/2020 20:40:05 | 
+PagedMemorySize : 476,07 Mo 
+02/08/2020 20:40:05 | 
+TotalMemory : 121,84 Mo 
+02/08/2020 20:40:05 | 
+
+02/08/2020 20:40:05 | 
+ExTrace : 
+02/08/2020 20:40:05 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+02/08/2020 20:40:05 | 
+
+02/08/2020 20:40:05 | 
+OETrace : 
+02/08/2020 20:40:05 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+02/08/2020 20:40:05 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+02/08/2020 20:40:05 | 
+
+02/08/2020 20:40:05 | 
+------------------
+03/08/2020 2:08:14 | 
+03/08/2020 2:08:14 | 
+Message : Script timed out
+03/08/2020 2:08:14 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+03/08/2020 2:08:14 | 
+Params : 
+03/08/2020 2:08:14 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+03/08/2020 2:08:14 | 
+Stamp : 03/08/2020 2:08:13
+03/08/2020 2:08:14 | 
+OSFullName : Microsoft Windows 7 Professional 
+03/08/2020 2:08:14 | 
+AvailablePhysicalMemory : 744,72 Mo 
+03/08/2020 2:08:14 | 
+TotalPhysicalMemory : 1,99 Go 
+03/08/2020 2:08:14 | 
+AvailableVirtualMemory : 1,13 Go 
+03/08/2020 2:08:14 | 
+TotalVirtualMemory : 2 Go 
+03/08/2020 2:08:14 | 
+WorkingSet : 399,87 Mo 
+03/08/2020 2:08:14 | 
+PagedMemorySize : 427,41 Mo 
+03/08/2020 2:08:14 | 
+TotalMemory : 51,05 Mo 
+03/08/2020 2:08:14 | 
+
+03/08/2020 2:08:14 | 
+ExTrace : 
+03/08/2020 2:08:14 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+03/08/2020 2:08:14 | 
+
+03/08/2020 2:08:14 | 
+OETrace : 
+03/08/2020 2:08:14 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+03/08/2020 2:08:14 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+03/08/2020 2:08:14 | 
+
+03/08/2020 2:08:14 | 
+------------------
+8/6/2020 3:44:55 PM | 
+8/6/2020 3:44:55 PM | 
+Message : Error when SendMessage to Guideline times out.
+8/6/2020 3:44:55 PM | 
+
+8/6/2020 3:44:55 PM | 
+Hint: OEGuideline is accessible by its icon in the Windows' Notification area (near the system clock).
+8/6/2020 3:44:55 PM | 
+LastTrace : ExtractEmpty
+8/6/2020 3:44:55 PM | 
+Params : 
+8/6/2020 3:44:55 PM | 
+MethodeName : 
+8/6/2020 3:44:55 PM | 
+Stamp : 8/6/2020 3:44:50 PM
+8/6/2020 3:44:55 PM | 
+OSFullName : Microsoft Windows 7 Professional 
+8/6/2020 3:44:55 PM | 
+AvailablePhysicalMemory : 1.29 Go 
+8/6/2020 3:44:55 PM | 
+TotalPhysicalMemory : 1.99 Go 
+8/6/2020 3:44:55 PM | 
+AvailableVirtualMemory : 1 Go 
+8/6/2020 3:44:55 PM | 
+TotalVirtualMemory : 2 Go 
+8/6/2020 3:44:55 PM | 
+WorkingSet : 135.98 Mo 
+8/6/2020 3:44:55 PM | 
+PagedMemorySize : 556.15 Mo 
+8/6/2020 3:44:55 PM | 
+TotalMemory : 89.25 Mo 
+8/6/2020 3:44:55 PM | 
+
+8/6/2020 3:44:55 PM | 
+ExTrace : 
+8/6/2020 3:44:55 PM | 
+
+8/6/2020 3:44:55 PM | 
+OETrace : 
+8/6/2020 3:44:55 PM | 
+at openElement.OEGuideline.ProcessTools._ReportGLCrashOnce() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\OEGuideline\ProcessTools.vb:line 389
+8/6/2020 3:44:55 PM | 
+at openElement.OEGuideline.ProcessTools.Send(RData rData, Boolean async, Boolean reportCrash) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\OEGuideline\ProcessTools.vb:line 413
+8/6/2020 3:44:55 PM | 
+at openElement.OEGuideline.ProcessTools.SendProjectClose() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\OEGuideline\ProcessTools.vb:line 217
+8/6/2020 3:44:55 PM | 
+at openElement.WebSite.WebSite.Close(ActionArg`1 actionArg) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.Close.vb:line 38
+8/6/2020 3:44:55 PM | 
+at openElement.WebSite.WebSite._Closure$__._Lambda$__R2-1(ActionArg a0)
+8/6/2020 3:44:55 PM | 
+at openElement.Wait.RunFunction[TResult](FuncWait`1 action, ActionArg param, String text1, String text2, WaitIconType iconType) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Wait.vb:line 199
+8/6/2020 3:44:55 PM | 
+at openElement.WebSite.WebSite.Close(Boolean appClose) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.Close.vb:line 18
+8/6/2020 3:44:55 PM | 
+at openElement.Forms.FrmMain.FrmMain_FormClosing(Object sender, FormClosingEventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\FrmMain.Close.vb:line 42
+8/6/2020 3:44:55 PM | 
+at openElement.Forms.FrmMain.WndProc(Message& m) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\FrmMain.vb:line 33
+8/6/2020 3:44:55 PM | 
+at openElement.Forms.FrmMain.WndProc(Message& m) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\FrmMain.vb:line 33
+8/6/2020 3:44:55 PM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+8/6/2020 3:44:55 PM | 
+
+8/6/2020 3:44:55 PM | 
+------------------
+09/08/2020 17:37:32 | 
+09/08/2020 17:37:32 | 
+Message : Script timed out
+09/08/2020 17:37:32 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+09/08/2020 17:37:32 | 
+Params : 
+09/08/2020 17:37:32 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+09/08/2020 17:37:32 | 
+Stamp : 09/08/2020 17:37:31
+09/08/2020 17:37:32 | 
+OSFullName : Microsoft Windows 7 Professional 
+09/08/2020 17:37:32 | 
+AvailablePhysicalMemory : 493,69 Mo 
+09/08/2020 17:37:32 | 
+TotalPhysicalMemory : 1,99 Go 
+09/08/2020 17:37:32 | 
+AvailableVirtualMemory : 1,14 Go 
+09/08/2020 17:37:32 | 
+TotalVirtualMemory : 2 Go 
+09/08/2020 17:37:32 | 
+WorkingSet : 494,23 Mo 
+09/08/2020 17:37:32 | 
+PagedMemorySize : 429,29 Mo 
+09/08/2020 17:37:32 | 
+TotalMemory : 131,66 Mo 
+09/08/2020 17:37:32 | 
+
+09/08/2020 17:37:32 | 
+ExTrace : 
+09/08/2020 17:37:32 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+09/08/2020 17:37:32 | 
+
+09/08/2020 17:37:32 | 
+OETrace : 
+09/08/2020 17:37:32 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+09/08/2020 17:37:32 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+09/08/2020 17:37:32 | 
+
+09/08/2020 17:37:32 | 
+------------------
+09/08/2020 20:11:54 | 
+09/08/2020 20:11:54 | 
+Message : Script timed out
+09/08/2020 20:11:54 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+09/08/2020 20:11:54 | 
+Params : 
+09/08/2020 20:11:54 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+09/08/2020 20:11:54 | 
+Stamp : 09/08/2020 20:11:53
+09/08/2020 20:11:54 | 
+OSFullName : Microsoft Windows 7 Professional 
+09/08/2020 20:11:54 | 
+AvailablePhysicalMemory : 542,16 Mo 
+09/08/2020 20:11:54 | 
+TotalPhysicalMemory : 1,99 Go 
+09/08/2020 20:11:54 | 
+AvailableVirtualMemory : 971,9 Mo 
+09/08/2020 20:11:54 | 
+TotalVirtualMemory : 2 Go 
+09/08/2020 20:11:54 | 
+WorkingSet : 527,25 Mo 
+09/08/2020 20:11:54 | 
+PagedMemorySize : 613,46 Mo 
+09/08/2020 20:11:54 | 
+TotalMemory : 150,78 Mo 
+09/08/2020 20:11:54 | 
+
+09/08/2020 20:11:54 | 
+ExTrace : 
+09/08/2020 20:11:54 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+09/08/2020 20:11:54 | 
+
+09/08/2020 20:11:54 | 
+OETrace : 
+09/08/2020 20:11:54 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+09/08/2020 20:11:54 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+09/08/2020 20:11:54 | 
+
+09/08/2020 20:11:54 | 
+------------------
+09/08/2020 21:33:42 | 
+09/08/2020 21:33:42 | 
+Message : Script timed out
+09/08/2020 21:33:42 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+09/08/2020 21:33:42 | 
+Params : 
+09/08/2020 21:33:42 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+09/08/2020 21:33:42 | 
+Stamp : 09/08/2020 21:33:40
+09/08/2020 21:33:42 | 
+OSFullName : Microsoft Windows 7 Professional 
+09/08/2020 21:33:42 | 
+AvailablePhysicalMemory : 517,15 Mo 
+09/08/2020 21:33:42 | 
+TotalPhysicalMemory : 1,99 Go 
+09/08/2020 21:33:42 | 
+AvailableVirtualMemory : 1013,61 Mo 
+09/08/2020 21:33:42 | 
+TotalVirtualMemory : 2 Go 
+09/08/2020 21:33:42 | 
+WorkingSet : 462,27 Mo 
+09/08/2020 21:33:42 | 
+PagedMemorySize : 566,13 Mo 
+09/08/2020 21:33:42 | 
+TotalMemory : 108,29 Mo 
+09/08/2020 21:33:42 | 
+
+09/08/2020 21:33:42 | 
+ExTrace : 
+09/08/2020 21:33:42 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+09/08/2020 21:33:42 | 
+
+09/08/2020 21:33:42 | 
+OETrace : 
+09/08/2020 21:33:42 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+09/08/2020 21:33:42 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+09/08/2020 21:33:42 | 
+
+09/08/2020 21:33:42 | 
+------------------
+8/10/2020 1:54:35 AM | 
+8/10/2020 1:54:35 AM | 
+Message : Object reference not set to an instance of an object.
+8/10/2020 1:54:35 AM | 
+LastTrace : openElement.WebElement.Common.CssBase.OnBeforeUpdate(EnuStyleName styleName)
+8/10/2020 1:54:35 AM | 
+Params : 
+8/10/2020 1:54:35 AM | 
+MethodeName : Void OnBeforeUpdate(EnuStyleName)
+8/10/2020 1:54:35 AM | 
+Stamp : 8/10/2020 1:54:33 AM
+8/10/2020 1:54:35 AM | 
+OSFullName : Microsoft Windows 10 Home
+8/10/2020 1:54:35 AM | 
+AvailablePhysicalMemory : 1.33 Go 
+8/10/2020 1:54:35 AM | 
+TotalPhysicalMemory : 3.85 Go 
+8/10/2020 1:54:35 AM | 
+AvailableVirtualMemory : 3.14 Go 
+8/10/2020 1:54:35 AM | 
+TotalVirtualMemory : 4 Go 
+8/10/2020 1:54:35 AM | 
+WorkingSet : 334.95 Mo 
+8/10/2020 1:54:35 AM | 
+PagedMemorySize : 313.04 Mo 
+8/10/2020 1:54:35 AM | 
+TotalMemory : 64.07 Mo 
+8/10/2020 1:54:35 AM | 
+
+8/10/2020 1:54:35 AM | 
+ExTrace : 
+8/10/2020 1:54:35 AM | 
+at openElement.WebElement.Common.CssBase.OnBeforeUpdate(EnuStyleName styleName) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssBase.vb:line 298
+8/10/2020 1:54:35 AM | 
+
+8/10/2020 1:54:35 AM | 
+OETrace : 
+8/10/2020 1:54:35 AM | 
+at openElement.WebElement.Common.CssBase.OnBeforeUpdate(EnuStyleName styleName) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssBase.vb:line 303
+8/10/2020 1:54:35 AM | 
+at openElement.WebElement.StylesManager.Styles.set_Width(CssUnit value) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\Styles.vb:line 1128
+8/10/2020 1:54:35 AM | 
+at openElement.Controls.CtlStylesCss.LoadPropertyGrid(List`1 selectedObjects) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlStylesCss.vb:line 109
+8/10/2020 1:54:35 AM | 
+at openElement.Controls.CtlStyles.LoadCss() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlStyles.vb:line 112
+8/10/2020 1:54:35 AM | 
+at openElement.Controls.CtlStyles.StartSelect() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlStyles.vb:line 70
+8/10/2020 1:54:35 AM | 
+at openElement.Controls.CtlStyles.CtlStyles_VisibleChanged(Object sender, EventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlStyles.vb:line 246
+8/10/2020 1:54:35 AM | 
+at openElement.Forms.FrmMain.RibbonControl_SelectedPageChanged(Object sender, EventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\FrmMain.vb:line 104
+8/10/2020 1:54:35 AM | 
+at openElement.Forms.FrmMain.LoadCurrentSelection() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\FrmMain.Select.vb:line 46
+8/10/2020 1:54:35 AM | 
+at openElement.Forms.FrmPageEdit.ActivateSelectedElements(Boolean withJS) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\FrmPageEdit.Select.vb:line 303
+8/10/2020 1:54:35 AM | 
+at openElement.Forms.PageEditFromJs._SelectElements(String idjsArray, String zoneName, String propertyName, String textEditData) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:line 481
+8/10/2020 1:54:35 AM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+8/10/2020 1:54:35 AM | 
+
+8/10/2020 1:54:35 AM | 
+------------------
+8/10/2020 1:54:35 AM | 
+8/10/2020 1:54:35 AM | 
+Message : Object reference not set to an instance of an object.
+8/10/2020 1:54:35 AM | 
+LastTrace : openElement.WebElement.Common.CssBase.OnAfterUpdate(EnuStyleName styleName)
+8/10/2020 1:54:35 AM | 
+Params : 
+8/10/2020 1:54:35 AM | 
+MethodeName : Void OnAfterUpdate(EnuStyleName)
+8/10/2020 1:54:35 AM | 
+Stamp : 8/10/2020 1:54:35 AM
+8/10/2020 1:54:35 AM | 
+OSFullName : Microsoft Windows 10 Home
+8/10/2020 1:54:35 AM | 
+AvailablePhysicalMemory : 1.32 Go 
+8/10/2020 1:54:35 AM | 
+TotalPhysicalMemory : 3.85 Go 
+8/10/2020 1:54:35 AM | 
+AvailableVirtualMemory : 3.14 Go 
+8/10/2020 1:54:35 AM | 
+TotalVirtualMemory : 4 Go 
+8/10/2020 1:54:35 AM | 
+WorkingSet : 334.98 Mo 
+8/10/2020 1:54:35 AM | 
+PagedMemorySize : 313.04 Mo 
+8/10/2020 1:54:35 AM | 
+TotalMemory : 64.58 Mo 
+8/10/2020 1:54:35 AM | 
+
+8/10/2020 1:54:35 AM | 
+ExTrace : 
+8/10/2020 1:54:35 AM | 
+at openElement.WebElement.Common.CssBase.OnAfterUpdate(EnuStyleName styleName) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssBase.vb:line 323
+8/10/2020 1:54:35 AM | 
+
+8/10/2020 1:54:35 AM | 
+OETrace : 
+8/10/2020 1:54:35 AM | 
+at openElement.WebElement.Common.CssBase.OnAfterUpdate(EnuStyleName styleName) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssBase.vb:line 329
+8/10/2020 1:54:35 AM | 
+at openElement.WebElement.StylesManager.Styles.set_Width(CssUnit value) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\Styles.vb:line 1130
+8/10/2020 1:54:35 AM | 
+at openElement.Controls.CtlStylesCss.LoadPropertyGrid(List`1 selectedObjects) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlStylesCss.vb:line 109
+8/10/2020 1:54:35 AM | 
+at openElement.Controls.CtlStyles.LoadCss() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlStyles.vb:line 112
+8/10/2020 1:54:35 AM | 
+at openElement.Controls.CtlStyles.StartSelect() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlStyles.vb:line 70
+8/10/2020 1:54:35 AM | 
+at openElement.Controls.CtlStyles.CtlStyles_VisibleChanged(Object sender, EventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlStyles.vb:line 246
+8/10/2020 1:54:35 AM | 
+at openElement.Forms.FrmMain.RibbonControl_SelectedPageChanged(Object sender, EventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\FrmMain.vb:line 104
+8/10/2020 1:54:35 AM | 
+at openElement.Forms.FrmMain.LoadCurrentSelection() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\FrmMain.Select.vb:line 46
+8/10/2020 1:54:35 AM | 
+at openElement.Forms.FrmPageEdit.ActivateSelectedElements(Boolean withJS) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\FrmPageEdit.Select.vb:line 303
+8/10/2020 1:54:35 AM | 
+at openElement.Forms.PageEditFromJs._SelectElements(String idjsArray, String zoneName, String propertyName, String textEditData) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:line 481
+8/10/2020 1:54:35 AM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+8/10/2020 1:54:35 AM | 
+
+8/10/2020 1:54:35 AM | 
+------------------
+10/08/2020 3:53:06 | 
+10/08/2020 3:53:06 | 
+Message : Script timed out
+10/08/2020 3:53:06 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+10/08/2020 3:53:06 | 
+Params : 
+10/08/2020 3:53:06 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+10/08/2020 3:53:06 | 
+Stamp : 10/08/2020 3:53:06
+10/08/2020 3:53:06 | 
+OSFullName : Microsoft Windows 10 Home
+10/08/2020 3:53:06 | 
+AvailablePhysicalMemory : 760,98 Mo 
+10/08/2020 3:53:06 | 
+TotalPhysicalMemory : 3,85 Go 
+10/08/2020 3:53:06 | 
+AvailableVirtualMemory : 2,92 Go 
+10/08/2020 3:53:06 | 
+TotalVirtualMemory : 4 Go 
+10/08/2020 3:53:06 | 
+WorkingSet : 495,49 Mo 
+10/08/2020 3:53:06 | 
+PagedMemorySize : 525,97 Mo 
+10/08/2020 3:53:06 | 
+TotalMemory : 142,44 Mo 
+10/08/2020 3:53:06 | 
+
+10/08/2020 3:53:06 | 
+ExTrace : 
+10/08/2020 3:53:06 | 
+en openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) en C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:línea 546
+10/08/2020 3:53:06 | 
+
+10/08/2020 3:53:06 | 
+OETrace : 
+10/08/2020 3:53:06 | 
+en openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) en C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:línea 549
+10/08/2020 3:53:06 | 
+en openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+10/08/2020 3:53:06 | 
+
+10/08/2020 3:53:06 | 
+------------------
+10/08/2020 4:03:51 | 
+10/08/2020 4:03:51 | 
+Message : Script timed out
+10/08/2020 4:03:51 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+10/08/2020 4:03:51 | 
+Params : 
+10/08/2020 4:03:51 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+10/08/2020 4:03:51 | 
+Stamp : 10/08/2020 4:03:51
+10/08/2020 4:03:51 | 
+OSFullName : Microsoft Windows 10 Home
+10/08/2020 4:03:51 | 
+AvailablePhysicalMemory : 814 Mo 
+10/08/2020 4:03:51 | 
+TotalPhysicalMemory : 3,85 Go 
+10/08/2020 4:03:51 | 
+AvailableVirtualMemory : 2,92 Go 
+10/08/2020 4:03:51 | 
+TotalVirtualMemory : 4 Go 
+10/08/2020 4:03:51 | 
+WorkingSet : 513,27 Mo 
+10/08/2020 4:03:51 | 
+PagedMemorySize : 548,43 Mo 
+10/08/2020 4:03:51 | 
+TotalMemory : 207,97 Mo 
+10/08/2020 4:03:51 | 
+
+10/08/2020 4:03:51 | 
+ExTrace : 
+10/08/2020 4:03:51 | 
+en openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) en C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:línea 546
+10/08/2020 4:03:51 | 
+
+10/08/2020 4:03:51 | 
+OETrace : 
+10/08/2020 4:03:51 | 
+en openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) en C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:línea 549
+10/08/2020 4:03:51 | 
+en openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+10/08/2020 4:03:51 | 
+
+10/08/2020 4:03:51 | 
+------------------
+8/10/2020 4:30:13 AM | 
+8/10/2020 4:30:13 AM | 
+Message : Input string was not in a correct format.
+8/10/2020 4:30:13 AM | 
+LastTrace : openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ForceIntPxValue(String cssVal, Boolean handleImportant)
+8/10/2020 4:30:13 AM | 
+Params : 
+8/10/2020 4:30:13 AM | 
+MethodeName : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+8/10/2020 4:30:13 AM | 
+Stamp : 8/10/2020 4:30:13 AM
+8/10/2020 4:30:13 AM | 
+OSFullName : Microsoft Windows 10 Home
+8/10/2020 4:30:13 AM | 
+AvailablePhysicalMemory : 994.81 Mo 
+8/10/2020 4:30:13 AM | 
+TotalPhysicalMemory : 3.85 Go 
+8/10/2020 4:30:13 AM | 
+AvailableVirtualMemory : 3.03 Go 
+8/10/2020 4:30:13 AM | 
+TotalVirtualMemory : 4 Go 
+8/10/2020 4:30:13 AM | 
+WorkingSet : 380.04 Mo 
+8/10/2020 4:30:13 AM | 
+PagedMemorySize : 398.03 Mo 
+8/10/2020 4:30:13 AM | 
+TotalMemory : 80.48 Mo 
+8/10/2020 4:30:13 AM | 
+
+8/10/2020 4:30:13 AM | 
+ExTrace : 
+8/10/2020 4:30:13 AM | 
+at openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ForceIntPxValue(String cssVal, Boolean handleImportant) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\Converter\TConvCssBoxShadow.vb:line 23
+8/10/2020 4:30:13 AM | 
+at openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\Converter\TConvCssBoxShadow.vb:line 168
+8/10/2020 4:30:13 AM | 
+
+8/10/2020 4:30:13 AM | 
+OETrace : 
+8/10/2020 4:30:13 AM | 
+at openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\Converter\TConvCssBoxShadow.vb:line 202
+8/10/2020 4:30:13 AM | 
+at openElement.WebElement.StylesManager.CssItems.CssTextShadow.SetCss(String value) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\CssTextShadow.vb:line 127
+8/10/2020 4:30:13 AM | 
+at openElement.WebElement.StylesManager.Styles.FromCss(String css, Boolean lockEvents) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\Styles.vb:line 1857
+8/10/2020 4:30:13 AM | 
+at openElement.WebElement.StylesManager.Styles..ctor(StylesZone stylesZone, String mediaKey, EnuStyleState state, String css) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\Styles.vb:line 116
+8/10/2020 4:30:13 AM | 
+at openElement.WebElement.StylesManager.StylesZoneMedia.NewStyles(StylesZone stylesZone, String mediaKey, EnuStyleState state, String css) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\StylesZoneMedia.vb:line 71
+8/10/2020 4:30:13 AM | 
+at openElement.WebElement.StylesManager.SerializeZoneCss.Deserialize(StylesZone stylesZone) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\SerializeZoneCss.vb:line 139
+8/10/2020 4:30:13 AM | 
+at openElement.WebElement.StylesManager.StylesZone.OnDeserialized(StreamingContext context) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\StylesZone.vb:line 117
+8/10/2020 4:30:13 AM | 
+at openElement.Serialization.Clone[T](T source) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Serialization.vb:line 725
+8/10/2020 4:30:13 AM | 
+at openElement.Controls.CtlProperty.PropertyGrid_ShowingEditor(Object sender, CancelEventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlProperty.vb:line 225
+8/10/2020 4:30:13 AM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+8/10/2020 4:30:13 AM | 
+
+8/10/2020 4:30:13 AM | 
+------------------
+8/10/2020 4:30:15 AM | 
+8/10/2020 4:30:15 AM | 
+Message : Input string was not in a correct format.
+8/10/2020 4:30:15 AM | 
+LastTrace : openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ForceIntPxValue(String cssVal, Boolean handleImportant)
+8/10/2020 4:30:15 AM | 
+Params : 
+8/10/2020 4:30:15 AM | 
+MethodeName : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+8/10/2020 4:30:15 AM | 
+Stamp : 8/10/2020 4:30:15 AM
+8/10/2020 4:30:15 AM | 
+OSFullName : Microsoft Windows 10 Home
+8/10/2020 4:30:15 AM | 
+AvailablePhysicalMemory : 991.88 Mo 
+8/10/2020 4:30:15 AM | 
+TotalPhysicalMemory : 3.85 Go 
+8/10/2020 4:30:15 AM | 
+AvailableVirtualMemory : 3.03 Go 
+8/10/2020 4:30:15 AM | 
+TotalVirtualMemory : 4 Go 
+8/10/2020 4:30:15 AM | 
+WorkingSet : 382.76 Mo 
+8/10/2020 4:30:15 AM | 
+PagedMemorySize : 400.76 Mo 
+8/10/2020 4:30:15 AM | 
+TotalMemory : 85.91 Mo 
+8/10/2020 4:30:15 AM | 
+
+8/10/2020 4:30:15 AM | 
+ExTrace : 
+8/10/2020 4:30:15 AM | 
+at openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ForceIntPxValue(String cssVal, Boolean handleImportant) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\Converter\TConvCssBoxShadow.vb:line 23
+8/10/2020 4:30:15 AM | 
+at openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\Converter\TConvCssBoxShadow.vb:line 168
+8/10/2020 4:30:15 AM | 
+
+8/10/2020 4:30:15 AM | 
+OETrace : 
+8/10/2020 4:30:15 AM | 
+at openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\Converter\TConvCssBoxShadow.vb:line 202
+8/10/2020 4:30:15 AM | 
+at openElement.WebElement.StylesManager.CssItems.CssTextShadow.SetCss(String value) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\CssTextShadow.vb:line 127
+8/10/2020 4:30:15 AM | 
+at openElement.WebElement.StylesManager.Styles.FromCss(String css, Boolean lockEvents) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\Styles.vb:line 1857
+8/10/2020 4:30:15 AM | 
+at openElement.WebElement.StylesManager.Styles..ctor(StylesZone stylesZone, String mediaKey, EnuStyleState state, String css) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\Styles.vb:line 116
+8/10/2020 4:30:15 AM | 
+at openElement.WebElement.StylesManager.StylesZoneMedia.NewStyles(StylesZone stylesZone, String mediaKey, EnuStyleState state, String css) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\StylesZoneMedia.vb:line 71
+8/10/2020 4:30:15 AM | 
+at openElement.WebElement.StylesManager.SerializeZoneCss.Deserialize(StylesZone stylesZone) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\SerializeZoneCss.vb:line 139
+8/10/2020 4:30:15 AM | 
+at openElement.WebElement.StylesManager.StylesZone.OnDeserialized(StreamingContext context) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\StylesZone.vb:line 117
+8/10/2020 4:30:15 AM | 
+at openElement.Serialization.Clone[T](T source) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Serialization.vb:line 725
+8/10/2020 4:30:15 AM | 
+at openElement.Controls.CtlProperty.PropertyGrid_ShowingEditor(Object sender, CancelEventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlProperty.vb:line 225
+8/10/2020 4:30:15 AM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+8/10/2020 4:30:15 AM | 
+
+8/10/2020 4:30:15 AM | 
+------------------
+8/10/2020 4:30:17 AM | 
+8/10/2020 4:30:17 AM | 
+Message : Input string was not in a correct format.
+8/10/2020 4:30:17 AM | 
+LastTrace : openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ForceIntPxValue(String cssVal, Boolean handleImportant)
+8/10/2020 4:30:17 AM | 
+Params : 
+8/10/2020 4:30:17 AM | 
+MethodeName : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+8/10/2020 4:30:17 AM | 
+Stamp : 8/10/2020 4:30:17 AM
+8/10/2020 4:30:17 AM | 
+OSFullName : Microsoft Windows 10 Home
+8/10/2020 4:30:17 AM | 
+AvailablePhysicalMemory : 994.16 Mo 
+8/10/2020 4:30:17 AM | 
+TotalPhysicalMemory : 3.85 Go 
+8/10/2020 4:30:17 AM | 
+AvailableVirtualMemory : 3.03 Go 
+8/10/2020 4:30:17 AM | 
+TotalVirtualMemory : 4 Go 
+8/10/2020 4:30:17 AM | 
+WorkingSet : 381.35 Mo 
+8/10/2020 4:30:17 AM | 
+PagedMemorySize : 399.41 Mo 
+8/10/2020 4:30:17 AM | 
+TotalMemory : 83.81 Mo 
+8/10/2020 4:30:17 AM | 
+
+8/10/2020 4:30:17 AM | 
+ExTrace : 
+8/10/2020 4:30:17 AM | 
+at openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ForceIntPxValue(String cssVal, Boolean handleImportant) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\Converter\TConvCssBoxShadow.vb:line 23
+8/10/2020 4:30:17 AM | 
+at openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\Converter\TConvCssBoxShadow.vb:line 168
+8/10/2020 4:30:17 AM | 
+
+8/10/2020 4:30:17 AM | 
+OETrace : 
+8/10/2020 4:30:17 AM | 
+at openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\Converter\TConvCssBoxShadow.vb:line 202
+8/10/2020 4:30:17 AM | 
+at openElement.WebElement.StylesManager.CssItems.CssTextShadow.SetCss(String value) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\CssTextShadow.vb:line 127
+8/10/2020 4:30:17 AM | 
+at openElement.WebElement.StylesManager.Styles.FromCss(String css, Boolean lockEvents) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\Styles.vb:line 1857
+8/10/2020 4:30:17 AM | 
+at openElement.WebElement.StylesManager.Styles..ctor(StylesZone stylesZone, String mediaKey, EnuStyleState state, String css) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\Styles.vb:line 116
+8/10/2020 4:30:17 AM | 
+at openElement.WebElement.StylesManager.StylesZoneMedia.NewStyles(StylesZone stylesZone, String mediaKey, EnuStyleState state, String css) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\StylesZoneMedia.vb:line 71
+8/10/2020 4:30:17 AM | 
+at openElement.WebElement.StylesManager.SerializeZoneCss.Deserialize(StylesZone stylesZone) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\SerializeZoneCss.vb:line 139
+8/10/2020 4:30:17 AM | 
+at openElement.WebElement.StylesManager.StylesZone.OnDeserialized(StreamingContext context) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\StylesZone.vb:line 117
+8/10/2020 4:30:17 AM | 
+at openElement.Serialization.Clone[T](T source) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Serialization.vb:line 725
+8/10/2020 4:30:17 AM | 
+at openElement.Controls.CtlProperty.PropertyGrid_ShowingEditor(Object sender, CancelEventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlProperty.vb:line 225
+8/10/2020 4:30:17 AM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+8/10/2020 4:30:17 AM | 
+
+8/10/2020 4:30:17 AM | 
+------------------
+8/10/2020 4:30:23 AM | 
+8/10/2020 4:30:23 AM | 
+Message : Input string was not in a correct format.
+8/10/2020 4:30:23 AM | 
+LastTrace : openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ForceIntPxValue(String cssVal, Boolean handleImportant)
+8/10/2020 4:30:23 AM | 
+Params : 
+8/10/2020 4:30:23 AM | 
+MethodeName : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+8/10/2020 4:30:23 AM | 
+Stamp : 8/10/2020 4:30:23 AM
+8/10/2020 4:30:23 AM | 
+OSFullName : Microsoft Windows 10 Home
+8/10/2020 4:30:23 AM | 
+AvailablePhysicalMemory : 994.64 Mo 
+8/10/2020 4:30:23 AM | 
+TotalPhysicalMemory : 3.85 Go 
+8/10/2020 4:30:23 AM | 
+AvailableVirtualMemory : 3.03 Go 
+8/10/2020 4:30:23 AM | 
+TotalVirtualMemory : 4 Go 
+8/10/2020 4:30:23 AM | 
+WorkingSet : 381.45 Mo 
+8/10/2020 4:30:23 AM | 
+PagedMemorySize : 399.61 Mo 
+8/10/2020 4:30:23 AM | 
+TotalMemory : 82.91 Mo 
+8/10/2020 4:30:23 AM | 
+
+8/10/2020 4:30:23 AM | 
+ExTrace : 
+8/10/2020 4:30:23 AM | 
+at openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ForceIntPxValue(String cssVal, Boolean handleImportant) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\Converter\TConvCssBoxShadow.vb:line 23
+8/10/2020 4:30:23 AM | 
+at openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\Converter\TConvCssBoxShadow.vb:line 168
+8/10/2020 4:30:23 AM | 
+
+8/10/2020 4:30:23 AM | 
+OETrace : 
+8/10/2020 4:30:23 AM | 
+at openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\Converter\TConvCssBoxShadow.vb:line 202
+8/10/2020 4:30:23 AM | 
+at openElement.WebElement.StylesManager.CssItems.CssTextShadow.SetCss(String value) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\CssTextShadow.vb:line 127
+8/10/2020 4:30:23 AM | 
+at openElement.WebElement.StylesManager.Styles.FromCss(String css, Boolean lockEvents) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\Styles.vb:line 1857
+8/10/2020 4:30:23 AM | 
+at openElement.WebElement.StylesManager.Styles..ctor(StylesZone stylesZone, String mediaKey, EnuStyleState state, String css) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\Styles.vb:line 116
+8/10/2020 4:30:23 AM | 
+at openElement.WebElement.StylesManager.StylesZoneMedia.NewStyles(StylesZone stylesZone, String mediaKey, EnuStyleState state, String css) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\StylesZoneMedia.vb:line 71
+8/10/2020 4:30:23 AM | 
+at openElement.WebElement.StylesManager.SerializeZoneCss.Deserialize(StylesZone stylesZone) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\SerializeZoneCss.vb:line 139
+8/10/2020 4:30:23 AM | 
+at openElement.WebElement.StylesManager.StylesZone.OnDeserialized(StreamingContext context) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\StylesZone.vb:line 117
+8/10/2020 4:30:23 AM | 
+at openElement.Serialization.Clone[T](T source) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Serialization.vb:line 725
+8/10/2020 4:30:23 AM | 
+at openElement.Controls.CtlProperty.PropertyGrid_ShowingEditor(Object sender, CancelEventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlProperty.vb:line 225
+8/10/2020 4:30:23 AM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+8/10/2020 4:30:23 AM | 
+
+8/10/2020 4:30:23 AM | 
+------------------
+8/10/2020 4:30:25 AM | 
+8/10/2020 4:30:25 AM | 
+Message : Input string was not in a correct format.
+8/10/2020 4:30:25 AM | 
+LastTrace : openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ForceIntPxValue(String cssVal, Boolean handleImportant)
+8/10/2020 4:30:25 AM | 
+Params : 
+8/10/2020 4:30:25 AM | 
+MethodeName : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+8/10/2020 4:30:25 AM | 
+Stamp : 8/10/2020 4:30:25 AM
+8/10/2020 4:30:25 AM | 
+OSFullName : Microsoft Windows 10 Home
+8/10/2020 4:30:25 AM | 
+AvailablePhysicalMemory : 997.82 Mo 
+8/10/2020 4:30:25 AM | 
+TotalPhysicalMemory : 3.85 Go 
+8/10/2020 4:30:25 AM | 
+AvailableVirtualMemory : 3.03 Go 
+8/10/2020 4:30:25 AM | 
+TotalVirtualMemory : 4 Go 
+8/10/2020 4:30:25 AM | 
+WorkingSet : 381.73 Mo 
+8/10/2020 4:30:25 AM | 
+PagedMemorySize : 399.98 Mo 
+8/10/2020 4:30:25 AM | 
+TotalMemory : 81.44 Mo 
+8/10/2020 4:30:25 AM | 
+
+8/10/2020 4:30:25 AM | 
+ExTrace : 
+8/10/2020 4:30:25 AM | 
+at openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ForceIntPxValue(String cssVal, Boolean handleImportant) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\Converter\TConvCssBoxShadow.vb:line 23
+8/10/2020 4:30:25 AM | 
+at openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\Converter\TConvCssBoxShadow.vb:line 168
+8/10/2020 4:30:25 AM | 
+
+8/10/2020 4:30:25 AM | 
+OETrace : 
+8/10/2020 4:30:25 AM | 
+at openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\Converter\TConvCssBoxShadow.vb:line 202
+8/10/2020 4:30:25 AM | 
+at openElement.WebElement.StylesManager.CssItems.CssTextShadow.SetCss(String value) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\CssTextShadow.vb:line 127
+8/10/2020 4:30:25 AM | 
+at openElement.WebElement.StylesManager.Styles.FromCss(String css, Boolean lockEvents) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\Styles.vb:line 1857
+8/10/2020 4:30:25 AM | 
+at openElement.WebElement.StylesManager.Styles..ctor(StylesZone stylesZone, String mediaKey, EnuStyleState state, String css) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\Styles.vb:line 116
+8/10/2020 4:30:25 AM | 
+at openElement.WebElement.StylesManager.StylesZoneMedia.NewStyles(StylesZone stylesZone, String mediaKey, EnuStyleState state, String css) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\StylesZoneMedia.vb:line 71
+8/10/2020 4:30:25 AM | 
+at openElement.WebElement.StylesManager.SerializeZoneCss.Deserialize(StylesZone stylesZone) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\SerializeZoneCss.vb:line 139
+8/10/2020 4:30:25 AM | 
+at openElement.WebElement.StylesManager.StylesZone.OnDeserialized(StreamingContext context) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\StylesZone.vb:line 117
+8/10/2020 4:30:25 AM | 
+at openElement.Serialization.Clone[T](T source) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Serialization.vb:line 725
+8/10/2020 4:30:25 AM | 
+at openElement.Controls.CtlProperty.PropertyGrid_ShowingEditor(Object sender, CancelEventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlProperty.vb:line 225
+8/10/2020 4:30:25 AM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+8/10/2020 4:30:25 AM | 
+
+8/10/2020 4:30:25 AM | 
+------------------
+8/10/2020 4:30:32 AM | 
+8/10/2020 4:30:32 AM | 
+Message : Input string was not in a correct format.
+8/10/2020 4:30:32 AM | 
+LastTrace : openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ForceIntPxValue(String cssVal, Boolean handleImportant)
+8/10/2020 4:30:32 AM | 
+Params : 
+8/10/2020 4:30:32 AM | 
+MethodeName : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+8/10/2020 4:30:32 AM | 
+Stamp : 8/10/2020 4:30:32 AM
+8/10/2020 4:30:32 AM | 
+OSFullName : Microsoft Windows 10 Home
+8/10/2020 4:30:32 AM | 
+AvailablePhysicalMemory : 1009.33 Mo 
+8/10/2020 4:30:32 AM | 
+TotalPhysicalMemory : 3.85 Go 
+8/10/2020 4:30:32 AM | 
+AvailableVirtualMemory : 3.04 Go 
+8/10/2020 4:30:32 AM | 
+TotalVirtualMemory : 4 Go 
+8/10/2020 4:30:32 AM | 
+WorkingSet : 374.58 Mo 
+8/10/2020 4:30:32 AM | 
+PagedMemorySize : 390.85 Mo 
+8/10/2020 4:30:32 AM | 
+TotalMemory : 75.52 Mo 
+8/10/2020 4:30:32 AM | 
+
+8/10/2020 4:30:32 AM | 
+ExTrace : 
+8/10/2020 4:30:32 AM | 
+at openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ForceIntPxValue(String cssVal, Boolean handleImportant) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\Converter\TConvCssBoxShadow.vb:line 23
+8/10/2020 4:30:32 AM | 
+at openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\Converter\TConvCssBoxShadow.vb:line 168
+8/10/2020 4:30:32 AM | 
+
+8/10/2020 4:30:32 AM | 
+OETrace : 
+8/10/2020 4:30:32 AM | 
+at openElement.WebElement.StylesManager.CssItems.Converter.TConvCssBoxShadow.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\Converter\TConvCssBoxShadow.vb:line 202
+8/10/2020 4:30:32 AM | 
+at openElement.WebElement.StylesManager.CssItems.CssTextShadow.SetCss(String value) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\CssItem\CssTextShadow.vb:line 127
+8/10/2020 4:30:32 AM | 
+at openElement.WebElement.StylesManager.Styles.FromCss(String css, Boolean lockEvents) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\Styles.vb:line 1857
+8/10/2020 4:30:32 AM | 
+at openElement.WebElement.StylesManager.Styles..ctor(StylesZone stylesZone, String mediaKey, EnuStyleState state, String css) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\Styles.vb:line 116
+8/10/2020 4:30:32 AM | 
+at openElement.WebElement.StylesManager.StylesZoneMedia.NewStyles(StylesZone stylesZone, String mediaKey, EnuStyleState state, String css) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\StylesZoneMedia.vb:line 71
+8/10/2020 4:30:32 AM | 
+at openElement.WebElement.StylesManager.SerializeZoneCss.Deserialize(StylesZone stylesZone) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\SerializeZoneCss.vb:line 139
+8/10/2020 4:30:32 AM | 
+at openElement.WebElement.StylesManager.StylesZone.OnDeserialized(StreamingContext context) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\StylesManager\StylesZone.vb:line 117
+8/10/2020 4:30:32 AM | 
+at openElement.Serialization.DeserializeFromByteArray(Byte[] byteArray, SerializationBinder binder, Boolean forceTryDecompress, Boolean retryOnException) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Serialization.vb:line 392
+8/10/2020 4:30:32 AM | 
+at openElement.Serialization.InternalDeserializeFile(String filePath, EnuFileType typeFile) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Serialization.vb:line 284
+8/10/2020 4:30:32 AM | 
+at openElement.Serialization.DeserializeFile(String filePath, EnuFileType typeFile, LinksPage linksPage) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Serialization.vb:line 183
+8/10/2020 4:30:32 AM | 
+at openElement.WebElement.PageConn.DeserializePage(String fullDataPagePath, LinksPage linksPage) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Page\PageConn.vb:line 180
+8/10/2020 4:30:32 AM | 
+at openElement.WebElement.PageConn.OpenDataPage(String dataPagePath, Rights rights, Boolean withRessourceImport, String templatePath) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Page\PageConn.vb:line 124
+8/10/2020 4:30:32 AM | 
+at openElement.WebSite.WorkingSystem.Working_System.PageOpen(String dataPagePath, Rights rights) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WorkingSystem\WorkingSystem.vb:line 168
+8/10/2020 4:30:32 AM | 
+at openElement.WebSite.UIAction.PageEdit.Open(ActionArg`4 actionArg) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\UIAction\PageEdit.vb:line 329
+8/10/2020 4:30:32 AM | 
+at openElement.WebSite.UIAction.PageEdit._Closure$__._Lambda$__R10-2(ActionArg a0)
+8/10/2020 4:30:32 AM | 
+at openElement.Wait.RunFunction[TResult](FuncWait`1 action, ActionArg param, String text1, String text2, WaitIconType iconType) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Wait.vb:line 199
+8/10/2020 4:30:32 AM | 
+at openElement.WebSite.UIAction.PageEdit.Open(String dataPagePath, Rights rights, Boolean openAsync, String[] selectElemID) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\UIAction\PageEdit.vb:line 320
+8/10/2020 4:30:32 AM | 
+at openElement.Controls.CtlSiteMap.openNode(Boolean onDblClick) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlSiteMap.vb:line 1240
+8/10/2020 4:30:32 AM | 
+at openElement.Controls.CtlSiteMap._Lambda$__R6-2(Object a0, EventArgs a1)
+8/10/2020 4:30:32 AM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+8/10/2020 4:30:32 AM | 
+
+8/10/2020 4:30:32 AM | 
+------------------
+8/11/2020 12:08:09 AM | 
+8/11/2020 12:08:09 AM | 
+Message : Object Graph cannot be null.
+8/11/2020 12:08:09 AM | 
+Parameter name: graph
+8/11/2020 12:08:09 AM | 
+LastTrace : openElement.Serialization.Clone[T](T source)
+8/11/2020 12:08:09 AM | 
+Params : 
+8/11/2020 12:08:09 AM | 
+MethodeName : Void Serialize(System.Object, System.Runtime.Remoting.Messaging.Header[], System.Runtime.Serialization.Formatters.Binary.__BinaryWriter, Boolean)
+8/11/2020 12:08:09 AM | 
+Stamp : 8/11/2020 12:08:08 AM
+8/11/2020 12:08:09 AM | 
+OSFullName : Microsoft Windows 10 Home
+8/11/2020 12:08:09 AM | 
+AvailablePhysicalMemory : 1.21 Go 
+8/11/2020 12:08:09 AM | 
+TotalPhysicalMemory : 3.85 Go 
+8/11/2020 12:08:09 AM | 
+AvailableVirtualMemory : 2.98 Go 
+8/11/2020 12:08:09 AM | 
+TotalVirtualMemory : 4 Go 
+8/11/2020 12:08:09 AM | 
+WorkingSet : 410.72 Mo 
+8/11/2020 12:08:09 AM | 
+PagedMemorySize : 417.23 Mo 
+8/11/2020 12:08:09 AM | 
+TotalMemory : 103.55 Mo 
+8/11/2020 12:08:09 AM | 
+
+8/11/2020 12:08:09 AM | 
+ExTrace : 
+8/11/2020 12:08:09 AM | 
+at openElement.Serialization.Clone[T](T source) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Serialization.vb:line 724
+8/11/2020 12:08:09 AM | 
+
+8/11/2020 12:08:09 AM | 
+OETrace : 
+8/11/2020 12:08:09 AM | 
+at openElement.Serialization.Clone[T](T source) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Serialization.vb:line 731
+8/11/2020 12:08:09 AM | 
+at openElement.Forms.RibbonCore.RPStyles.PCCStyleSpacing.PCCStyleSpacing_Popup(Object sender, EventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\RibbonItemCore\Styles\PC\PCStyleSpacing.vb:line 151
+8/11/2020 12:08:09 AM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+8/11/2020 12:08:09 AM | 
+
+8/11/2020 12:08:09 AM | 
+------------------
+8/11/2020 12:08:13 AM | 
+8/11/2020 12:08:13 AM | 
+Message : Object Graph cannot be null.
+8/11/2020 12:08:13 AM | 
+Parameter name: graph
+8/11/2020 12:08:13 AM | 
+LastTrace : openElement.Serialization.Clone[T](T source)
+8/11/2020 12:08:13 AM | 
+Params : 
+8/11/2020 12:08:13 AM | 
+MethodeName : Void Serialize(System.Object, System.Runtime.Remoting.Messaging.Header[], System.Runtime.Serialization.Formatters.Binary.__BinaryWriter, Boolean)
+8/11/2020 12:08:13 AM | 
+Stamp : 8/11/2020 12:08:13 AM
+8/11/2020 12:08:13 AM | 
+OSFullName : Microsoft Windows 10 Home
+8/11/2020 12:08:13 AM | 
+AvailablePhysicalMemory : 1.19 Go 
+8/11/2020 12:08:13 AM | 
+TotalPhysicalMemory : 3.85 Go 
+8/11/2020 12:08:13 AM | 
+AvailableVirtualMemory : 2.98 Go 
+8/11/2020 12:08:13 AM | 
+TotalVirtualMemory : 4 Go 
+8/11/2020 12:08:13 AM | 
+WorkingSet : 414.19 Mo 
+8/11/2020 12:08:13 AM | 
+PagedMemorySize : 419.12 Mo 
+8/11/2020 12:08:13 AM | 
+TotalMemory : 101.74 Mo 
+8/11/2020 12:08:13 AM | 
+
+8/11/2020 12:08:13 AM | 
+ExTrace : 
+8/11/2020 12:08:13 AM | 
+at openElement.Serialization.Clone[T](T source) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Serialization.vb:line 724
+8/11/2020 12:08:13 AM | 
+
+8/11/2020 12:08:13 AM | 
+OETrace : 
+8/11/2020 12:08:13 AM | 
+at openElement.Serialization.Clone[T](T source) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Serialization.vb:line 731
+8/11/2020 12:08:13 AM | 
+at openElement.Forms.RibbonCore.RPStyles.PCCStyleSpacing.PCCStyleSpacing_Popup(Object sender, EventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\RibbonItemCore\Styles\PC\PCStyleSpacing.vb:line 151
+8/11/2020 12:08:13 AM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+8/11/2020 12:08:13 AM | 
+
+8/11/2020 12:08:13 AM | 
+------------------
+11/08/2020 1:14:54 | 
+11/08/2020 1:14:54 | 
+Message : Script timed out
+11/08/2020 1:14:54 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+11/08/2020 1:14:54 | 
+Params : 
+11/08/2020 1:14:54 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+11/08/2020 1:14:54 | 
+Stamp : 11/08/2020 1:14:54
+11/08/2020 1:14:54 | 
+OSFullName : Microsoft Windows 10 Home
+11/08/2020 1:14:54 | 
+AvailablePhysicalMemory : 1,04 Go 
+11/08/2020 1:14:54 | 
+TotalPhysicalMemory : 3,85 Go 
+11/08/2020 1:14:54 | 
+AvailableVirtualMemory : 2,93 Go 
+11/08/2020 1:14:54 | 
+TotalVirtualMemory : 4 Go 
+11/08/2020 1:14:54 | 
+WorkingSet : 440,8 Mo 
+11/08/2020 1:14:54 | 
+PagedMemorySize : 469,19 Mo 
+11/08/2020 1:14:54 | 
+TotalMemory : 134,57 Mo 
+11/08/2020 1:14:54 | 
+
+11/08/2020 1:14:54 | 
+ExTrace : 
+11/08/2020 1:14:54 | 
+en openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) en C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:línea 546
+11/08/2020 1:14:54 | 
+
+11/08/2020 1:14:54 | 
+OETrace : 
+11/08/2020 1:14:54 | 
+en openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) en C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:línea 549
+11/08/2020 1:14:54 | 
+en openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+11/08/2020 1:14:54 | 
+
+11/08/2020 1:14:54 | 
+------------------
+11/08/2020 16:11:33 | 
+11/08/2020 16:11:33 | 
+Message : Script timed out
+11/08/2020 16:11:33 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+11/08/2020 16:11:33 | 
+Params : 
+11/08/2020 16:11:33 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+11/08/2020 16:11:33 | 
+Stamp : 11/08/2020 16:11:32
+11/08/2020 16:11:33 | 
+OSFullName : Microsoft Windows 7 Professional 
+11/08/2020 16:11:33 | 
+AvailablePhysicalMemory : 602,5 Mo 
+11/08/2020 16:11:33 | 
+TotalPhysicalMemory : 1,99 Go 
+11/08/2020 16:11:33 | 
+AvailableVirtualMemory : 1,03 Go 
+11/08/2020 16:11:33 | 
+TotalVirtualMemory : 2 Go 
+11/08/2020 16:11:33 | 
+WorkingSet : 490,07 Mo 
+11/08/2020 16:11:33 | 
+PagedMemorySize : 539,72 Mo 
+11/08/2020 16:11:33 | 
+TotalMemory : 120,03 Mo 
+11/08/2020 16:11:33 | 
+
+11/08/2020 16:11:33 | 
+ExTrace : 
+11/08/2020 16:11:33 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+11/08/2020 16:11:33 | 
+
+11/08/2020 16:11:33 | 
+OETrace : 
+11/08/2020 16:11:33 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+11/08/2020 16:11:33 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+11/08/2020 16:11:33 | 
+
+11/08/2020 16:11:33 | 
+------------------
+12/08/2020 1:01:18 | 
+12/08/2020 1:01:18 | 
+Message : Script timed out
+12/08/2020 1:01:18 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+12/08/2020 1:01:18 | 
+Params : 
+12/08/2020 1:01:18 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+12/08/2020 1:01:18 | 
+Stamp : 12/08/2020 1:01:18
+12/08/2020 1:01:18 | 
+OSFullName : Microsoft Windows 7 Professional 
+12/08/2020 1:01:18 | 
+AvailablePhysicalMemory : 726,66 Mo 
+12/08/2020 1:01:18 | 
+TotalPhysicalMemory : 1,99 Go 
+12/08/2020 1:01:18 | 
+AvailableVirtualMemory : 1,04 Go 
+12/08/2020 1:01:18 | 
+TotalVirtualMemory : 2 Go 
+12/08/2020 1:01:18 | 
+WorkingSet : 370,94 Mo 
+12/08/2020 1:01:18 | 
+PagedMemorySize : 467,34 Mo 
+12/08/2020 1:01:18 | 
+TotalMemory : 70,37 Mo 
+12/08/2020 1:01:18 | 
+
+12/08/2020 1:01:18 | 
+ExTrace : 
+12/08/2020 1:01:18 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+12/08/2020 1:01:18 | 
+
+12/08/2020 1:01:18 | 
+OETrace : 
+12/08/2020 1:01:18 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+12/08/2020 1:01:18 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+12/08/2020 1:01:18 | 
+
+12/08/2020 1:01:18 | 
+------------------
+12/08/2020 16:24:51 | 
+12/08/2020 16:24:51 | 
+Message : Script timed out
+12/08/2020 16:24:51 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+12/08/2020 16:24:51 | 
+Params : 
+12/08/2020 16:24:51 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+12/08/2020 16:24:51 | 
+Stamp : 12/08/2020 16:24:50
+12/08/2020 16:24:51 | 
+OSFullName : Microsoft Windows 7 Professional 
+12/08/2020 16:24:51 | 
+AvailablePhysicalMemory : 636,27 Mo 
+12/08/2020 16:24:51 | 
+TotalPhysicalMemory : 1,99 Go 
+12/08/2020 16:24:51 | 
+AvailableVirtualMemory : 1,08 Go 
+12/08/2020 16:24:51 | 
+TotalVirtualMemory : 2 Go 
+12/08/2020 16:24:51 | 
+WorkingSet : 444,32 Mo 
+12/08/2020 16:24:51 | 
+PagedMemorySize : 468,61 Mo 
+12/08/2020 16:24:51 | 
+TotalMemory : 91,08 Mo 
+12/08/2020 16:24:51 | 
+
+12/08/2020 16:24:51 | 
+ExTrace : 
+12/08/2020 16:24:51 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+12/08/2020 16:24:51 | 
+
+12/08/2020 16:24:51 | 
+OETrace : 
+12/08/2020 16:24:51 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+12/08/2020 16:24:51 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+12/08/2020 16:24:51 | 
+
+12/08/2020 16:24:51 | 
+------------------
+8/12/2020 7:09:15 PM | 
+8/12/2020 7:09:15 PM | 
+Message : Object Graph cannot be null.
+8/12/2020 7:09:15 PM | 
+Parameter name: graph
+8/12/2020 7:09:15 PM | 
+LastTrace : openElement.Serialization.Clone[T](T source)
+8/12/2020 7:09:15 PM | 
+Params : 
+8/12/2020 7:09:15 PM | 
+MethodeName : Void Serialize(System.Object, System.Runtime.Remoting.Messaging.Header[], System.Runtime.Serialization.Formatters.Binary.__BinaryWriter, Boolean)
+8/12/2020 7:09:15 PM | 
+Stamp : 8/12/2020 7:09:15 PM
+8/12/2020 7:09:15 PM | 
+OSFullName : Microsoft Windows 7 Professional 
+8/12/2020 7:09:15 PM | 
+AvailablePhysicalMemory : 539.37 Mo 
+8/12/2020 7:09:15 PM | 
+TotalPhysicalMemory : 1.99 Go 
+8/12/2020 7:09:15 PM | 
+AvailableVirtualMemory : 1.02 Go 
+8/12/2020 7:09:15 PM | 
+TotalVirtualMemory : 2 Go 
+8/12/2020 7:09:15 PM | 
+WorkingSet : 449.25 Mo 
+8/12/2020 7:09:15 PM | 
+PagedMemorySize : 521.23 Mo 
+8/12/2020 7:09:15 PM | 
+TotalMemory : 97.04 Mo 
+8/12/2020 7:09:15 PM | 
+
+8/12/2020 7:09:15 PM | 
+ExTrace : 
+8/12/2020 7:09:15 PM | 
+at openElement.Serialization.Clone[T](T source) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Serialization.vb:line 724
+8/12/2020 7:09:15 PM | 
+
+8/12/2020 7:09:15 PM | 
+OETrace : 
+8/12/2020 7:09:15 PM | 
+at openElement.Serialization.Clone[T](T source) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Serialization.vb:line 731
+8/12/2020 7:09:15 PM | 
+at openElement.WebElement.Editors.UITypeValidator.EditValue(ITypeDescriptorContext context, IServiceProvider provider, Object value) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Editors\UITypeValidator.vb:line 36
+8/12/2020 7:09:15 PM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+8/12/2020 7:09:15 PM | 
+
+8/12/2020 7:09:15 PM | 
+------------------
+8/13/2020 12:35:47 AM | 
+8/13/2020 12:35:47 AM | 
+Message : Object reference not set to an instance of an object.
+8/13/2020 12:35:47 AM | 
+LastTrace : openElement.Controls.CtlListLibrary.OpenFirstFolder(EnuFolderName folderName)
+8/13/2020 12:35:47 AM | 
+Params : 
+8/13/2020 12:35:47 AM | 
+MethodeName : Void OpenFirstFolder(EnuFolderName)
+8/13/2020 12:35:47 AM | 
+Stamp : 8/13/2020 12:35:47 AM
+8/13/2020 12:35:47 AM | 
+OSFullName : Microsoft Windows 7 Professional 
+8/13/2020 12:35:47 AM | 
+AvailablePhysicalMemory : 943.28 Mo 
+8/13/2020 12:35:47 AM | 
+TotalPhysicalMemory : 1.99 Go 
+8/13/2020 12:35:47 AM | 
+AvailableVirtualMemory : 1.1 Go 
+8/13/2020 12:35:47 AM | 
+TotalVirtualMemory : 2 Go 
+8/13/2020 12:35:47 AM | 
+WorkingSet : 341.06 Mo 
+8/13/2020 12:35:47 AM | 
+PagedMemorySize : 436.12 Mo 
+8/13/2020 12:35:47 AM | 
+TotalMemory : 74.5 Mo 
+8/13/2020 12:35:47 AM | 
+
+8/13/2020 12:35:47 AM | 
+ExTrace : 
+8/13/2020 12:35:47 AM | 
+at openElement.Controls.CtlListLibrary.OpenFirstFolder(EnuFolderName folderName) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlListLibrary.vb:line 210
+8/13/2020 12:35:47 AM | 
+at openElement.Forms.FrmLibrary.LoadCtlDXListFilesOthers() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\FilesManager\FrmLibrary.vb:line 453
+8/13/2020 12:35:47 AM | 
+at openElement.Forms.FrmLibrary.XtraTabControl_SelectedPageChanged(Object sender, TabPageChangedEventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\FilesManager\FrmLibrary.vb:line 306
+8/13/2020 12:35:47 AM | 
+
+8/13/2020 12:35:47 AM | 
+OETrace : 
+8/13/2020 12:35:47 AM | 
+at openElement.My.MyApplication.MyApplication_UnhandledException(Object sender, UnhandledExceptionEventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\ApplicationEvents.vb:line 93
+8/13/2020 12:35:47 AM | 
+at openElement.Forms.FrmLibrary.ShowDialog(EnuOpenMode openMode) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\FilesManager\FrmLibrary.vb:line 143
+8/13/2020 12:35:47 AM | 
+at openElement.Forms.RibbonCore.RPProject.RPGPages.BBIProjectPagesRessources_ItemClick(Object sender, ItemClickEventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\RibbonItemCore\Project\RPGPages.vb:line 151
+8/13/2020 12:35:47 AM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+8/13/2020 12:35:47 AM | 
+
+8/13/2020 12:35:47 AM | 
+------------------
+8/13/2020 12:35:49 AM | 
+8/13/2020 12:35:49 AM | 
+Message : Object reference not set to an instance of an object.
+8/13/2020 12:35:49 AM | 
+LastTrace : openElement.Controls.CtlListLibrary.OpenFirstFolder(EnuFolderName folderName)
+8/13/2020 12:35:49 AM | 
+Params : 
+8/13/2020 12:35:49 AM | 
+MethodeName : Void OpenFirstFolder(EnuFolderName)
+8/13/2020 12:35:49 AM | 
+Stamp : 8/13/2020 12:35:49 AM
+8/13/2020 12:35:49 AM | 
+OSFullName : Microsoft Windows 7 Professional 
+8/13/2020 12:35:49 AM | 
+AvailablePhysicalMemory : 938.01 Mo 
+8/13/2020 12:35:49 AM | 
+TotalPhysicalMemory : 1.99 Go 
+8/13/2020 12:35:49 AM | 
+AvailableVirtualMemory : 1.1 Go 
+8/13/2020 12:35:49 AM | 
+TotalVirtualMemory : 2 Go 
+8/13/2020 12:35:49 AM | 
+WorkingSet : 341.75 Mo 
+8/13/2020 12:35:49 AM | 
+PagedMemorySize : 434.14 Mo 
+8/13/2020 12:35:49 AM | 
+TotalMemory : 74.42 Mo 
+8/13/2020 12:35:49 AM | 
+
+8/13/2020 12:35:49 AM | 
+ExTrace : 
+8/13/2020 12:35:49 AM | 
+at openElement.Controls.CtlListLibrary.OpenFirstFolder(EnuFolderName folderName) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlListLibrary.vb:line 210
+8/13/2020 12:35:49 AM | 
+at openElement.Forms.FrmLibrary.LoadCtlDXListFilesOthers() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\FilesManager\FrmLibrary.vb:line 453
+8/13/2020 12:35:49 AM | 
+at openElement.Forms.FrmLibrary.XtraTabControl_SelectedPageChanged(Object sender, TabPageChangedEventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\FilesManager\FrmLibrary.vb:line 306
+8/13/2020 12:35:49 AM | 
+
+8/13/2020 12:35:49 AM | 
+OETrace : 
+8/13/2020 12:35:49 AM | 
+at openElement.My.MyApplication.MyApplication_UnhandledException(Object sender, UnhandledExceptionEventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\ApplicationEvents.vb:line 98
+8/13/2020 12:35:49 AM | 
+at openElement.Forms.FrmLibrary.ShowDialog(EnuOpenMode openMode) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\FilesManager\FrmLibrary.vb:line 143
+8/13/2020 12:35:49 AM | 
+at openElement.Forms.RibbonCore.RPProject.RPGPages.BBIProjectPagesRessources_ItemClick(Object sender, ItemClickEventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\RibbonItemCore\Project\RPGPages.vb:line 151
+8/13/2020 12:35:49 AM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+8/13/2020 12:35:49 AM | 
+
+8/13/2020 12:35:49 AM | 
+------------------
+13/08/2020 1:35:47 | 
+13/08/2020 1:35:47 | 
+Message : Script timed out
+13/08/2020 1:35:47 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+13/08/2020 1:35:47 | 
+Params : 
+13/08/2020 1:35:47 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+13/08/2020 1:35:47 | 
+Stamp : 13/08/2020 1:35:46
+13/08/2020 1:35:47 | 
+OSFullName : Microsoft Windows 7 Professional 
+13/08/2020 1:35:47 | 
+AvailablePhysicalMemory : 408,44 Mo 
+13/08/2020 1:35:47 | 
+TotalPhysicalMemory : 1,99 Go 
+13/08/2020 1:35:47 | 
+AvailableVirtualMemory : 1,04 Go 
+13/08/2020 1:35:47 | 
+TotalVirtualMemory : 2 Go 
+13/08/2020 1:35:47 | 
+WorkingSet : 380,88 Mo 
+13/08/2020 1:35:47 | 
+PagedMemorySize : 446,02 Mo 
+13/08/2020 1:35:47 | 
+TotalMemory : 97,51 Mo 
+13/08/2020 1:35:47 | 
+
+13/08/2020 1:35:47 | 
+ExTrace : 
+13/08/2020 1:35:47 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+13/08/2020 1:35:47 | 
+
+13/08/2020 1:35:47 | 
+OETrace : 
+13/08/2020 1:35:47 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+13/08/2020 1:35:47 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+13/08/2020 1:35:47 | 
+
+13/08/2020 1:35:47 | 
+------------------
+13/08/2020 2:22:50 | 
+13/08/2020 2:22:50 | 
+Message : Script timed out
+13/08/2020 2:22:50 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+13/08/2020 2:22:50 | 
+Params : 
+13/08/2020 2:22:50 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+13/08/2020 2:22:50 | 
+Stamp : 13/08/2020 2:22:50
+13/08/2020 2:22:50 | 
+OSFullName : Microsoft Windows 7 Professional 
+13/08/2020 2:22:50 | 
+AvailablePhysicalMemory : 561,15 Mo 
+13/08/2020 2:22:50 | 
+TotalPhysicalMemory : 1,99 Go 
+13/08/2020 2:22:50 | 
+AvailableVirtualMemory : 1,03 Go 
+13/08/2020 2:22:50 | 
+TotalVirtualMemory : 2 Go 
+13/08/2020 2:22:50 | 
+WorkingSet : 433,09 Mo 
+13/08/2020 2:22:50 | 
+PagedMemorySize : 480,07 Mo 
+13/08/2020 2:22:50 | 
+TotalMemory : 131,54 Mo 
+13/08/2020 2:22:50 | 
+
+13/08/2020 2:22:50 | 
+ExTrace : 
+13/08/2020 2:22:50 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+13/08/2020 2:22:50 | 
+
+13/08/2020 2:22:50 | 
+OETrace : 
+13/08/2020 2:22:50 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+13/08/2020 2:22:50 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+13/08/2020 2:22:50 | 
+
+13/08/2020 2:22:50 | 
+------------------
+13/08/2020 4:32:11 | 
+13/08/2020 4:32:11 | 
+Message : Script timed out
+13/08/2020 4:32:11 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+13/08/2020 4:32:11 | 
+Params : 
+13/08/2020 4:32:11 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+13/08/2020 4:32:11 | 
+Stamp : 13/08/2020 4:32:08
+13/08/2020 4:32:11 | 
+OSFullName : Microsoft Windows 7 Professional 
+13/08/2020 4:32:11 | 
+AvailablePhysicalMemory : 311,88 Mo 
+13/08/2020 4:32:11 | 
+TotalPhysicalMemory : 1,99 Go 
+13/08/2020 4:32:11 | 
+AvailableVirtualMemory : 947,7 Mo 
+13/08/2020 4:32:11 | 
+TotalVirtualMemory : 2 Go 
+13/08/2020 4:32:11 | 
+WorkingSet : 450,56 Mo 
+13/08/2020 4:32:11 | 
+PagedMemorySize : 548,1 Mo 
+13/08/2020 4:32:11 | 
+TotalMemory : 151,5 Mo 
+13/08/2020 4:32:11 | 
+
+13/08/2020 4:32:11 | 
+ExTrace : 
+13/08/2020 4:32:11 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+13/08/2020 4:32:11 | 
+
+13/08/2020 4:32:11 | 
+OETrace : 
+13/08/2020 4:32:11 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+13/08/2020 4:32:11 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+13/08/2020 4:32:11 | 
+
+13/08/2020 4:32:11 | 
+------------------
+13/08/2020 13:22:15 | 
+13/08/2020 13:22:15 | 
+Message : Script timed out
+13/08/2020 13:22:15 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+13/08/2020 13:22:15 | 
+Params : 
+13/08/2020 13:22:15 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+13/08/2020 13:22:15 | 
+Stamp : 13/08/2020 13:22:14
+13/08/2020 13:22:15 | 
+OSFullName : Microsoft Windows 7 Professional 
+13/08/2020 13:22:15 | 
+AvailablePhysicalMemory : 194,29 Mo 
+13/08/2020 13:22:15 | 
+TotalPhysicalMemory : 1,99 Go 
+13/08/2020 13:22:15 | 
+AvailableVirtualMemory : 1,13 Go 
+13/08/2020 13:22:15 | 
+TotalVirtualMemory : 2 Go 
+13/08/2020 13:22:15 | 
+WorkingSet : 325,97 Mo 
+13/08/2020 13:22:15 | 
+PagedMemorySize : 463,3 Mo 
+13/08/2020 13:22:15 | 
+TotalMemory : 84,83 Mo 
+13/08/2020 13:22:15 | 
+
+13/08/2020 13:22:15 | 
+ExTrace : 
+13/08/2020 13:22:15 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+13/08/2020 13:22:15 | 
+
+13/08/2020 13:22:15 | 
+OETrace : 
+13/08/2020 13:22:15 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+13/08/2020 13:22:15 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+13/08/2020 13:22:15 | 
+
+13/08/2020 13:22:15 | 
+------------------
+13/08/2020 14:29:04 | 
+13/08/2020 14:29:04 | 
+Message : Script timed out
+13/08/2020 14:29:04 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+13/08/2020 14:29:04 | 
+Params : 
+13/08/2020 14:29:04 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+13/08/2020 14:29:04 | 
+Stamp : 13/08/2020 14:29:02
+13/08/2020 14:29:04 | 
+OSFullName : Microsoft Windows 7 Professional 
+13/08/2020 14:29:04 | 
+AvailablePhysicalMemory : 395,84 Mo 
+13/08/2020 14:29:04 | 
+TotalPhysicalMemory : 1,99 Go 
+13/08/2020 14:29:04 | 
+AvailableVirtualMemory : 1,08 Go 
+13/08/2020 14:29:04 | 
+TotalVirtualMemory : 2 Go 
+13/08/2020 14:29:04 | 
+WorkingSet : 388,53 Mo 
+13/08/2020 14:29:04 | 
+PagedMemorySize : 511 Mo 
+13/08/2020 14:29:04 | 
+TotalMemory : 160,73 Mo 
+13/08/2020 14:29:04 | 
+
+13/08/2020 14:29:04 | 
+ExTrace : 
+13/08/2020 14:29:04 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+13/08/2020 14:29:04 | 
+
+13/08/2020 14:29:04 | 
+OETrace : 
+13/08/2020 14:29:04 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+13/08/2020 14:29:04 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+13/08/2020 14:29:04 | 
+
+13/08/2020 14:29:04 | 
+------------------
+14/08/2020 2:53:11 | 
+14/08/2020 2:53:11 | 
+Message : Script timed out
+14/08/2020 2:53:11 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+14/08/2020 2:53:11 | 
+Params : 
+14/08/2020 2:53:11 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+14/08/2020 2:53:11 | 
+Stamp : 14/08/2020 2:53:08
+14/08/2020 2:53:11 | 
+OSFullName : Microsoft Windows 7 Professional 
+14/08/2020 2:53:11 | 
+AvailablePhysicalMemory : 528,97 Mo 
+14/08/2020 2:53:11 | 
+TotalPhysicalMemory : 1,99 Go 
+14/08/2020 2:53:11 | 
+AvailableVirtualMemory : 1,11 Go 
+14/08/2020 2:53:11 | 
+TotalVirtualMemory : 2 Go 
+14/08/2020 2:53:11 | 
+WorkingSet : 384,68 Mo 
+14/08/2020 2:53:11 | 
+PagedMemorySize : 446,07 Mo 
+14/08/2020 2:53:11 | 
+TotalMemory : 95,8 Mo 
+14/08/2020 2:53:11 | 
+
+14/08/2020 2:53:11 | 
+ExTrace : 
+14/08/2020 2:53:11 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+14/08/2020 2:53:11 | 
+
+14/08/2020 2:53:11 | 
+OETrace : 
+14/08/2020 2:53:11 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+14/08/2020 2:53:11 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+14/08/2020 2:53:11 | 
+
+14/08/2020 2:53:11 | 
+------------------
+14/08/2020 3:33:19 | 
+14/08/2020 3:33:19 | 
+Message : Script timed out
+14/08/2020 3:33:19 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+14/08/2020 3:33:19 | 
+Params : 
+14/08/2020 3:33:19 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+14/08/2020 3:33:19 | 
+Stamp : 14/08/2020 3:33:15
+14/08/2020 3:33:19 | 
+OSFullName : Microsoft Windows 7 Professional 
+14/08/2020 3:33:19 | 
+AvailablePhysicalMemory : 227,96 Mo 
+14/08/2020 3:33:19 | 
+TotalPhysicalMemory : 1,99 Go 
+14/08/2020 3:33:19 | 
+AvailableVirtualMemory : 1,06 Go 
+14/08/2020 3:33:19 | 
+TotalVirtualMemory : 2 Go 
+14/08/2020 3:33:19 | 
+WorkingSet : 396,59 Mo 
+14/08/2020 3:33:19 | 
+PagedMemorySize : 492,34 Mo 
+14/08/2020 3:33:19 | 
+TotalMemory : 85,94 Mo 
+14/08/2020 3:33:19 | 
+
+14/08/2020 3:33:19 | 
+ExTrace : 
+14/08/2020 3:33:19 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+14/08/2020 3:33:19 | 
+
+14/08/2020 3:33:19 | 
+OETrace : 
+14/08/2020 3:33:19 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+14/08/2020 3:33:19 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+14/08/2020 3:33:19 | 
+
+14/08/2020 3:33:19 | 
+------------------
+8/15/2020 2:35:35 PM | 
+8/15/2020 2:35:35 PM | 
+Message : Error when SendMessage to Guideline times out.
+8/15/2020 2:35:35 PM | 
+
+8/15/2020 2:35:35 PM | 
+Hint: OEGuideline is accessible by its icon in the Windows' Notification area (near the system clock).
+8/15/2020 2:35:35 PM | 
+LastTrace : ExtractEmpty
+8/15/2020 2:35:35 PM | 
+Params : 
+8/15/2020 2:35:35 PM | 
+MethodeName : 
+8/15/2020 2:35:35 PM | 
+Stamp : 8/15/2020 2:35:33 PM
+8/15/2020 2:35:35 PM | 
+OSFullName : Microsoft Windows 7 Professional 
+8/15/2020 2:35:35 PM | 
+AvailablePhysicalMemory : 1.1 Go 
+8/15/2020 2:35:35 PM | 
+TotalPhysicalMemory : 1.99 Go 
+8/15/2020 2:35:35 PM | 
+AvailableVirtualMemory : 944.22 Mo 
+8/15/2020 2:35:35 PM | 
+TotalVirtualMemory : 2 Go 
+8/15/2020 2:35:35 PM | 
+WorkingSet : 157.95 Mo 
+8/15/2020 2:35:35 PM | 
+PagedMemorySize : 588.55 Mo 
+8/15/2020 2:35:35 PM | 
+TotalMemory : 189.17 Mo 
+8/15/2020 2:35:35 PM | 
+
+8/15/2020 2:35:35 PM | 
+ExTrace : 
+8/15/2020 2:35:35 PM | 
+
+8/15/2020 2:35:35 PM | 
+OETrace : 
+8/15/2020 2:35:35 PM | 
+at openElement.OEGuideline.ProcessTools._ReportGLCrashOnce() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\OEGuideline\ProcessTools.vb:line 389
+8/15/2020 2:35:35 PM | 
+at openElement.OEGuideline.ProcessTools.Send(RData rData, Boolean async, Boolean reportCrash) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\OEGuideline\ProcessTools.vb:line 413
+8/15/2020 2:35:35 PM | 
+at openElement.OEGuideline.ProcessTools.SendProjectClose() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\OEGuideline\ProcessTools.vb:line 217
+8/15/2020 2:35:35 PM | 
+at openElement.WebSite.WebSite.Close(ActionArg`1 actionArg) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.Close.vb:line 38
+8/15/2020 2:35:35 PM | 
+at openElement.WebSite.WebSite._Closure$__._Lambda$__R2-1(ActionArg a0)
+8/15/2020 2:35:35 PM | 
+at openElement.Wait.RunFunction[TResult](FuncWait`1 action, ActionArg param, String text1, String text2, WaitIconType iconType) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Wait.vb:line 199
+8/15/2020 2:35:35 PM | 
+at openElement.WebSite.WebSite.Close(Boolean appClose) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.Close.vb:line 18
+8/15/2020 2:35:35 PM | 
+at openElement.Forms.FrmMain.FrmMain_FormClosing(Object sender, FormClosingEventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\FrmMain.Close.vb:line 42
+8/15/2020 2:35:35 PM | 
+at openElement.Forms.FrmMain.WndProc(Message& m) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\FrmMain.vb:line 33
+8/15/2020 2:35:35 PM | 
+at openElement.Forms.FrmMain.WndProc(Message& m) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\FrmMain.vb:line 33
+8/15/2020 2:35:35 PM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+8/15/2020 2:35:35 PM | 
+
+8/15/2020 2:35:35 PM | 
+------------------
+16/08/2020 2:18:25 | 
+16/08/2020 2:18:25 | 
+Message : Script timed out
+16/08/2020 2:18:25 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+16/08/2020 2:18:25 | 
+Params : 
+16/08/2020 2:18:25 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+16/08/2020 2:18:25 | 
+Stamp : 16/08/2020 2:18:22
+16/08/2020 2:18:25 | 
+OSFullName : Microsoft Windows 7 Professional 
+16/08/2020 2:18:25 | 
+AvailablePhysicalMemory : 425,84 Mo 
+16/08/2020 2:18:25 | 
+TotalPhysicalMemory : 1,99 Go 
+16/08/2020 2:18:25 | 
+AvailableVirtualMemory : 1,13 Go 
+16/08/2020 2:18:25 | 
+TotalVirtualMemory : 2 Go 
+16/08/2020 2:18:25 | 
+WorkingSet : 329,96 Mo 
+16/08/2020 2:18:25 | 
+PagedMemorySize : 426,82 Mo 
+16/08/2020 2:18:25 | 
+TotalMemory : 108,14 Mo 
+16/08/2020 2:18:25 | 
+
+16/08/2020 2:18:25 | 
+ExTrace : 
+16/08/2020 2:18:25 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+16/08/2020 2:18:25 | 
+
+16/08/2020 2:18:25 | 
+OETrace : 
+16/08/2020 2:18:25 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+16/08/2020 2:18:25 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+16/08/2020 2:18:25 | 
+
+16/08/2020 2:18:25 | 
+------------------
+16/08/2020 17:03:15 | 
+16/08/2020 17:03:15 | 
+Message : Script timed out
+16/08/2020 17:03:15 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+16/08/2020 17:03:15 | 
+Params : 
+16/08/2020 17:03:15 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+16/08/2020 17:03:15 | 
+Stamp : 16/08/2020 17:03:13
+16/08/2020 17:03:15 | 
+OSFullName : Microsoft Windows 7 Professional 
+16/08/2020 17:03:15 | 
+AvailablePhysicalMemory : 423,38 Mo 
+16/08/2020 17:03:15 | 
+TotalPhysicalMemory : 1,99 Go 
+16/08/2020 17:03:15 | 
+AvailableVirtualMemory : 1,04 Go 
+16/08/2020 17:03:15 | 
+TotalVirtualMemory : 2 Go 
+16/08/2020 17:03:15 | 
+WorkingSet : 439,17 Mo 
+16/08/2020 17:03:15 | 
+PagedMemorySize : 513,6 Mo 
+16/08/2020 17:03:15 | 
+TotalMemory : 89,02 Mo 
+16/08/2020 17:03:15 | 
+
+16/08/2020 17:03:15 | 
+ExTrace : 
+16/08/2020 17:03:15 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+16/08/2020 17:03:15 | 
+
+16/08/2020 17:03:15 | 
+OETrace : 
+16/08/2020 17:03:15 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+16/08/2020 17:03:15 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+16/08/2020 17:03:15 | 
+
+16/08/2020 17:03:15 | 
+------------------
+21/08/2020 15:19:45 | 
+21/08/2020 15:19:45 | 
+Message : Script timed out
+21/08/2020 15:19:45 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+21/08/2020 15:19:45 | 
+Params : 
+21/08/2020 15:19:45 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+21/08/2020 15:19:45 | 
+Stamp : 21/08/2020 15:19:42
+21/08/2020 15:19:45 | 
+OSFullName : Microsoft Windows 7 Professional 
+21/08/2020 15:19:45 | 
+AvailablePhysicalMemory : 258 Mo 
+21/08/2020 15:19:45 | 
+TotalPhysicalMemory : 1,99 Go 
+21/08/2020 15:19:45 | 
+AvailableVirtualMemory : 976,43 Mo 
+21/08/2020 15:19:45 | 
+TotalVirtualMemory : 2 Go 
+21/08/2020 15:19:45 | 
+WorkingSet : 448,95 Mo 
+21/08/2020 15:19:45 | 
+PagedMemorySize : 580,61 Mo 
+21/08/2020 15:19:45 | 
+TotalMemory : 105,25 Mo 
+21/08/2020 15:19:45 | 
+
+21/08/2020 15:19:45 | 
+ExTrace : 
+21/08/2020 15:19:45 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+21/08/2020 15:19:45 | 
+
+21/08/2020 15:19:45 | 
+OETrace : 
+21/08/2020 15:19:45 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+21/08/2020 15:19:45 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+21/08/2020 15:19:45 | 
+
+21/08/2020 15:19:45 | 
+------------------
+8/23/2020 3:12:19 AM | 
+8/23/2020 3:12:19 AM | 
+Message : Error when SendMessage to Guideline times out.
+8/23/2020 3:12:19 AM | 
+
+8/23/2020 3:12:19 AM | 
+Hint: OEGuideline is accessible by its icon in the Windows' Notification area (near the system clock).
+8/23/2020 3:12:19 AM | 
+LastTrace : ExtractEmpty
+8/23/2020 3:12:19 AM | 
+Params : 
+8/23/2020 3:12:19 AM | 
+MethodeName : 
+8/23/2020 3:12:19 AM | 
+Stamp : 8/23/2020 3:12:11 AM
+8/23/2020 3:12:19 AM | 
+OSFullName : Microsoft Windows 7 Professional 
+8/23/2020 3:12:19 AM | 
+AvailablePhysicalMemory : 1.1 Go 
+8/23/2020 3:12:19 AM | 
+TotalPhysicalMemory : 1.99 Go 
+8/23/2020 3:12:19 AM | 
+AvailableVirtualMemory : 1.08 Go 
+8/23/2020 3:12:19 AM | 
+TotalVirtualMemory : 2 Go 
+8/23/2020 3:12:19 AM | 
+WorkingSet : 264.83 Mo 
+8/23/2020 3:12:19 AM | 
+PagedMemorySize : 491.95 Mo 
+8/23/2020 3:12:19 AM | 
+TotalMemory : 79.91 Mo 
+8/23/2020 3:12:19 AM | 
+
+8/23/2020 3:12:19 AM | 
+ExTrace : 
+8/23/2020 3:12:19 AM | 
+
+8/23/2020 3:12:19 AM | 
+OETrace : 
+8/23/2020 3:12:19 AM | 
+at openElement.OEGuideline.ProcessTools._ReportGLCrashOnce() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\OEGuideline\ProcessTools.vb:line 389
+8/23/2020 3:12:19 AM | 
+at openElement.OEGuideline.ProcessTools.Send(RData rData, Boolean async, Boolean reportCrash) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\OEGuideline\ProcessTools.vb:line 413
+8/23/2020 3:12:19 AM | 
+at openElement.OEGuideline.ProcessTools.SendProjectClose() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\OEGuideline\ProcessTools.vb:line 217
+8/23/2020 3:12:19 AM | 
+at openElement.WebSite.WebSite.Close(ActionArg`1 actionArg) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.Close.vb:line 38
+8/23/2020 3:12:19 AM | 
+at openElement.WebSite.WebSite._Closure$__._Lambda$__R2-1(ActionArg a0)
+8/23/2020 3:12:19 AM | 
+at openElement.Wait.RunFunction[TResult](FuncWait`1 action, ActionArg param, String text1, String text2, WaitIconType iconType) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Wait.vb:line 199
+8/23/2020 3:12:19 AM | 
+at openElement.WebSite.WebSite.Close(Boolean appClose) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WebSite.Close.vb:line 18
+8/23/2020 3:12:19 AM | 
+at openElement.Forms.FrmMain.FrmMain_FormClosing(Object sender, FormClosingEventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\FrmMain.Close.vb:line 42
+8/23/2020 3:12:19 AM | 
+at openElement.Forms.FrmMain.WndProc(Message& m) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\FrmMain.vb:line 33
+8/23/2020 3:12:19 AM | 
+at openElement.Forms.FrmMain.WndProc(Message& m) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\FrmMain.vb:line 33
+8/23/2020 3:12:19 AM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+8/23/2020 3:12:19 AM | 
+
+8/23/2020 3:12:19 AM | 
+------------------
+23/08/2020 15:33:27 | 
+23/08/2020 15:33:27 | 
+Message : Script timed out
+23/08/2020 15:33:27 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+23/08/2020 15:33:27 | 
+Params : 
+23/08/2020 15:33:27 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+23/08/2020 15:33:27 | 
+Stamp : 23/08/2020 15:33:19
+23/08/2020 15:33:27 | 
+OSFullName : Microsoft Windows 7 Professional 
+23/08/2020 15:33:27 | 
+AvailablePhysicalMemory : 298,27 Mo 
+23/08/2020 15:33:27 | 
+TotalPhysicalMemory : 1,99 Go 
+23/08/2020 15:33:27 | 
+AvailableVirtualMemory : 1,1 Go 
+23/08/2020 15:33:27 | 
+TotalVirtualMemory : 2 Go 
+23/08/2020 15:33:27 | 
+WorkingSet : 314,32 Mo 
+23/08/2020 15:33:27 | 
+PagedMemorySize : 416,36 Mo 
+23/08/2020 15:33:27 | 
+TotalMemory : 77,62 Mo 
+23/08/2020 15:33:27 | 
+
+23/08/2020 15:33:27 | 
+ExTrace : 
+23/08/2020 15:33:27 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+23/08/2020 15:33:27 | 
+
+23/08/2020 15:33:27 | 
+OETrace : 
+23/08/2020 15:33:27 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+23/08/2020 15:33:27 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+23/08/2020 15:33:27 | 
+
+23/08/2020 15:33:27 | 
+------------------
+24/08/2020 15:03:11 | 
+24/08/2020 15:03:11 | 
+Message : Script timed out
+24/08/2020 15:03:11 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+24/08/2020 15:03:11 | 
+Params : 
+24/08/2020 15:03:11 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+24/08/2020 15:03:11 | 
+Stamp : 24/08/2020 15:03:04
+24/08/2020 15:03:11 | 
+OSFullName : Microsoft Windows 7 Professional 
+24/08/2020 15:03:11 | 
+AvailablePhysicalMemory : 277,13 Mo 
+24/08/2020 15:03:11 | 
+TotalPhysicalMemory : 1,99 Go 
+24/08/2020 15:03:11 | 
+AvailableVirtualMemory : 654,49 Mo 
+24/08/2020 15:03:11 | 
+TotalVirtualMemory : 2 Go 
+24/08/2020 15:03:11 | 
+WorkingSet : 724,31 Mo 
+24/08/2020 15:03:11 | 
+PagedMemorySize : 900,39 Mo 
+24/08/2020 15:03:11 | 
+TotalMemory : 458,97 Mo 
+24/08/2020 15:03:11 | 
+
+24/08/2020 15:03:11 | 
+ExTrace : 
+24/08/2020 15:03:11 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+24/08/2020 15:03:11 | 
+
+24/08/2020 15:03:11 | 
+OETrace : 
+24/08/2020 15:03:11 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+24/08/2020 15:03:11 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+24/08/2020 15:03:11 | 
+
+24/08/2020 15:03:11 | 
+------------------
+8/28/2020 12:15:21 PM | 
+8/28/2020 12:15:21 PM | 
+Message : Object reference not set to an instance of an object.
+8/28/2020 12:15:21 PM | 
+LastTrace : openElement.Forms.FrmPageEdit.HiddenElementLoad()
+8/28/2020 12:15:21 PM | 
+Params : 
+8/28/2020 12:15:21 PM | 
+MethodeName : Boolean get_Enabled()
+8/28/2020 12:15:21 PM | 
+Stamp : 8/28/2020 12:15:15 PM
+8/28/2020 12:15:21 PM | 
+OSFullName : Microsoft Windows 7 Professional 
+8/28/2020 12:15:21 PM | 
+AvailablePhysicalMemory : 477.22 Mo 
+8/28/2020 12:15:21 PM | 
+TotalPhysicalMemory : 1.99 Go 
+8/28/2020 12:15:21 PM | 
+AvailableVirtualMemory : 906.82 Mo 
+8/28/2020 12:15:21 PM | 
+TotalVirtualMemory : 2 Go 
+8/28/2020 12:15:21 PM | 
+WorkingSet : 545.43 Mo 
+8/28/2020 12:15:21 PM | 
+PagedMemorySize : 688.1 Mo 
+8/28/2020 12:15:21 PM | 
+TotalMemory : 261.85 Mo 
+8/28/2020 12:15:21 PM | 
+
+8/28/2020 12:15:21 PM | 
+ExTrace : 
+8/28/2020 12:15:21 PM | 
+at openElement.Forms.FrmPageEdit.HiddenElementLoad() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\FrmPageEdit.HiddenElement.vb:line 13
+8/28/2020 12:15:21 PM | 
+at openElement.Forms.PageEditFromJs._HiddenElementLoad() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:line 640
+8/28/2020 12:15:21 PM | 
+
+8/28/2020 12:15:21 PM | 
+OETrace : 
+8/28/2020 12:15:21 PM | 
+at openElement.My.MyApplication.MyApplication_UnhandledException(Object sender, UnhandledExceptionEventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\ApplicationEvents.vb:line 93
+8/28/2020 12:15:21 PM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+8/28/2020 12:15:21 PM | 
+
+8/28/2020 12:15:21 PM | 
+------------------
+8/28/2020 12:15:23 PM | 
+8/28/2020 12:15:23 PM | 
+Message : Object reference not set to an instance of an object.
+8/28/2020 12:15:23 PM | 
+LastTrace : openElement.Forms.FrmPageEdit.HiddenElementLoad()
+8/28/2020 12:15:23 PM | 
+Params : 
+8/28/2020 12:15:23 PM | 
+MethodeName : Boolean get_Enabled()
+8/28/2020 12:15:23 PM | 
+Stamp : 8/28/2020 12:15:23 PM
+8/28/2020 12:15:23 PM | 
+OSFullName : Microsoft Windows 7 Professional 
+8/28/2020 12:15:23 PM | 
+AvailablePhysicalMemory : 468.52 Mo 
+8/28/2020 12:15:23 PM | 
+TotalPhysicalMemory : 1.99 Go 
+8/28/2020 12:15:23 PM | 
+AvailableVirtualMemory : 905.83 Mo 
+8/28/2020 12:15:23 PM | 
+TotalVirtualMemory : 2 Go 
+8/28/2020 12:15:23 PM | 
+WorkingSet : 546.93 Mo 
+8/28/2020 12:15:23 PM | 
+PagedMemorySize : 687.14 Mo 
+8/28/2020 12:15:23 PM | 
+TotalMemory : 263.2 Mo 
+8/28/2020 12:15:23 PM | 
+
+8/28/2020 12:15:23 PM | 
+ExTrace : 
+8/28/2020 12:15:23 PM | 
+at openElement.Forms.FrmPageEdit.HiddenElementLoad() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\FrmPageEdit.HiddenElement.vb:line 13
+8/28/2020 12:15:23 PM | 
+at openElement.Forms.PageEditFromJs._HiddenElementLoad() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:line 640
+8/28/2020 12:15:23 PM | 
+
+8/28/2020 12:15:23 PM | 
+OETrace : 
+8/28/2020 12:15:23 PM | 
+at openElement.My.MyApplication.MyApplication_UnhandledException(Object sender, UnhandledExceptionEventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\ApplicationEvents.vb:line 98
+8/28/2020 12:15:23 PM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+8/28/2020 12:15:23 PM | 
+
+8/28/2020 12:15:23 PM | 
+------------------
+28/08/2020 17:40:58 | 
+28/08/2020 17:40:58 | 
+Message : Script timed out
+28/08/2020 17:40:58 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+28/08/2020 17:40:58 | 
+Params : 
+28/08/2020 17:40:58 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+28/08/2020 17:40:58 | 
+Stamp : 28/08/2020 17:40:46
+28/08/2020 17:40:58 | 
+OSFullName : Microsoft Windows 7 Professional 
+28/08/2020 17:40:58 | 
+AvailablePhysicalMemory : 133,53 Mo 
+28/08/2020 17:40:58 | 
+TotalPhysicalMemory : 1,99 Go 
+28/08/2020 17:40:58 | 
+AvailableVirtualMemory : 994,66 Mo 
+28/08/2020 17:40:58 | 
+TotalVirtualMemory : 2 Go 
+28/08/2020 17:40:58 | 
+WorkingSet : 462,39 Mo 
+28/08/2020 17:40:58 | 
+PagedMemorySize : 606,7 Mo 
+28/08/2020 17:40:58 | 
+TotalMemory : 151,2 Mo 
+28/08/2020 17:40:58 | 
+
+28/08/2020 17:40:58 | 
+ExTrace : 
+28/08/2020 17:40:58 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+28/08/2020 17:40:58 | 
+
+28/08/2020 17:40:58 | 
+OETrace : 
+28/08/2020 17:40:58 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+28/08/2020 17:40:58 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+28/08/2020 17:40:58 | 
+
+28/08/2020 17:40:58 | 
+------------------
+30/08/2020 10:32:13 | 
+30/08/2020 10:32:13 | 
+Message : Script timed out
+30/08/2020 10:32:13 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+30/08/2020 10:32:13 | 
+Params : 
+30/08/2020 10:32:13 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+30/08/2020 10:32:13 | 
+Stamp : 30/08/2020 10:32:12
+30/08/2020 10:32:13 | 
+OSFullName : Microsoft Windows 7 Professional 
+30/08/2020 10:32:13 | 
+AvailablePhysicalMemory : 410,52 Mo 
+30/08/2020 10:32:13 | 
+TotalPhysicalMemory : 1,99 Go 
+30/08/2020 10:32:13 | 
+AvailableVirtualMemory : 1,24 Go 
+30/08/2020 10:32:13 | 
+TotalVirtualMemory : 2 Go 
+30/08/2020 10:32:13 | 
+WorkingSet : 379,68 Mo 
+30/08/2020 10:32:13 | 
+PagedMemorySize : 328,84 Mo 
+30/08/2020 10:32:13 | 
+TotalMemory : 64,01 Mo 
+30/08/2020 10:32:13 | 
+
+30/08/2020 10:32:13 | 
+ExTrace : 
+30/08/2020 10:32:13 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+30/08/2020 10:32:13 | 
+
+30/08/2020 10:32:13 | 
+OETrace : 
+30/08/2020 10:32:13 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+30/08/2020 10:32:13 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+30/08/2020 10:32:13 | 
+
+30/08/2020 10:32:13 | 
+------------------
+30/08/2020 11:40:52 | 
+30/08/2020 11:40:52 | 
+Message : Script timed out
+30/08/2020 11:40:52 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+30/08/2020 11:40:52 | 
+Params : 
+30/08/2020 11:40:52 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+30/08/2020 11:40:52 | 
+Stamp : 30/08/2020 11:40:50
+30/08/2020 11:40:52 | 
+OSFullName : Microsoft Windows 7 Professional 
+30/08/2020 11:40:52 | 
+AvailablePhysicalMemory : 430,31 Mo 
+30/08/2020 11:40:52 | 
+TotalPhysicalMemory : 1,99 Go 
+30/08/2020 11:40:52 | 
+AvailableVirtualMemory : 1,17 Go 
+30/08/2020 11:40:52 | 
+TotalVirtualMemory : 2 Go 
+30/08/2020 11:40:52 | 
+WorkingSet : 307,08 Mo 
+30/08/2020 11:40:52 | 
+PagedMemorySize : 388,32 Mo 
+30/08/2020 11:40:52 | 
+TotalMemory : 89,94 Mo 
+30/08/2020 11:40:52 | 
+
+30/08/2020 11:40:52 | 
+ExTrace : 
+30/08/2020 11:40:52 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+30/08/2020 11:40:52 | 
+
+30/08/2020 11:40:52 | 
+OETrace : 
+30/08/2020 11:40:52 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+30/08/2020 11:40:52 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+30/08/2020 11:40:52 | 
+
+30/08/2020 11:40:52 | 
+------------------
+8/30/2020 7:55:48 PM | 
+8/30/2020 7:55:48 PM | 
+Message : Input string was not in a correct format.
+8/30/2020 7:55:48 PM | 
+LastTrace : openElement.WebElement.Page.MoveElementToTemplate(String[] idArray, String parentID, String templateName, String[] leftArray, String[] topArray, List`1& listElementMap)
+8/30/2020 7:55:48 PM | 
+Params : 
+8/30/2020 7:55:48 PM | 
+MethodeName : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+8/30/2020 7:55:48 PM | 
+Stamp : 8/30/2020 7:55:47 PM
+8/30/2020 7:55:48 PM | 
+OSFullName : Microsoft Windows 7 Professional 
+8/30/2020 7:55:48 PM | 
+AvailablePhysicalMemory : 259 Mo 
+8/30/2020 7:55:48 PM | 
+TotalPhysicalMemory : 1.99 Go 
+8/30/2020 7:55:48 PM | 
+AvailableVirtualMemory : 678.79 Mo 
+8/30/2020 7:55:48 PM | 
+TotalVirtualMemory : 2 Go 
+8/30/2020 7:55:48 PM | 
+WorkingSet : 666.29 Mo 
+8/30/2020 7:55:48 PM | 
+PagedMemorySize : 871.59 Mo 
+8/30/2020 7:55:48 PM | 
+TotalMemory : 320.49 Mo 
+8/30/2020 7:55:48 PM | 
+
+8/30/2020 7:55:48 PM | 
+ExTrace : 
+8/30/2020 7:55:48 PM | 
+at openElement.WebElement.Page.MoveElementToTemplate(String[] idArray, String parentID, String templateName, String[] leftArray, String[] topArray, List`1& listElementMap) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Page\PageControls.vb:line 550
+8/30/2020 7:55:48 PM | 
+at openElement.Forms.PageEditFromJs._MoveControlTemplate(String idjsArray, String parentID, String templateName, String leftJSArray, String topJSArray) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:line 1065
+8/30/2020 7:55:48 PM | 
+
+8/30/2020 7:55:48 PM | 
+OETrace : 
+8/30/2020 7:55:48 PM | 
+at openElement.Forms.PageEditFromJs.TrapError(Exception ex, String infosParams) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:line 32
+8/30/2020 7:55:48 PM | 
+at openElement.Forms.PageEditFromJs._MoveControlTemplate(String idjsArray, String parentID, String templateName, String leftJSArray, String topJSArray) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:line 1075
+8/30/2020 7:55:48 PM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+8/30/2020 7:55:48 PM | 
+
+8/30/2020 7:55:48 PM | 
+------------------
+8/30/2020 7:55:54 PM | 
+8/30/2020 7:55:54 PM | 
+Message : Input string was not in a correct format.
+8/30/2020 7:55:54 PM | 
+LastTrace : openElement.WebElement.Page.MoveElementToTemplate(String[] idArray, String parentID, String templateName, String[] leftArray, String[] topArray, List`1& listElementMap)
+8/30/2020 7:55:54 PM | 
+Params : 
+8/30/2020 7:55:54 PM | 
+MethodeName : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+8/30/2020 7:55:54 PM | 
+Stamp : 8/30/2020 7:55:54 PM
+8/30/2020 7:55:54 PM | 
+OSFullName : Microsoft Windows 7 Professional 
+8/30/2020 7:55:54 PM | 
+AvailablePhysicalMemory : 237.79 Mo 
+8/30/2020 7:55:54 PM | 
+TotalPhysicalMemory : 1.99 Go 
+8/30/2020 7:55:54 PM | 
+AvailableVirtualMemory : 669.5 Mo 
+8/30/2020 7:55:54 PM | 
+TotalVirtualMemory : 2 Go 
+8/30/2020 7:55:54 PM | 
+WorkingSet : 684.16 Mo 
+8/30/2020 7:55:54 PM | 
+PagedMemorySize : 888.8 Mo 
+8/30/2020 7:55:54 PM | 
+TotalMemory : 327.79 Mo 
+8/30/2020 7:55:54 PM | 
+
+8/30/2020 7:55:54 PM | 
+ExTrace : 
+8/30/2020 7:55:54 PM | 
+at openElement.WebElement.Page.MoveElementToTemplate(String[] idArray, String parentID, String templateName, String[] leftArray, String[] topArray, List`1& listElementMap) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Page\PageControls.vb:line 550
+8/30/2020 7:55:54 PM | 
+at openElement.Forms.PageEditFromJs._MoveControlTemplate(String idjsArray, String parentID, String templateName, String leftJSArray, String topJSArray) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:line 1065
+8/30/2020 7:55:54 PM | 
+
+8/30/2020 7:55:54 PM | 
+OETrace : 
+8/30/2020 7:55:54 PM | 
+at openElement.Forms.PageEditFromJs.TrapError(Exception ex, String infosParams) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:line 32
+8/30/2020 7:55:54 PM | 
+at openElement.Forms.PageEditFromJs._MoveControlTemplate(String idjsArray, String parentID, String templateName, String leftJSArray, String topJSArray) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:line 1075
+8/30/2020 7:55:54 PM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+8/30/2020 7:55:54 PM | 
+
+8/30/2020 7:55:54 PM | 
+------------------
+8/30/2020 7:56:07 PM | 
+8/30/2020 7:56:07 PM | 
+Message : Input string was not in a correct format.
+8/30/2020 7:56:07 PM | 
+LastTrace : openElement.WebElement.Page.MoveElementToTemplate(String[] idArray, String parentID, String templateName, String[] leftArray, String[] topArray, List`1& listElementMap)
+8/30/2020 7:56:07 PM | 
+Params : 
+8/30/2020 7:56:07 PM | 
+MethodeName : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+8/30/2020 7:56:07 PM | 
+Stamp : 8/30/2020 7:56:07 PM
+8/30/2020 7:56:07 PM | 
+OSFullName : Microsoft Windows 7 Professional 
+8/30/2020 7:56:07 PM | 
+AvailablePhysicalMemory : 230.48 Mo 
+8/30/2020 7:56:07 PM | 
+TotalPhysicalMemory : 1.99 Go 
+8/30/2020 7:56:07 PM | 
+AvailableVirtualMemory : 652 Mo 
+8/30/2020 7:56:07 PM | 
+TotalVirtualMemory : 2 Go 
+8/30/2020 7:56:07 PM | 
+WorkingSet : 692.33 Mo 
+8/30/2020 7:56:07 PM | 
+PagedMemorySize : 897.33 Mo 
+8/30/2020 7:56:07 PM | 
+TotalMemory : 334.56 Mo 
+8/30/2020 7:56:07 PM | 
+
+8/30/2020 7:56:07 PM | 
+ExTrace : 
+8/30/2020 7:56:07 PM | 
+at openElement.WebElement.Page.MoveElementToTemplate(String[] idArray, String parentID, String templateName, String[] leftArray, String[] topArray, List`1& listElementMap) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Page\PageControls.vb:line 550
+8/30/2020 7:56:07 PM | 
+at openElement.Forms.PageEditFromJs._MoveControlTemplate(String idjsArray, String parentID, String templateName, String leftJSArray, String topJSArray) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:line 1065
+8/30/2020 7:56:07 PM | 
+
+8/30/2020 7:56:07 PM | 
+OETrace : 
+8/30/2020 7:56:07 PM | 
+at openElement.Forms.PageEditFromJs.TrapError(Exception ex, String infosParams) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:line 32
+8/30/2020 7:56:07 PM | 
+at openElement.Forms.PageEditFromJs._MoveControlTemplate(String idjsArray, String parentID, String templateName, String leftJSArray, String topJSArray) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:line 1075
+8/30/2020 7:56:07 PM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+8/30/2020 7:56:07 PM | 
+
+8/30/2020 7:56:07 PM | 
+------------------
+30/08/2020 21:32:35 | 
+30/08/2020 21:32:35 | 
+Message : Script timed out
+30/08/2020 21:32:35 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+30/08/2020 21:32:35 | 
+Params : 
+30/08/2020 21:32:35 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+30/08/2020 21:32:35 | 
+Stamp : 30/08/2020 21:32:33
+30/08/2020 21:32:35 | 
+OSFullName : Microsoft Windows 7 Professional 
+30/08/2020 21:32:35 | 
+AvailablePhysicalMemory : 406,71 Mo 
+30/08/2020 21:32:35 | 
+TotalPhysicalMemory : 1,99 Go 
+30/08/2020 21:32:35 | 
+AvailableVirtualMemory : 846,92 Mo 
+30/08/2020 21:32:35 | 
+TotalVirtualMemory : 2 Go 
+30/08/2020 21:32:35 | 
+WorkingSet : 595,12 Mo 
+30/08/2020 21:32:35 | 
+PagedMemorySize : 706,63 Mo 
+30/08/2020 21:32:35 | 
+TotalMemory : 268,07 Mo 
+30/08/2020 21:32:35 | 
+
+30/08/2020 21:32:35 | 
+ExTrace : 
+30/08/2020 21:32:35 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+30/08/2020 21:32:35 | 
+
+30/08/2020 21:32:35 | 
+OETrace : 
+30/08/2020 21:32:35 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+30/08/2020 21:32:35 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+30/08/2020 21:32:35 | 
+
+30/08/2020 21:32:35 | 
+------------------
+31/08/2020 13:46:47 | 
+31/08/2020 13:46:47 | 
+Message : Script timed out
+31/08/2020 13:46:47 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+31/08/2020 13:46:47 | 
+Params : 
+31/08/2020 13:46:47 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+31/08/2020 13:46:47 | 
+Stamp : 31/08/2020 13:46:45
+31/08/2020 13:46:47 | 
+OSFullName : Microsoft Windows 7 Professional 
+31/08/2020 13:46:47 | 
+AvailablePhysicalMemory : 446,14 Mo 
+31/08/2020 13:46:47 | 
+TotalPhysicalMemory : 1,99 Go 
+31/08/2020 13:46:47 | 
+AvailableVirtualMemory : 752,6 Mo 
+31/08/2020 13:46:47 | 
+TotalVirtualMemory : 2 Go 
+31/08/2020 13:46:47 | 
+WorkingSet : 641,07 Mo 
+31/08/2020 13:46:47 | 
+PagedMemorySize : 821 Mo 
+31/08/2020 13:46:47 | 
+TotalMemory : 242,29 Mo 
+31/08/2020 13:46:47 | 
+
+31/08/2020 13:46:47 | 
+ExTrace : 
+31/08/2020 13:46:47 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+31/08/2020 13:46:47 | 
+
+31/08/2020 13:46:47 | 
+OETrace : 
+31/08/2020 13:46:47 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+31/08/2020 13:46:47 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+31/08/2020 13:46:47 | 
+
+31/08/2020 13:46:47 | 
+------------------
+31/08/2020 14:06:48 | 
+31/08/2020 14:06:48 | 
+Message : Script timed out
+31/08/2020 14:06:48 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+31/08/2020 14:06:48 | 
+Params : 
+31/08/2020 14:06:48 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+31/08/2020 14:06:48 | 
+Stamp : 31/08/2020 14:06:47
+31/08/2020 14:06:48 | 
+OSFullName : Microsoft Windows 7 Professional 
+31/08/2020 14:06:48 | 
+AvailablePhysicalMemory : 424,3 Mo 
+31/08/2020 14:06:48 | 
+TotalPhysicalMemory : 1,99 Go 
+31/08/2020 14:06:48 | 
+AvailableVirtualMemory : 793,71 Mo 
+31/08/2020 14:06:48 | 
+TotalVirtualMemory : 2 Go 
+31/08/2020 14:06:48 | 
+WorkingSet : 648,03 Mo 
+31/08/2020 14:06:48 | 
+PagedMemorySize : 756,4 Mo 
+31/08/2020 14:06:48 | 
+TotalMemory : 304,24 Mo 
+31/08/2020 14:06:48 | 
+
+31/08/2020 14:06:48 | 
+ExTrace : 
+31/08/2020 14:06:48 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+31/08/2020 14:06:48 | 
+
+31/08/2020 14:06:48 | 
+OETrace : 
+31/08/2020 14:06:48 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+31/08/2020 14:06:48 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+31/08/2020 14:06:48 | 
+
+31/08/2020 14:06:48 | 
+------------------
+31/08/2020 14:57:37 | 
+31/08/2020 14:57:37 | 
+Message : Script timed out
+31/08/2020 14:57:37 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+31/08/2020 14:57:37 | 
+Params : 
+31/08/2020 14:57:37 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+31/08/2020 14:57:37 | 
+Stamp : 31/08/2020 14:57:37
+31/08/2020 14:57:37 | 
+OSFullName : Microsoft Windows 7 Professional 
+31/08/2020 14:57:37 | 
+AvailablePhysicalMemory : 404,62 Mo 
+31/08/2020 14:57:37 | 
+TotalPhysicalMemory : 1,99 Go 
+31/08/2020 14:57:37 | 
+AvailableVirtualMemory : 879,84 Mo 
+31/08/2020 14:57:37 | 
+TotalVirtualMemory : 2 Go 
+31/08/2020 14:57:37 | 
+WorkingSet : 583,06 Mo 
+31/08/2020 14:57:37 | 
+PagedMemorySize : 652,23 Mo 
+31/08/2020 14:57:37 | 
+TotalMemory : 226,38 Mo 
+31/08/2020 14:57:37 | 
+
+31/08/2020 14:57:37 | 
+ExTrace : 
+31/08/2020 14:57:37 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+31/08/2020 14:57:37 | 
+
+31/08/2020 14:57:37 | 
+OETrace : 
+31/08/2020 14:57:37 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+31/08/2020 14:57:37 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+31/08/2020 14:57:37 | 
+
+31/08/2020 14:57:37 | 
+------------------

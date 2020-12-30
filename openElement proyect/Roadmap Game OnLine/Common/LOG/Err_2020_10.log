@@ -1,0 +1,229 @@
+10/9/2020 1:58:11 PM | 
+10/9/2020 1:58:11 PM | 
+Message : Object reference not set to an instance of an object.
+10/9/2020 1:58:11 PM | 
+LastTrace : openElement.Forms.FrmPageEdit.HiddenElementLoad()
+10/9/2020 1:58:11 PM | 
+Params : 
+10/9/2020 1:58:11 PM | 
+MethodeName : Boolean get_Enabled()
+10/9/2020 1:58:11 PM | 
+Stamp : 10/9/2020 1:58:08 PM
+10/9/2020 1:58:11 PM | 
+OSFullName : Microsoft Windows 7 Professional 
+10/9/2020 1:58:11 PM | 
+AvailablePhysicalMemory : 265.82 Mo 
+10/9/2020 1:58:11 PM | 
+TotalPhysicalMemory : 1.99 Go 
+10/9/2020 1:58:11 PM | 
+AvailableVirtualMemory : 805.45 Mo 
+10/9/2020 1:58:11 PM | 
+TotalVirtualMemory : 2 Go 
+10/9/2020 1:58:11 PM | 
+WorkingSet : 691.41 Mo 
+10/9/2020 1:58:11 PM | 
+PagedMemorySize : 805.29 Mo 
+10/9/2020 1:58:11 PM | 
+TotalMemory : 332.77 Mo 
+10/9/2020 1:58:11 PM | 
+
+10/9/2020 1:58:11 PM | 
+ExTrace : 
+10/9/2020 1:58:11 PM | 
+at openElement.Forms.FrmPageEdit.HiddenElementLoad() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\FrmPageEdit.HiddenElement.vb:line 13
+10/9/2020 1:58:11 PM | 
+at openElement.Forms.PageEditFromJs._HiddenElementLoad() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:line 640
+10/9/2020 1:58:11 PM | 
+
+10/9/2020 1:58:11 PM | 
+OETrace : 
+10/9/2020 1:58:11 PM | 
+at openElement.My.MyApplication.MyApplication_UnhandledException(Object sender, UnhandledExceptionEventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\ApplicationEvents.vb:line 93
+10/9/2020 1:58:11 PM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+10/9/2020 1:58:11 PM | 
+
+10/9/2020 1:58:11 PM | 
+------------------
+10/9/2020 1:58:14 PM | 
+10/9/2020 1:58:14 PM | 
+Message : Object reference not set to an instance of an object.
+10/9/2020 1:58:14 PM | 
+LastTrace : openElement.Forms.FrmPageEdit.HiddenElementLoad()
+10/9/2020 1:58:14 PM | 
+Params : 
+10/9/2020 1:58:14 PM | 
+MethodeName : Boolean get_Enabled()
+10/9/2020 1:58:14 PM | 
+Stamp : 10/9/2020 1:58:14 PM
+10/9/2020 1:58:14 PM | 
+OSFullName : Microsoft Windows 7 Professional 
+10/9/2020 1:58:14 PM | 
+AvailablePhysicalMemory : 243 Mo 
+10/9/2020 1:58:14 PM | 
+TotalPhysicalMemory : 1.99 Go 
+10/9/2020 1:58:14 PM | 
+AvailableVirtualMemory : 805.52 Mo 
+10/9/2020 1:58:14 PM | 
+TotalVirtualMemory : 2 Go 
+10/9/2020 1:58:14 PM | 
+WorkingSet : 693.66 Mo 
+10/9/2020 1:58:14 PM | 
+PagedMemorySize : 805.78 Mo 
+10/9/2020 1:58:14 PM | 
+TotalMemory : 331.96 Mo 
+10/9/2020 1:58:14 PM | 
+
+10/9/2020 1:58:14 PM | 
+ExTrace : 
+10/9/2020 1:58:14 PM | 
+at openElement.Forms.FrmPageEdit.HiddenElementLoad() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\FrmPageEdit.HiddenElement.vb:line 13
+10/9/2020 1:58:14 PM | 
+at openElement.Forms.PageEditFromJs._HiddenElementLoad() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:line 640
+10/9/2020 1:58:14 PM | 
+
+10/9/2020 1:58:14 PM | 
+OETrace : 
+10/9/2020 1:58:14 PM | 
+at openElement.My.MyApplication.MyApplication_UnhandledException(Object sender, UnhandledExceptionEventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\ApplicationEvents.vb:line 98
+10/9/2020 1:58:14 PM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+10/9/2020 1:58:14 PM | 
+
+10/9/2020 1:58:14 PM | 
+------------------
+11/10/2020 17:22:53 | 
+11/10/2020 17:22:53 | 
+Message : Script timed out
+11/10/2020 17:22:53 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+11/10/2020 17:22:53 | 
+Params : 
+11/10/2020 17:22:53 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+11/10/2020 17:22:53 | 
+Stamp : 11/10/2020 17:22:44
+11/10/2020 17:22:53 | 
+OSFullName : Microsoft Windows 7 Professional 
+11/10/2020 17:22:53 | 
+AvailablePhysicalMemory : 439,52 Mo 
+11/10/2020 17:22:53 | 
+TotalPhysicalMemory : 1,99 Go 
+11/10/2020 17:22:53 | 
+AvailableVirtualMemory : 1,17 Go 
+11/10/2020 17:22:53 | 
+TotalVirtualMemory : 2 Go 
+11/10/2020 17:22:53 | 
+WorkingSet : 176,05 Mo 
+11/10/2020 17:22:53 | 
+PagedMemorySize : 407,35 Mo 
+11/10/2020 17:22:53 | 
+TotalMemory : 99,61 Mo 
+11/10/2020 17:22:53 | 
+
+11/10/2020 17:22:53 | 
+ExTrace : 
+11/10/2020 17:22:53 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+11/10/2020 17:22:53 | 
+
+11/10/2020 17:22:53 | 
+OETrace : 
+11/10/2020 17:22:53 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+11/10/2020 17:22:53 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+11/10/2020 17:22:53 | 
+
+11/10/2020 17:22:53 | 
+------------------
+11/10/2020 20:13:14 | 
+11/10/2020 20:13:14 | 
+Message : Script timed out
+11/10/2020 20:13:14 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+11/10/2020 20:13:14 | 
+Params : 
+11/10/2020 20:13:14 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+11/10/2020 20:13:14 | 
+Stamp : 11/10/2020 20:13:09
+11/10/2020 20:13:14 | 
+OSFullName : Microsoft Windows 7 Professional 
+11/10/2020 20:13:14 | 
+AvailablePhysicalMemory : 198,35 Mo 
+11/10/2020 20:13:14 | 
+TotalPhysicalMemory : 1,99 Go 
+11/10/2020 20:13:14 | 
+AvailableVirtualMemory : 774,97 Mo 
+11/10/2020 20:13:14 | 
+TotalVirtualMemory : 2 Go 
+11/10/2020 20:13:14 | 
+WorkingSet : 581,98 Mo 
+11/10/2020 20:13:14 | 
+PagedMemorySize : 732,02 Mo 
+11/10/2020 20:13:14 | 
+TotalMemory : 302,5 Mo 
+11/10/2020 20:13:14 | 
+
+11/10/2020 20:13:14 | 
+ExTrace : 
+11/10/2020 20:13:14 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 546
+11/10/2020 20:13:14 | 
+
+11/10/2020 20:13:14 | 
+OETrace : 
+11/10/2020 20:13:14 | 
+at openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:line 549
+11/10/2020 20:13:14 | 
+at openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+11/10/2020 20:13:14 | 
+
+11/10/2020 20:13:14 | 
+------------------
+23/10/2020 10:04:04 | 
+23/10/2020 10:04:04 | 
+Message : Script timed out
+23/10/2020 10:04:04 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+23/10/2020 10:04:04 | 
+Params : 
+23/10/2020 10:04:04 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+23/10/2020 10:04:04 | 
+Stamp : 23/10/2020 10:04:03
+23/10/2020 10:04:04 | 
+OSFullName : Microsoft Windows 10 Home Single Language
+23/10/2020 10:04:04 | 
+AvailablePhysicalMemory : 2,96 Go 
+23/10/2020 10:04:04 | 
+TotalPhysicalMemory : 7,91 Go 
+23/10/2020 10:04:04 | 
+AvailableVirtualMemory : 2,47 Go 
+23/10/2020 10:04:04 | 
+TotalVirtualMemory : 4 Go 
+23/10/2020 10:04:04 | 
+WorkingSet : 786,27 Mo 
+23/10/2020 10:04:04 | 
+PagedMemorySize : 861,11 Mo 
+23/10/2020 10:04:04 | 
+TotalMemory : 363,07 Mo 
+23/10/2020 10:04:04 | 
+
+23/10/2020 10:04:04 | 
+ExTrace : 
+23/10/2020 10:04:04 | 
+en openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) en C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:línea 546
+23/10/2020 10:04:04 | 
+
+23/10/2020 10:04:04 | 
+OETrace : 
+23/10/2020 10:04:04 | 
+en openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) en C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:línea 549
+23/10/2020 10:04:04 | 
+en openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+23/10/2020 10:04:04 | 
+
+23/10/2020 10:04:04 | 
+------------------

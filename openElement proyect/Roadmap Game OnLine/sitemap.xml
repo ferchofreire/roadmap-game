@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://">
+  <url>
+    <loc />
+    <lastmod>2020-08-30</lastmod>
+  </url>
+  <url oeid="5c348634-911f-4856-aba0-16f4544fe7c7" oelang="DEFAULT">
+    <loc>index.htm</loc>
+    <lastmod>2020-08-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="index.htm" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="index.en-us.htm" />
+    <xhtml:link rel="alternate" hreflang="pt" href="index.pt.htm" />
+  </url>
+  <url oeid="5c348634-911f-4856-aba0-16f4544fe7c7" oelang="EN-US">
+    <loc>index.en-us.htm</loc>
+    <lastmod>2020-08-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="index.htm" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="index.en-us.htm" />
+    <xhtml:link rel="alternate" hreflang="pt" href="index.pt.htm" />
+  </url>
+  <url oeid="5c348634-911f-4856-aba0-16f4544fe7c7" oelang="PT">
+    <loc>index.pt.htm</loc>
+    <lastmod>2020-08-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="index.htm" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="index.en-us.htm" />
+    <xhtml:link rel="alternate" hreflang="pt" href="index.pt.htm" />
+  </url>
+  <url oeid="4554b31c-1cdf-4026-8e88-044572735de0" oelang="DEFAULT">
+    <loc>Administrador.php</loc>
+    <lastmod>2020-08-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="Administrador.php" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="Administrador.en-us.php" />
+    <xhtml:link rel="alternate" hreflang="pt" href="Administrador.pt.php" />
+  </url>
+  <url oeid="4554b31c-1cdf-4026-8e88-044572735de0" oelang="EN-US">
+    <loc>Administrador.en-us.php</loc>
+    <lastmod>2020-08-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="Administrador.php" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="Administrador.en-us.php" />
+    <xhtml:link rel="alternate" hreflang="pt" href="Administrador.pt.php" />
+  </url>
+  <url oeid="4554b31c-1cdf-4026-8e88-044572735de0" oelang="PT">
+    <loc>Administrador.pt.php</loc>
+    <lastmod>2020-08-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="Administrador.php" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="Administrador.en-us.php" />
+    <xhtml:link rel="alternate" hreflang="pt" href="Administrador.pt.php" />
+  </url>
+  <url oeid="12d428db-d3a4-44d3-8591-5f4c7a641315" oelang="DEFAULT">
+    <loc>Canvas.php</loc>
+    <lastmod>2020-08-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="Canvas.php" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="Canvas.en-us.php" />
+    <xhtml:link rel="alternate" hreflang="pt" href="Canvas.pt.php" />
+  </url>
+  <url oeid="12d428db-d3a4-44d3-8591-5f4c7a641315" oelang="EN-US">
+    <loc>Canvas.en-us.php</loc>
+    <lastmod>2020-08-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="Canvas.php" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="Canvas.en-us.php" />
+    <xhtml:link rel="alternate" hreflang="pt" href="Canvas.pt.php" />
+  </url>
+  <url oeid="12d428db-d3a4-44d3-8591-5f4c7a641315" oelang="PT">
+    <loc>Canvas.pt.php</loc>
+    <lastmod>2020-08-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="Canvas.php" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="Canvas.en-us.php" />
+    <xhtml:link rel="alternate" hreflang="pt" href="Canvas.pt.php" />
+  </url>
+  <url oeid="f5d85f95-7f5c-4ce3-a19d-0bf89cfeea52" oelang="DEFAULT">
+    <loc>Dashboard.php</loc>
+    <lastmod>2020-08-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="Dashboard.php" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="Dashboard.en-us.php" />
+    <xhtml:link rel="alternate" hreflang="pt" href="Dashboard.pt.php" />
+  </url>
+  <url oeid="f5d85f95-7f5c-4ce3-a19d-0bf89cfeea52" oelang="EN-US">
+    <loc>Dashboard.en-us.php</loc>
+    <lastmod>2020-08-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="Dashboard.php" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="Dashboard.en-us.php" />
+    <xhtml:link rel="alternate" hreflang="pt" href="Dashboard.pt.php" />
+  </url>
+  <url oeid="f5d85f95-7f5c-4ce3-a19d-0bf89cfeea52" oelang="PT">
+    <loc>Dashboard.pt.php</loc>
+    <lastmod>2020-08-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="Dashboard.php" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="Dashboard.en-us.php" />
+    <xhtml:link rel="alternate" hreflang="pt" href="Dashboard.pt.php" />
+  </url>
+  <url oeid="e216636e-814a-4e49-877c-c4e029f8f7e5" oelang="DEFAULT">
+    <loc>partida.htm</loc>
+    <lastmod>2020-08-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="partida.htm" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="partida.en-us.htm" />
+    <xhtml:link rel="alternate" hreflang="pt" href="partida.pt.htm" />
+  </url>
+  <url oeid="e216636e-814a-4e49-877c-c4e029f8f7e5" oelang="EN-US">
+    <loc>partida.en-us.htm</loc>
+    <lastmod>2020-08-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="partida.htm" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="partida.en-us.htm" />
+    <xhtml:link rel="alternate" hreflang="pt" href="partida.pt.htm" />
+  </url>
+  <url oeid="e216636e-814a-4e49-877c-c4e029f8f7e5" oelang="PT">
+    <loc>partida.pt.htm</loc>
+    <lastmod>2020-08-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="partida.htm" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="partida.en-us.htm" />
+    <xhtml:link rel="alternate" hreflang="pt" href="partida.pt.htm" />
+  </url>
+  <url oeid="35aa9b2a-3037-46c7-89ac-03f14756de55" oelang="DEFAULT">
+    <loc>loggin.php</loc>
+    <lastmod>2020-08-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="loggin.php" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="loggin.en-us.php" />
+    <xhtml:link rel="alternate" hreflang="pt" href="loggin.pt.php" />
+  </url>
+  <url oeid="35aa9b2a-3037-46c7-89ac-03f14756de55" oelang="EN-US">
+    <loc>loggin.en-us.php</loc>
+    <lastmod>2020-08-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="loggin.php" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="loggin.en-us.php" />
+    <xhtml:link rel="alternate" hreflang="pt" href="loggin.pt.php" />
+  </url>
+  <url oeid="35aa9b2a-3037-46c7-89ac-03f14756de55" oelang="PT">
+    <loc>loggin.pt.php</loc>
+    <lastmod>2020-08-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="loggin.php" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="loggin.en-us.php" />
+    <xhtml:link rel="alternate" hreflang="pt" href="loggin.pt.php" />
+  </url>
+  <url oeid="123dde15-48b2-4e05-b606-09edce65cae7" oelang="DEFAULT">
+    <loc>cardeditor.php</loc>
+    <lastmod>2020-08-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="cardeditor.php" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="cardeditor.en-us.php" />
+    <xhtml:link rel="alternate" hreflang="pt" href="cardeditor.pt.php" />
+  </url>
+  <url oeid="123dde15-48b2-4e05-b606-09edce65cae7" oelang="EN-US">
+    <loc>cardeditor.en-us.php</loc>
+    <lastmod>2020-08-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="cardeditor.php" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="cardeditor.en-us.php" />
+    <xhtml:link rel="alternate" hreflang="pt" href="cardeditor.pt.php" />
+  </url>
+  <url oeid="123dde15-48b2-4e05-b606-09edce65cae7" oelang="PT">
+    <loc>cardeditor.pt.php</loc>
+    <lastmod>2020-08-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="cardeditor.php" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="cardeditor.en-us.php" />
+    <xhtml:link rel="alternate" hreflang="pt" href="cardeditor.pt.php" />
+  </url>
+  <url oeid="fc4614d0-62db-46a6-8056-0494da8c647f" oelang="DEFAULT">
+    <loc>Copy-index.htm</loc>
+    <lastmod>2020-08-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="Copy-index.htm" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="Copy-index.en-us.htm" />
+    <xhtml:link rel="alternate" hreflang="pt" href="Copy-index.pt.htm" />
+  </url>
+  <url oeid="fc4614d0-62db-46a6-8056-0494da8c647f" oelang="EN-US">
+    <loc>Copy-index.en-us.htm</loc>
+    <lastmod>2020-08-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="Copy-index.htm" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="Copy-index.en-us.htm" />
+    <xhtml:link rel="alternate" hreflang="pt" href="Copy-index.pt.htm" />
+  </url>
+  <url oeid="fc4614d0-62db-46a6-8056-0494da8c647f" oelang="PT">
+    <loc>Copy-index.pt.htm</loc>
+    <lastmod>2020-08-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="Copy-index.htm" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="Copy-index.en-us.htm" />
+    <xhtml:link rel="alternate" hreflang="pt" href="Copy-index.pt.htm" />
+  </url>
+</urlset>

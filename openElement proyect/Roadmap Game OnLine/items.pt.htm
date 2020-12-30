@@ -1,0 +1,577 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="pt">
+ <head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="generator" content="openElement (1.57.9)" />
+  <link id="openElement" rel="stylesheet" type="text/css" href="WEFiles/Css/v02/openElement.css?v=50491112400" />
+  <link id="OEBase" rel="stylesheet" type="text/css" href="items.css?v=50491112400" />
+  <!--[if lte IE 7]>
+  <link rel="stylesheet" type="text/css" href="WEFiles/Css/ie7.css?v=50491112400" />
+  <![endif]-->
+  <script type="text/javascript">
+   var WEInfoPage = {"PHPVersion":"phpOK","OEVersion":"1-57-9","PagePath":"items","Culture":"PT","LanguageCode":"PT","RelativePath":"","RenderMode":"Export","PageAssociatePath":"items","EditorTexts":null};
+  </script>
+  <script type="text/javascript" src="WEFiles/Client/jQuery/1.10.2.js?v=50491112400"></script>
+  <script type="text/javascript" src="WEFiles/Client/jQuery/migrate.js?v=50491112400"></script>
+  <script type="text/javascript" src="WEFiles/Client/Common/oe.min.js?v=50491112400"></script>
+  <script type="text/javascript" src="Files/Other/draggable-bundle.js"></script>
+  <style>
+    
+    	
+    
+    .draggable-container--over {
+    	background-color: #6bb16b15;
+    }
+    .draggable {
+    	background-color: #ff3946;
+    	box-shadow: 10px 10px 10px #000000;
+    	width: 100%;
+      height: 45px;
+      margin: 4px 0 2px 0;
+      padding: 0;
+      overflow: hidden;
+      border-radius: 12px 12px 12px 0;
+      background-color: #c00000;
+    	
+    }
+  	
+  	.draggable:hover {
+    	background-color: #ff0046;
+    	box-shadow: 10px 10px 10px #000000;
+  		
+  		cursor: -webkit-grab; cursor: grab
+    }
+    
+    .draggable-mirror {
+  	 width: 140px;
+  	  height: 110px; 
+    	opacity: 0.8;
+  	  
+    	cursor: -webkit-grabbing; cursor: grabbing;
+  	  cursor: move;
+    }
+    
+    .draggable-source--is-dragging{
+    	opacity: 0.2;
+  	  animation: pulse 0.3s infinite;
+    }
+    
+    .draggable-source--placed{
+    	-webkit-animation:shake-bottom .8s cubic-bezier(.455,.03,.515,.955) both;animation:shake-bottom .8s cubic-bezier(.455,.03,.515,.955) both;
+  	  /*animation: fade 1s linear forwards;*/
+    	opacity: 0.8; 
+    }
+    
+    .off {
+    	background-color: #4539ff;
+    	box-shadow: 10px 10px 10px #7777;
+    	width: 100px; 
+    	height: 100px; 
+    }
+    
+    
+  
+    	
+    .interItem{
+    	left: 10px;
+        top: 0;
+        width: 100%;
+        height: 45px;
+        margin: 0 0 -1px 0;
+        padding: 0;
+        border-radius: 12px 0 0 0;
+        background-color: rgba(0,0,0,.2);
+    }
+    .interText{
+    	position: absolute;
+        left: 9px;
+        top: 24px;
+        width: auto;
+        height: auto;
+        color: #fff;
+        font-weight: bold;
+        font-size: 13px;
+        font-family: Arial,Helvetica,sans-serif;
+    }
+    .interIMG{
+    	position: absolute;
+        top: 6px;
+        right: 24px;
+        width: 15px;
+        height: auto;
+        opacity: .5;
+        filter: alpha(Opacity=50);
+    }
+    
+    .droppable, .droppable.draggable-dropzone--occupied{
+    	width: 100px; 
+    	height: 5px;
+    	border: solid;
+    	display: flex;
+    }
+    
+    
+    		
+  @keyframes fade {
+    from {
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(10px);
+    }
+    to { 
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+  }
+  
+  
+  @-webkit-keyframes shake-bottom{0%,100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);-webkit-transform-origin:50% 100%;transform-origin:50% 100%}10%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}20%,40%,60%{-webkit-transform:rotate(-4deg);transform:rotate(-4deg)}30%,50%,70%{-webkit-transform:rotate(4deg);transform:rotate(4deg)}80%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}90%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}}@keyframes shake-bottom{0%,100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);-webkit-transform-origin:50% 100%;transform-origin:50% 100%}10%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}20%,40%,60%{-webkit-transform:rotate(-4deg);transform:rotate(-4deg)}30%,50%,70%{-webkit-transform:rotate(4deg);transform:rotate(4deg)}80%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}90%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}}
+  
+  @keyframes pulse {
+    0% {
+      opacity: 0.2;;
+    }
+    50% {
+      opacity: 1.0;;
+    }
+  	100% {
+      opacity: 0.2;;
+    }
+  }
+  </style>
+ </head>
+ <body class="" data-gl="{&quot;KeywordsHomeNotInherits&quot;:false}">
+  <form id="XForm" method="post" action="#"></form>
+  <div id="XBody" class="BaseDiv RWidth OEPageXbody OESK_XBody_Default" style="z-index:0">
+   <div class="OESZ OESZ_DivContent OESZG_XBody">
+    <div class="OESZ OESZ_XBodyContent OESZG_XBody OECT OECT_Content OECTAbs">
+     <div id="WEd372ddba38" class="BaseDiv RBoth OEWECodeBlock OESK_WECodeBlock_Default  block" style="z-index:2">
+      <div class="OESZ OESZ_DivContent OESZG_WEd372ddba38">
+       <div class="draggable" id="10">
+       
+       	<div class="interItem" style="z-index:1" style="overflow:hidden">
+       
+           <div class="interIMG">
+           <a href="javascript:alert('test');">
+              <img src="WEFiles/Image/WEImage/view_card-WE3871e97495.png" class="OESZ OESZ_Img OESZG_WEf717d23028" alt="">
+           </a>
+       	</div>
+               <div class="interText" style="z-index:1">
+       			<span class="">Titulo Card Demo 2<br></span>
+       		</div>
+       	</div>
+       </div>
+       
+       <div class="draggable" id="10">
+       
+       	<div class="interItem" style="z-index:1" style="overflow:hidden">
+       
+           <div class="interIMG">
+           <a href="javascript:alert('test');">
+              <img src="WEFiles/Image/WEImage/view_card-WE3871e97495.png" class="OESZ OESZ_Img OESZG_WEf717d23028" alt="">
+           </a>
+       	</div>
+               <div class="interText" style="z-index:1">
+       			<span class="">Titulo Card Demo 2<br></span>
+       		</div>
+       	</div>
+       </div><div class="draggable" id="10">
+       
+       	<div class="interItem" style="z-index:1" style="overflow:hidden">
+       
+           <div class="interIMG">
+           <a href="javascript:alert('test');">
+              <img src="WEFiles/Image/WEImage/view_card-WE3871e97495.png" class="OESZ OESZ_Img OESZG_WEf717d23028" alt="">
+           </a>
+       	</div>
+               <div class="interText" style="z-index:1">
+       			<span class="">Titulo Card Demo 2<br></span>
+       		</div>
+       	</div>
+       </div><div class="draggable" id="10">
+       
+       	<div class="interItem" style="z-index:1" style="overflow:hidden">
+       
+           <div class="interIMG">
+           <a href="javascript:alert('test');">
+              <img src="WEFiles/Image/WEImage/view_card-WE3871e97495.png" class="OESZ OESZ_Img OESZG_WEf717d23028" alt="">
+           </a>
+       	</div>
+               <div class="interText" style="z-index:1">
+       			<span class="">Titulo Card Demo 2<br></span>
+       		</div>
+       	</div>
+       </div><div class="draggable" id="10">
+       
+       	<div class="interItem" style="z-index:1" style="overflow:hidden">
+       
+           <div class="interIMG">
+           <a href="javascript:alert('test');">
+              <img src="WEFiles/Image/WEImage/view_card-WE3871e97495.png" class="OESZ OESZ_Img OESZG_WEf717d23028" alt="">
+           </a>
+       	</div>
+               <div class="interText" style="z-index:1">
+       			<span class="">Titulo Card Demo 2<br></span>
+       		</div>
+       	</div>
+       </div>
+      </div>
+     </div>
+     <div id="WE0e1c7fdbc3" class="BaseDiv RBoth OEWECadre OESK_WECadre_Default  draggable" style="z-index:3">
+      <div class="OESZ OESZ_DivContent OESZG_WE0e1c7fdbc3">
+       <div class="OESZ OESZ_Top OESZG_WE0e1c7fdbc3"></div>
+       <div class="OESZ OESZ_Content OESZG_WE0e1c7fdbc3"></div>
+       <div class="OESZ OESZ_Bottom OESZG_WE0e1c7fdbc3"></div>
+      </div>
+     </div>
+     <div id="WE121629c5b9" class="BaseDiv RHeight OEWEPanel OESK_WEPanel_Default  slide-in-top" style="z-index:1">
+      <div class="OESZ OESZ_DivContent OESZG_WE121629c5b9">
+       <div class="OECT OECT_Content OECTRel OEDynTag0">
+        <div class="OERelLine OEHAlignL OEVAlignT">
+         <div id="WEf6b0761048" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default" style="z-index:1">
+          <div class="OESZ OESZ_DivContent OESZG_WEf6b0761048">
+           <div class="OECT OECT_Content OECTAbs OEDynTag0">
+            <div id="WE402ad5df98" class="BaseDiv RNone OEWEPanel OESK_WEPanel_Default  block" style="z-index:1">
+             <div class="OESZ OESZ_DivContent OESZG_WE402ad5df98">
+              <div class="OECT OECT_Content OECTRel OEDynTag0">
+               <div class="OERelLine OEHAlignC OEVAlignB">
+                <div id="WE8c6738e648" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default OECenterRH" style="z-index:4">
+                 <div class="OESZ OESZ_DivContent OESZG_WE8c6738e648">
+                  <div class="OECT OECT_Content OECTAbs OEDynTag0">
+                   <div id="WE7e67bab90c" class="BaseDiv RBoth OEWECadre OESK_WECadre_Default" style="z-index:3">
+                    <div class="OESZ OESZ_DivContent OESZG_WE7e67bab90c">
+                     <div class="OESZ OESZ_Top OESZG_WE7e67bab90c"></div>
+                     <div class="OESZ OESZ_Content OESZG_WE7e67bab90c"></div>
+                     <div class="OESZ OESZ_Bottom OESZG_WE7e67bab90c"></div>
+                    </div>
+                   </div>
+                   <div id="WE297ae7436f" class="BaseDiv RWidth OEWELabel OESK_WELabel_Default" style="z-index:1">
+                    <div class="OESZ OESZ_DivContent OESZG_WE297ae7436f">
+                     <span class="OESZ OESZ_Text OESZG_WE297ae7436f ContentBox">Key Partner</span>
+                    </div>
+                   </div>
+                   <div id="WEc808db1b2f" class="BaseDiv RKeepRatio OEWEImage OESK_WEImage_Default" style="z-index:2">
+                    <div class="OESZ OESZ_DivContent OESZG_WEc808db1b2f">
+                     <img src="WEFiles/Image/WEImage/g3343-WEea96b64b3a.png" class="OESZ OESZ_Img OESZG_WEc808db1b2f" alt="" />
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div><div id="WE311920a936" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default" style="z-index:2">
+          <div class="OESZ OESZ_DivContent OESZG_WE311920a936">
+           <div class="OECT OECT_Content OECTRel OEDynTag0">
+            <div class="OERelLine OEHAlignL OEVAlignB">
+             <div id="WEca1b2982a8" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default" style="z-index:1">
+              <div class="OESZ OESZ_DivContent OESZG_WEca1b2982a8">
+               <div class="OECT OECT_Content OECTAbs OEDynTag0">
+                <div id="WE5eb5f02d58" class="BaseDiv RNone OEWEPanel OESK_WEPanel_Default  block" style="z-index:1">
+                 <div class="OESZ OESZ_DivContent OESZG_WE5eb5f02d58">
+                  <div class="OECT OECT_Content OECTRel OEDynTag0">
+                   <div class="OERelLine OEHAlignC OEVAlignB">
+                    <div id="WE56ce37dfc9" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default OECenterRH" style="z-index:2">
+                     <div class="OESZ OESZ_DivContent OESZG_WE56ce37dfc9">
+                      <div class="OECT OECT_Content OECTAbs OEDynTag0">
+                       <div id="WE2cd99fa477" class="BaseDiv RBoth OEWECadre OESK_WECadre_Default" style="z-index:3">
+                        <div class="OESZ OESZ_DivContent OESZG_WE2cd99fa477">
+                         <div class="OESZ OESZ_Top OESZG_WE2cd99fa477"></div>
+                         <div class="OESZ OESZ_Content OESZG_WE2cd99fa477"></div>
+                         <div class="OESZ OESZ_Bottom OESZG_WE2cd99fa477"></div>
+                        </div>
+                       </div>
+                       <div id="WE0705066046" class="BaseDiv RKeepRatio OEWEImage OESK_WEImage_Default" style="z-index:2">
+                        <div class="OESZ OESZ_DivContent OESZG_WE0705066046">
+                         <img src="WEFiles/Image/WEImage/g3331-WE737a6a5bc0.png" class="OESZ OESZ_Img OESZG_WE0705066046" alt="" />
+                        </div>
+                       </div>
+                       <div id="WEdc26690ced" class="BaseDiv RWidth OEWELabel OESK_WELabel_Default" style="z-index:1">
+                        <div class="OESZ OESZ_DivContent OESZG_WEdc26690ced">
+                         <span class="OESZ OESZ_Text OESZG_WEdc26690ced ContentBox">Key Ativities</span>
+                        </div>
+                       </div>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div><div id="WEf033d8dfab" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default" style="z-index:2">
+              <div class="OESZ OESZ_DivContent OESZG_WEf033d8dfab">
+               <div class="OECT OECT_Content OECTAbs OEDynTag0">
+                <div id="WE6eef727caa" class="BaseDiv RNone OEWEPanel OESK_WEPanel_Default  block" style="z-index:1">
+                 <div class="OESZ OESZ_DivContent OESZG_WE6eef727caa">
+                  <div class="OECT OECT_Content OECTRel OEDynTag0">
+                   <div class="OERelLine OEHAlignC OEVAlignB">
+                    <div id="WE8f3526f890" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default OECenterRH" style="z-index:2">
+                     <div class="OESZ OESZ_DivContent OESZG_WE8f3526f890">
+                      <div class="OECT OECT_Content OECTAbs OEDynTag0">
+                       <div id="WE6609134024" class="BaseDiv RBoth OEWECadre OESK_WECadre_Default" style="z-index:3">
+                        <div class="OESZ OESZ_DivContent OESZG_WE6609134024">
+                         <div class="OESZ OESZ_Top OESZG_WE6609134024"></div>
+                         <div class="OESZ OESZ_Content OESZG_WE6609134024"></div>
+                         <div class="OESZ OESZ_Bottom OESZG_WE6609134024"></div>
+                        </div>
+                       </div>
+                       <div id="WE463b0e45c6" class="BaseDiv RKeepRatio OEWEImage OESK_WEImage_Default" style="z-index:2">
+                        <div class="OESZ OESZ_DivContent OESZG_WE463b0e45c6">
+                         <img src="WEFiles/Image/WEImage/g3335-WE68bc5b031c.png" class="OESZ OESZ_Img OESZG_WE463b0e45c6" alt="" />
+                        </div>
+                       </div>
+                       <div id="WE83d28fbcac" class="BaseDiv RNone OEWELabel OESK_WELabel_Default" style="z-index:1">
+                        <div class="OESZ OESZ_DivContent OESZG_WE83d28fbcac">
+                         <span class="OESZ OESZ_Text OESZG_WE83d28fbcac ContentBox">Key Resources</span>
+                        </div>
+                       </div>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div><div id="WE905e17648b" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default" style="z-index:3">
+          <div class="OESZ OESZ_DivContent OESZG_WE905e17648b">
+           <div class="OECT OECT_Content OECTAbs OEDynTag0">
+            <div id="WE4c16619ace" class="BaseDiv RNone OEWEPanel OESK_WEPanel_Default  block" style="z-index:1">
+             <div class="OESZ OESZ_DivContent OESZG_WE4c16619ace">
+              <div class="OECT OECT_Content OECTRel OEDynTag0">
+               <div class="OERelLine OEHAlignC OEVAlignB">
+                <div id="WEefbad74742" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default OECenterRH" style="z-index:2">
+                 <div class="OESZ OESZ_DivContent OESZG_WEefbad74742">
+                  <div class="OECT OECT_Content OECTAbs OEDynTag0">
+                   <div id="WEc10e366c50" class="BaseDiv RBoth OEWECadre OESK_WECadre_Default" style="z-index:3">
+                    <div class="OESZ OESZ_DivContent OESZG_WEc10e366c50">
+                     <div class="OESZ OESZ_Top OESZG_WEc10e366c50"></div>
+                     <div class="OESZ OESZ_Content OESZG_WEc10e366c50"></div>
+                     <div class="OESZ OESZ_Bottom OESZG_WEc10e366c50"></div>
+                    </div>
+                   </div>
+                   <div id="WEcc58f03df4" class="BaseDiv RKeepRatio OEWEImage OESK_WEImage_Default" style="z-index:2">
+                    <div class="OESZ OESZ_DivContent OESZG_WEcc58f03df4">
+                     <img src="WEFiles/Image/WEImage/g3327-WE64c0c51ee3.png" class="OESZ OESZ_Img OESZG_WEcc58f03df4" alt="" />
+                    </div>
+                   </div>
+                   <div id="WEf2ece8d6c9" class="BaseDiv RWidth OEWELabel OESK_WELabel_Default" style="z-index:1">
+                    <div class="OESZ OESZ_DivContent OESZG_WEf2ece8d6c9">
+                     <span class="OESZ OESZ_Text OESZG_WEf2ece8d6c9 ContentBox">Value Propositions</span>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div><div id="WE4b1091fb4e" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default" style="z-index:4">
+          <div class="OESZ OESZ_DivContent OESZG_WE4b1091fb4e">
+           <div class="OECT OECT_Content OECTRel OEDynTag0">
+            <div class="OERelLine OEHAlignL OEVAlignB">
+             <div id="WEf643e5d037" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default" style="z-index:1">
+              <div class="OESZ OESZ_DivContent OESZG_WEf643e5d037">
+               <div class="OECT OECT_Content OECTAbs OEDynTag0">
+                <div id="WEd7d6ea4902" class="BaseDiv RNone OEWEPanel OESK_WEPanel_Default  block" style="z-index:1">
+                 <div class="OESZ OESZ_DivContent OESZG_WEd7d6ea4902">
+                  <div class="OECT OECT_Content OECTRel OEDynTag0">
+                   <div class="OERelLine OEHAlignC OEVAlignB">
+                    <div id="WE38f89411d8" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default OECenterRH" style="z-index:2">
+                     <div class="OESZ OESZ_DivContent OESZG_WE38f89411d8">
+                      <div class="OECT OECT_Content OECTAbs OEDynTag0">
+                       <div id="WEb2608aced0" class="BaseDiv RBoth OEWECadre OESK_WECadre_Default" style="z-index:3">
+                        <div class="OESZ OESZ_DivContent OESZG_WEb2608aced0">
+                         <div class="OESZ OESZ_Top OESZG_WEb2608aced0"></div>
+                         <div class="OESZ OESZ_Content OESZG_WEb2608aced0"></div>
+                         <div class="OESZ OESZ_Bottom OESZG_WEb2608aced0"></div>
+                        </div>
+                       </div>
+                       <div id="WE4c8e1fd339" class="BaseDiv RKeepRatio OEWEImage OESK_WEImage_Default" style="z-index:2">
+                        <div class="OESZ OESZ_DivContent OESZG_WE4c8e1fd339">
+                         <img src="WEFiles/Image/WEImage/g3323-WE5b3fc60b8f.png" class="OESZ OESZ_Img OESZG_WE4c8e1fd339" alt="" />
+                        </div>
+                       </div>
+                       <div id="WEe003f32502" class="BaseDiv RWidth OEWELabel OESK_WELabel_Default" style="z-index:1">
+                        <div class="OESZ OESZ_DivContent OESZG_WEe003f32502">
+                         <span class="OESZ OESZ_Text OESZG_WEe003f32502 ContentBox">Customer Relationships</span>
+                        </div>
+                       </div>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div><div id="WE0653009237" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default" style="z-index:2">
+              <div class="OESZ OESZ_DivContent OESZG_WE0653009237">
+               <div class="OECT OECT_Content OECTAbs OEDynTag0">
+                <div id="WEb3920c78eb" class="BaseDiv RNone OEWEPanel OESK_WEPanel_Default  block" style="z-index:1">
+                 <div class="OESZ OESZ_DivContent OESZG_WEb3920c78eb">
+                  <div class="OECT OECT_Content OECTRel OEDynTag0">
+                   <div class="OERelLine OEHAlignC OEVAlignB">
+                    <div id="WE188465f1b2" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default OECenterRH" style="z-index:2">
+                     <div class="OESZ OESZ_DivContent OESZG_WE188465f1b2">
+                      <div class="OECT OECT_Content OECTAbs OEDynTag0">
+                       <div id="WEa91e719bbc" class="BaseDiv RBoth OEWECadre OESK_WECadre_Default" style="z-index:3">
+                        <div class="OESZ OESZ_DivContent OESZG_WEa91e719bbc">
+                         <div class="OESZ OESZ_Top OESZG_WEa91e719bbc"></div>
+                         <div class="OESZ OESZ_Content OESZG_WEa91e719bbc"></div>
+                         <div class="OESZ OESZ_Bottom OESZG_WEa91e719bbc"></div>
+                        </div>
+                       </div>
+                       <div id="WE8c2ac01017" class="BaseDiv RKeepRatio OEWEImage OESK_WEImage_Default" style="z-index:2">
+                        <div class="OESZ OESZ_DivContent OESZG_WE8c2ac01017">
+                         <img src="WEFiles/Image/WEImage/g3319-WEd7bc7354d0.png" class="OESZ OESZ_Img OESZG_WE8c2ac01017" alt="" />
+                        </div>
+                       </div>
+                       <div id="WEfc4cbfab0c" class="BaseDiv RNone OEWELabel OESK_WELabel_Default" style="z-index:1">
+                        <div class="OESZ OESZ_DivContent OESZG_WEfc4cbfab0c">
+                         <span class="OESZ OESZ_Text OESZG_WEfc4cbfab0c ContentBox">Channels</span>
+                        </div>
+                       </div>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div><div id="WE12f2e35a0c" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default" style="z-index:5">
+          <div class="OESZ OESZ_DivContent OESZG_WE12f2e35a0c">
+           <div class="OECT OECT_Content OECTAbs OEDynTag0">
+            <div id="WEf4913ed3eb" class="BaseDiv RNone OEWECadre OESK_WECadre_Default  block" style="z-index:1">
+             <div class="OESZ OESZ_DivContent OESZG_WEf4913ed3eb">
+              <div class="OESZ OESZ_Top OESZG_WEf4913ed3eb"></div>
+              <div class="OESZ OESZ_Content OESZG_WEf4913ed3eb"></div>
+              <div class="OESZ OESZ_Bottom OESZG_WEf4913ed3eb"></div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div><div id="WEac7a9e6287" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default" style="z-index:6">
+          <div class="OESZ OESZ_DivContent OESZG_WEac7a9e6287">
+           <div class="OECT OECT_Content OECTAbs OEDynTag0">
+            <div id="WEaf8b51f0d4" class="BaseDiv RNone OEWEPanel OESK_WEPanel_Default  block" style="z-index:1">
+             <div class="OESZ OESZ_DivContent OESZG_WEaf8b51f0d4">
+              <div class="OECT OECT_Content OECTRel OEDynTag0">
+               <div class="OERelLine OEHAlignC OEVAlignB">
+                <div id="WEdeac11a367" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default OECenterRH" style="z-index:3">
+                 <div class="OESZ OESZ_DivContent OESZG_WEdeac11a367">
+                  <div class="OECT OECT_Content OECTAbs OEDynTag0">
+                   <div id="WE89dd30e3e1" class="BaseDiv RBoth OEWECadre OESK_WECadre_Default" style="z-index:3">
+                    <div class="OESZ OESZ_DivContent OESZG_WE89dd30e3e1">
+                     <div class="OESZ OESZ_Top OESZG_WE89dd30e3e1"></div>
+                     <div class="OESZ OESZ_Content OESZG_WE89dd30e3e1"></div>
+                     <div class="OESZ OESZ_Bottom OESZG_WE89dd30e3e1"></div>
+                    </div>
+                   </div>
+                   <div id="WEccba9c497a" class="BaseDiv RKeepRatio OEWEImage OESK_WEImage_Default" style="z-index:2">
+                    <div class="OESZ OESZ_DivContent OESZG_WEccba9c497a">
+                     <img src="WEFiles/Image/WEImage/g3339-WEc7f49bfae9.png" class="OESZ OESZ_Img OESZG_WEccba9c497a" alt="" />
+                    </div>
+                   </div>
+                   <div id="WE0ff3803fdd" class="BaseDiv RWidth OEWELabel OESK_WELabel_Default" style="z-index:1">
+                    <div class="OESZ OESZ_DivContent OESZG_WE0ff3803fdd">
+                     <span class="OESZ OESZ_Text OESZG_WE0ff3803fdd ContentBox">Cost Structure</span>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div><div id="WE61858d5498" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default" style="z-index:7">
+          <div class="OESZ OESZ_DivContent OESZG_WE61858d5498">
+           <div class="OECT OECT_Content OECTAbs OEDynTag0">
+            <div id="WE84e7d2ea38" class="BaseDiv RNone OEWEPanel OESK_WEPanel_Default  block" style="z-index:1">
+             <div class="OESZ OESZ_DivContent OESZG_WE84e7d2ea38">
+              <div class="OECT OECT_Content OECTRel OEDynTag0">
+               <div class="OERelLine OEHAlignC OEVAlignB">
+                <div id="WEe3eff02251" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default OECenterRH" style="z-index:2">
+                 <div class="OESZ OESZ_DivContent OESZG_WEe3eff02251">
+                  <div class="OECT OECT_Content OECTAbs OEDynTag0">
+                   <div id="WE676219e915" class="BaseDiv RBoth OEWECadre OESK_WECadre_Default" style="z-index:3">
+                    <div class="OESZ OESZ_DivContent OESZG_WE676219e915">
+                     <div class="OESZ OESZ_Top OESZG_WE676219e915"></div>
+                     <div class="OESZ OESZ_Content OESZG_WE676219e915"></div>
+                     <div class="OESZ OESZ_Bottom OESZG_WE676219e915"></div>
+                    </div>
+                   </div>
+                   <div id="WEf9294c0df1" class="BaseDiv RKeepRatio OEWEImage OESK_WEImage_Default" style="z-index:2">
+                    <div class="OESZ OESZ_DivContent OESZG_WEf9294c0df1">
+                     <img src="WEFiles/Image/WEImage/g3311-WE59cb64135a.png" class="OESZ OESZ_Img OESZG_WEf9294c0df1" alt="" />
+                    </div>
+                   </div>
+                   <div id="WEca25aaf8c5" class="BaseDiv RWidth OEWELabel OESK_WELabel_Default" style="z-index:1">
+                    <div class="OESZ OESZ_DivContent OESZG_WEca25aaf8c5">
+                     <span class="OESZ OESZ_Text OESZG_WEca25aaf8c5 ContentBox">Revenue Streams</span>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script type="text/javascript">
+   const containers = document.querySelectorAll('.block');
+   
+   const droppable = new Draggable.Sortable(containers, { //Draggable.Droppable(containers, {
+   
+   draggable: '.draggable',
+   dropzone: '.droppable' // droppable / dropzone
+   });
+   
+   
+   
+   
+   function setCursorByID(id,cursorStyle) {
+    var elem;
+    if (document.getElementById &&
+       (elem=document.getElementById(id)) ) {
+     if (elem.style) elem.style.cursor=cursorStyle;
+    }
+   }
+  </script>
+ </body>
+</html>
