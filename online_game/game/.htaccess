@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteRule ^admin?$ admin.php
+#RewriteRule ^admin/([a-z0-9\-]+)/([a-z0-9\-]+)/([a-z0-9\-]+) admin.php?id=$1&section=$2&action=$3 [L]
+RewriteRule ^([0-9\-]+)_([a-z0-9\-]+) Administrador.php?id=$1&lang=$2 [L]
+RewriteRule ^_([a-zA-Z0-9\-]+) game.php?id=$1 [L]
+</IfModule>
