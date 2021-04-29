@@ -1,0 +1,6 @@
+ElementosInstanciables =
+
+{
+    "TarjetaEnCambas":"",
+    "Banderin":"",
+}

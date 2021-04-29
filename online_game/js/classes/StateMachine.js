@@ -78,6 +78,7 @@ class StateMachine {
             DataControlGame.IdPartidaActiva.SprintAct = DataControlGame.RealtimeData[1][0].Sprint;
             console.log("Cambio Sprint")
             this.MenuBarControl.CartelSprint("", "", "", "", "");
+            TiempoControl.StartCrono();
             
         }
 

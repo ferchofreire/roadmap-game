@@ -136,6 +136,16 @@ switch($goto){
 
     break;
 
+    case "resetTime": 
+
+        $conn->HeadersJson();
+        
+        RunningGame::resetTime(
+            $conn->conn()
+        );
+
+    break;
+
 
     case "setForcPort":
 

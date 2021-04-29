@@ -26,7 +26,8 @@ class Cronometro{
     RunningCheck(){
 
     	this.Look = false;
-	    this.MenuBarControl.MenuCartasDisponibles(true);
+        this.MenuBarControl.MenuCartasDisponibles(true);
+        this.MenuBarControl.AnimacionRunners(true);
 	
 	    clearInterval(this.TimeOutCheckPoint)
 	    this.TransursoCheckPoint = numeral(this.CheckPoint.hasta);
@@ -34,7 +35,7 @@ class Cronometro{
          this.TimeOutCheckPoint = setInterval(()=>{
                 
                     this.TransursoCheckPoint.subtract(1);
-                    this.MenuBarControl.TimeViewer.children[0].children[0].children[1].innerText = TransursoCheckPoint.format('00:00:00')
+                    this.MenuBarControl.TimeViewer.children[0].children[0].children[1].innerText = this.TransursoCheckPoint.format('00:00:00')
                 
                     if (this.DataControl.RealtimeData[1][0].confirmacion != "ok") {
 
@@ -46,22 +47,22 @@ class Cronometro{
                         clearInterval(this.TimeOutCheckPoint)
                         this.TransursoCheckPoint = "";
                         this.Look = true;
-                        MenuBarControl.Menu();
-                        MenuBarControl.MenuCartasDisponibles(false);
+                        this.MenuBarControl.Menu();
+                        this.MenuBarControl.MenuCartasDisponibles(false);
 
                         //VariableCompetitiva = 0
 
-                        MenuBarControl.AnimacionRunners(false); // quita animacion mini runners;
+                        this.MenuBarControl.AnimacionRunners(false); // quita animacion mini runners;
 
 
-                        fetch('../conf_save.php?f=resetTime&id='+this.Grupo);
+                        fetch('../back/routes.php?f=resetTime&id='+this.Partida);
                         // (parseInt(IdPartidaActiva.SprintAct) + 1).toString();
                         fetch("../back/routes.php?f=ConfirmarCanvas&g="+this.Grupo+"&p="+this.Partida+"&s="+this.DataControl.IdPartidaActiva.SprintAct)
                         
                         
-                        if (this.DataControl.IdPartidaActiva.maxsprints == IdPartidaActiva.SprintAct){
+                        if (this.DataControl.IdPartidaActiva.maxsprints == this.DataControl.IdPartidaActiva.SprintAct){
                             console.log("Partida Terminada");
-                            CargarTabla();
+                            //CargarTabla();
 
                             setTimeout(()=>{
 
@@ -75,9 +76,9 @@ class Cronometro{
                                 Winner.setAttribute("style", "z-index:5000;visibility:visible")
 
                                 VariableCompetitiva = 0;
-                                EstadosResultado(game_cards);
+                                //EstadosResultado(game_cards);
                                 
-                            pn(1);
+                            //pn(1);
                             
                         } else {
                             //EstadosResultado(game_cards);
@@ -92,13 +93,13 @@ class Cronometro{
         }
 
     StartCrono(){
-        a = numeral(DataControlGame.IdPartidaActiva.tm_desde)
-		b = numeral(DataControlGame.IdPartidaActiva.tm_hasta)
+        var a = numeral(DataControlGame.IdPartidaActiva.tm_desde)
+		var b = numeral(DataControlGame.IdPartidaActiva.tm_hasta)
 		
 			if (a._value < b._value){
 
 				b.subtract(a._value)
-				CheckPoint.hasta = b.format("00:00:00");
+				this.CheckPoint.hasta = b.format("00:00:00");
 				this.RunningCheck();
 				
 			}

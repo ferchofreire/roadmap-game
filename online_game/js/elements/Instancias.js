@@ -179,17 +179,12 @@ PreguntaOK = new PopUpPregunta(
 
 // State Machine
 
-    EstadoGeneral = new StateMachine(
+    StateMachine = new StateMachine(
       DataControlGame,
       MenuBar
   );
 
 // Sistema de Sincronización:
-
-Sync = new Sincronizacion(
-  DataControlGame,
-  EstadoGeneral
-  );
 
 TiempoControl = new Cronometro(
 
@@ -199,4 +194,11 @@ TiempoControl = new Cronometro(
     DataControlGame
     
     );
+
+    Sync = new Sincronizacion(
+      DataControlGame,
+      StateMachine,
+      TiempoControl,
+      MenuBar
+      );
 

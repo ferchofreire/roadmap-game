@@ -13,6 +13,8 @@ $conn = new Conexion("../back/conexion.json");
 
 $LangBase = new Language("../lang/", "base");
 
+$leyendaSprints = new Language("../lang/", "LeyendaSprints");
+
 ?>
 
 <!DOCTYPE HTML>
@@ -392,15 +394,51 @@ how to remove the virtical space around the range input in IE*/
   
   
   <?php
-  	$IDGet = $_GET['id'];
 
+  // Carga de Opciones desde PHP;
+
+
+  // Sprints
+
+  $SprintsColors = [];
+  $SprintsTipoSprits = [];
+  $SprintsTipoCards = [];
+  $SprintsLeyendas = [];
+
+  $Sprint_SQL = "SELECT num, color, TipoSprint, TipoCard FROM static_sprints ORDER BY num";
+  $Qspr = mysqli_query($conn->conn(), $Sprint_SQL);
+    if ($Qspr){
+      while ($spr = mysqli_fetch_assoc($Qspr)){
+
+        array_push($SprintsColors, $spr['color']);
+        array_push($SprintsTipoSprits, $spr['TipoSprint']);
+        array_push($SprintsTipoCards, $spr['TipoCard']);
+        array_push($SprintsLeyendas, $leyendaSprints->getLabel($lang, $spr['num']));
+
+      }
+    } else {
+      echo '<option value="User Default" class="OESZ OESZ_Options OESZG_WE85e1e4be37" selected="selected">User Default</option>';
+    }
+
+  // ID
+  $IDGet = $_GET['id'];
+
+    // Descompresion Grupo y Partida;
 	$t = base64_decode($IDGet);
 	$ts = explode("-", $t, 2);
 
+
+  // Pasando valores a JavaScript
 	echo '<script type="text/javascript">
 		_phpid = '.$ts[0].'
 		_partid = '.$ts[1].'
     _lang = "'.$lang.'";
+
+    _SprintColor = '.json_encode($SprintsColors).';
+    _SprintsTipo =  '.json_encode($SprintsTipoSprits).';
+    _CardsTipo =  '.json_encode($SprintsTipoCards).';
+    _SprintLeyenda = '.json_encode($SprintsLeyendas).';
+    
 	</script>';
 
   ?>

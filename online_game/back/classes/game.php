@@ -260,6 +260,14 @@ class RunningGame {
         
 
     }
+
+    public static function resetTime($conn){
+
+        $id = $_GET['id'];
+        $Sql = "UPDATE `dinamic_partidas` SET `timestamp`='00:00:00' WHERE  `id`=".$id.";";
+        mysqli_query($conn, $Sql);
+        
+    }
 }
 
 ?>

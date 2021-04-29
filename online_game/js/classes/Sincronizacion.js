@@ -24,12 +24,15 @@ class Sincronizacion{
     ObjDataControl;
     EventSync;
     StateMachineControl;
+    Cronometro;
+    MenuControl;
 
-    constructor(_DataControl, _StateMachineControl){
+    constructor(_DataControl, _StateMachineControl, _Cronometro, _MenuControl){
 
-        this.ObjDataControl = _DataControl;
-        this.StateMachineControl = _StateMachineControl;
-
+        this.ObjDataControl = _DataControl
+        this.StateMachineControl = _StateMachineControl
+        this.Cronometro = _Cronometro;
+        this.MenuControl = _MenuControl;
 
         // Bajamos las Primeras Cartas:
 
@@ -47,13 +50,13 @@ class Sincronizacion{
             this.ObjDataControl.Sprint = parseInt(IdPartidaActiva.SprintAct);
             BasePanel(0);
 
-            this.TickSincro ();
-            TiempoControl.StartCrono()
+            this.TickSincro (this.StateMachineControl, this.ObjDataControl);
+            this.Cronometro.StartCrono() // Start Crono
 
         })
     }
 
-    TickSincro () {
+    TickSincro (_statemachine, _datacontrol) {
 
             // Tick de Sincronización de Cartas:
             
@@ -61,26 +64,15 @@ class Sincronizacion{
 
                 this.EventSync.onmessage = function(event) {
             
-                DataControlGame.RealtimeData = JSON.parse(event.data);
-                DataControlGame.IdPartidaActiva.tm_desde = DataControlGame.RealtimeData[2].desde
-                DataControlGame.IdPartidaActiva.tm_hasta = DataControlGame.RealtimeData[2].hasta
-        
+                    _datacontrol.RealtimeData = JSON.parse(event.data);
+                    _datacontrol.IdPartidaActiva.tm_desde = _datacontrol.RealtimeData[2].desde
+                    _datacontrol.IdPartidaActiva.tm_hasta = _datacontrol.RealtimeData[2].hasta
+                    
             // Actualizamos Cartas:
 
                //CanvasHandler.ActualziarCards();
 
-               EstadoGeneral.CheckSprints();
-
-
-               //DataControlGame.IdPartidaActiva.SprintAct = DataControlGame.RealtimeData[1][0].Sprint
-               
-               /*if (Sprint != parseInt(RealtimeData[1][0].Sprint))
-               {
-                   Sprint = 	RealtimeData[1][0].Sprint;
-                   console.log("Cambio Sprint")
-                   SprintStates();
-               
-               }*/
+               _statemachine.CheckSprints();
 
         }
     

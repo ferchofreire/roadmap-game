@@ -58,7 +58,7 @@ class UserAvatarSelector{
                 if(parseInt(IdPartidaActiva.SprintAct) == 0){
                     SeccionDashBoard.Activar();// pn(2);
                 } else {
-                    SeccionCanvas.Activar()(); //pn(1);
+                    SeccionCanvas.Activar(); //pn(1);
                 }
 
                 })
