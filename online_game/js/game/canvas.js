@@ -286,7 +286,7 @@ resizeObserver.observe(Canvas);
 function BajarContenido(id) {
     
     
-    fetch('../cards.php?f=contenido&lang=-es&id='+id, {
+    fetch('../back/routes.php?f=CardContenido&lang=-es&id='+id, {
      
     })
     
@@ -326,7 +326,7 @@ TickRealtime = () => {
     
     // CONECTANDO (0), ABIERTO (1), o CERRADO (2). ActCards.readyState
     // 
-    ActCards = new EventSource("../realtime-canvas.php?f=tick&p="+_partid+"&g="+_phpid);
+    ActCards = new EventSource("../back/routes.php?f=tick&p="+_partid+"&g="+_phpid);
         ActCards.onmessage = function(event) {
             
     
@@ -456,7 +456,7 @@ ChangeCardServer = (pr) =>{
     
     
     
-    fetch('../realtime-canvas.php?f=SetCanvas&p='+_partid, {
+    fetch('../back/routes.php?f=SendCanvas&p='+_partid, {
       method: 'POST',
       body: data
     })

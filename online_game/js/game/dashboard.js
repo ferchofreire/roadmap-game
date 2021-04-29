@@ -1,4 +1,4 @@
-Pantalla = 2;
+ Pantalla = 2;
  VariableCompetitiva = 1;
 
 
@@ -664,7 +664,7 @@ Pantalla = 2;
 
 	Puntaje = numeral(p).format("0");
 
-	fetch("../conf_save.php?f=setpuntaje&id="+_phpid+"&cns=+"+Puntaje, {
+	fetch("../back/routes.php?f=SetPuntaje&id="+_phpid+"&cns=+"+Puntaje, {
 
 	}).then(response => response.json())
 	.then(data => { 
@@ -694,7 +694,7 @@ Pantalla = 2;
 	var data = new FormData()
     data.append('forces', JSON.stringify(SendForc))
 
-	fetch('../conf_save.php?f=setForcPort&p='+_partid+'&g='+_phpid, {
+	fetch('../back/routes.php?f=setForcePort&p='+_partid+'&g='+_phpid, {
 		method: 'POST',
 		body: data
 	  }).then(response => response.json())
@@ -731,7 +731,7 @@ Pantalla = 2;
 
    document.getElementById('WE60794dcfe8').style.visibility = "hidden";
    
-   CartasDisponibles(false);
+   MenuBar.MenuCartasDisponibles(false);
    
    RunEstados()
    

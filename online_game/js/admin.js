@@ -820,11 +820,11 @@ const FondoFlotante = document.getElementById("WEb3fedc9296");
    
    ;
    const serv_xlsx = '../xlsx_players.php?f=ok"';
-   const serv_cards_rand = '../cards.php?f=designar';
-   const serv_conf_save = '../conf_save.php?f=save&id=';
-   const serv_conf_carg = '../conf_save.php?f=load&id=';
-   const serv_nuevPart = '../conf_save.php?f=partidas&o=';
-   const serv_cont_tiempo = '../realtime-canvas.php?f=Get_Timestamp&p=';
+   const serv_cards_rand = '../back/routes.php?f=CardDesignar';
+   const serv_conf_save = '../back/routes.php?f=GuardarPartida&id=';
+   const serv_conf_carg = '../back/routes.php?f=CargarPartida&id=';
+   const serv_nuevPart = '../back/routes.php?f=SetupPartidas&o=';
+   const serv_cont_tiempo = '../back/routes.php?f=getTimestamp&p=';
    
    
    ProcesarXLSX = () => {
@@ -1370,7 +1370,7 @@ const FondoFlotante = document.getElementById("WEb3fedc9296");
    	
    	Spr = SprinrVig.value
    	
-   	fetch("../realtime-canvas.php?f=Set_Timestamp&p="+_phpid+"&t="+Tiemp+"&sp="+Spr)
+   	fetch("../back/routes.php?f=setTimestamp&p="+_phpid+"&t="+Tiemp+"&sp="+Spr)
    	
    	.then(response => response.json())
      	.then(data => {

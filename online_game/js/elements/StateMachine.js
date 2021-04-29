@@ -1,0 +1,3 @@
+EstadoGeneral = new StateMachine(
+    ""
+);

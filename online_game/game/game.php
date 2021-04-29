@@ -1,15 +1,18 @@
 <?php
-session_start();
+include "../back/classes/loggin.php";
+include "../back/classes/lang.php";
 
-  if ($_SESSION['pg'] == "gme"){
-    $lang = $_SESSION['lang'];
-    $canvas = $_SESSION['canvas'];
-    $lang = $_SESSION['lang'];
-    $nameuser = $_SESSION["nme_usr"];
-    $nameIco = $_SESSION["nme_ic"];
-  } else {
-    header("location: ../loggin");
-  }
+$Arr = Conexion::SessionChequed("game");
+
+        $lang = $Arr['lang'];
+        $canvas = $Arr['canvas'];
+        $nameuser = $Arr['nameuser'];
+        $nameIco = $Arr['nameIco'];
+
+$conn = new Conexion("../back/conexion.json");
+
+$LangBase = new Language("../lang/", "base");
+
 ?>
 
 <!DOCTYPE HTML>
@@ -27,6 +30,10 @@ session_start();
   <link id="OEBase" rel="stylesheet" type="text/css" href="partida.css?v=50491112400" />
   <link id="OEBase" rel="stylesheet" type="text/css" href="Canvas.css?v=50491112400" />
   <link id="OEBase" rel="stylesheet" type="text/css" href="Dashboard.css?v=50491112400" />
+
+  <link id="OEBase" rel="stylesheet" type="text/css" href="PopUpCentral.css?v=50491112400" />
+  <link id="OEBase" rel="stylesheet" type="text/css" href="Preguntas.css?v=50491112400" />
+  <link id="OEBase" rel="stylesheet" type="text/css" href="NewCards.css?v=50491112400" />
 
   <!--[if lte IE 7]>
   <link rel="stylesheet" type="text/css" href="WEFiles/Css/ie7.css?v=50491112400" />
@@ -387,7 +394,6 @@ how to remove the virtical space around the range input in IE*/
   <?php
   	$IDGet = $_GET['id'];
 
-
 	$t = base64_decode($IDGet);
 	$ts = explode("-", $t, 2);
 
@@ -396,7 +402,6 @@ how to remove the virtical space around the range input in IE*/
 		_partid = '.$ts[1].'
     _lang = "'.$lang.'";
 	</script>';
-
 
   ?>
   <?php
@@ -407,131 +412,7 @@ how to remove the virtical space around the range input in IE*/
   	if (isset($oeStartBodyInlineCode)) echo $oeStartBodyInlineCode;
   ?>
   <form id="XForm" method="post" action="#"></form>
-<script type="text/javascript">
-  
-  function pn(i) {
 
-    document.getElementById("pan_champ").style.display="none";
-    document.getElementById("pan_canvas").style.display="none";
-    document.getElementById("pan_dashboard").style.display="none";
-    clearInterval(Passarela)
-
-    
-		switch(i){
-		 case 0:
-      //document.getElementById("XBody").setAttribute("style", 'background-image:url("../Images/fondo_chmp.png")');
-      document.getElementById("pan_champ").style.display="initial";
-      CartasDisponibles(false);
-      Menu();
-      BasePanel(1);
-      CargarTabla();
-      ReposManual();
-      Pantalla = 0
-      document.getElementById('WE60794dcfe8').style.visibility = "hidden";
-		 break;
-		 case 1:
-      //document.getElementById("XBody").setAttribute("style", 'background-image:url("../Images/fondo.jpg")');
-      document.getElementById("pan_canvas").style.display="initial";
-      
-      Menu();
-      document.getElementById('WE60794dcfe8').style.visibility = "visible";
-
-      sendconfirm = () =>{
-
-          console.log("confirmacion");
-
-          fetch("../realtime-canvas.php?f=confirm&g="+_phpid+"&p="+_partid+"&s="+IdPartidaActiva.SprintAct)
-            .then(response => response.json())
-            .then(data => {
-              BasePanel(0);
-              MiniRunners.style.display = "none"; // quita animacion mini runners;
-            })
-          BasePanel(1)
-          Menu();
-          Look = true;
-          VariableCompetitiva = 0;
-        }
-
-        
-
-      if (IdPartidaActiva.SprintAct == 0){
-        Pantalla = 0
-      } else {
-        Pantalla = 1
-        document.getElementById("WEb3c772a596").children[0].children[0].href = "javascript:sendconfirm()";
-      }
-
-		 break;
-		 case 2:
-      //document.getElementById("pan_dashboard").style.display="initial";
-      //document.getElementById("XBody").setAttribute("style", 'background-image:url("../Images/fondo.jpg")');
-      Pantalla = 1
-      if(parseInt(IdPartidaActiva.SprintAct) > 0){
-        
-        if(parseInt(IdPartidaActiva.SprintAct) == 1 )
-         {
-           
-          if(RealtimeData[1][0].confirmacion != "no"){ // No procesa el dash si no se enviado el primer canvas
-
-          document.getElementById("pan_dashboard").style.display="initial";
-          EstadosResultado(game_cards);
-          Pantalla = 0} else {
-            Mensaje(true, "no ha enviado el Canvas");
-          }
-        
-        }
-
-        if(parseInt(IdPartidaActiva.SprintAct) > 1){
-          document.getElementById("pan_dashboard").style.display="initial";
-          EstadosResultado(game_cards);
-          Pantalla = 0
-        }
-
-
-        
-      } else {
-        document.getElementById("pan_dashboard").style.display="initial";
-        Pantalla = 1
-
-        document.getElementById("WEb3c772a596").children[0].children[0].href = "javascript:usersend()";
-
-        usersend = () =>{
-	        sendFdPorter();
-        }
-            // Cargamos Valores guardados
-                form = document.getElementsByName('factor1');
-                txt = document.getElementsByName('WE7e6b2544b9')[0];
-                ordenA = [null, null, null, 15,16,17,18,19,5,6,7,8,9,20,10,11,12,13,14,0,1,2,3,4,5,21,22,23,24]
-                ordenB = [null, null, null, "1_scale","1_experience","1_capital","1_reputation","1_distribution","2_size_supliers","2_price_sesibilities","2_technicalcost","2_brandcost","2_abilityintegrate","3_availabiliti","4_effectivecompetitors","4_market","4_diferentation","4_strategicstackes","4_protectstackes","5_sizecostumers","5_pricesesibilities","5_thecnicalcost","5_brandcost","5_abilityintegrate","6_impactchanges","7_relations","8_others", null]
-
-                if (RealtimeData[3][0] != undefined) { 
-                  for (i=0; i<ordenB.length; i++){
-                      if (ordenA[i] != null){
-                        form[ordenA[i]].value = RealtimeData[3][0][ordenB[i]]
-                      }
-                  }
-                  txt.value = RealtimeData[3][0]['txt_8'];
-              }
-                
-        
-
-      }
-      
-
-      Menu();
-      RunEstados();
-      VistasPaneles(0);
-
-      document.getElementById('WE60794dcfe8').style.visibility = "hidden";
-
-		 break;
-		}
-    console.log("'.$IDGet.'")
-    
-    
-  }
-
-</script>
 <script type="text/javascript" src="../js/game/base-head.js"></script>
 <div id="XBody" class="BaseDiv RBoth OEPageXbody OESK_XBody_Default" style="z-index:1000">
    
@@ -539,13 +420,13 @@ how to remove the virtical space around the range input in IE*/
     <div class="OESZ OESZ_XBodyContent OESZG_XBody OECT OECT_Content OECTAbs">
 
 
-     <?php include "lang/base".$lang .".nyx"?>
+     <?php include "scaffold/base.php"?>
 
 
      <!-- Canvas -->
      <section id="pan_canvas" style="display:none">
 
-      <?php include "lang/canvas-es.nyx" ?>
+      <?php include "scaffold/canvas.php" ?>
 
      </section>
 
@@ -553,7 +434,7 @@ how to remove the virtical space around the range input in IE*/
 
     <section id="pan_dashboard" style="display:none">
 
-      <?php include "lang/dash-es.nyx" ?>
+      <?php include "scaffold/dashboard.php" ?>
 
     </section>
 
@@ -561,78 +442,237 @@ how to remove the virtical space around the range input in IE*/
 
     <section id="pan_champ" style="display:none">
 
-      <?php include "lang/champ-es.nyx" ?>
+      <?php include "scaffold/puntajes.php" ?>
 
     </section>
 
 
      <!-- FIN -->
+
+
+    <!-- PoPUP Mensajes -->
+
+    <div id="WE64fcc6f953" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default OECenterAB" style="display:none;z-index:60000;position:fixed">
+      <div class="OESZ OESZ_DivContent OESZG_WE64fcc6f953">
+       <div class="OECT OECT_Content OECTAbs OEDynTag0">
+        
+        
+        <div id="WEab2dc61e90" class="BaseDiv RKeepRatio OEWEImage OESK_WEImage_Default" style="z-index:3; cursor:pointer">
+         <div class="OESZ OESZ_DivContent OESZG_WEab2dc61e90">
+          <img src="../Images/delete_big.png" class="OESZ OESZ_Img OESZG_WEab2dc61e90" alt="" />
+         </div>
+        </div>
+        <div id="WE277d29c3b4" class="BaseDiv RKeepRatio OEWEImage OESK_WEImage_Default" style="z-index:4">
+         <div class="OESZ OESZ_DivContent OESZG_WE277d29c3b4">
+          <img src="../Images/crdsicons-WE09b25afd20.png" class="OESZ OESZ_Img OESZG_WE277d29c3b4" alt="" />
+         </div>
+        </div>
+        <div id="WE7f8c02f4db" class="BaseDiv RNone OEWELabel OESK_WELabel_Default" style="z-index:1">
+         <div class="OESZ OESZ_DivContent OESZG_WE7f8c02f4db">
+          <span class="OESZ OESZ_Text OESZG_WE7f8c02f4db ContentBox">Titulo del PopUp</span>
+         </div>
+        </div>
+        <div id="WE5c2891c6f2" class="BaseDiv RWidth OEWEText OESK_WEText_Default" style="z-index:2">
+         <div class="OESZ OESZ_DivContent OESZG_WE5c2891c6f2">
+          <span class="ContentBox">Texto Multilinea<br />asda<br />asd<br />as<br />da<br />sda<br />sd<br />as<br />da<br />sd<br />a<br />sd<br />a<br /></span>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+
+     <!-- Preguntas -->
+     
+     <div id="WE0f83cfd343" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default OECenterAB" style="display:none;z-index:6000; position:fixed">
+      <div class="OESZ OESZ_DivContent OESZG_WE0f83cfd343">
+       <div class="OECT OECT_Content OECTAbs OEDynTag0">
+        <div id="WE0dcd0a8f58" class="BaseDiv RKeepRatio OEWEImage OESK_WEImage_Default" style="z-index:3">
+         <div class="OESZ OESZ_DivContent OESZG_WE0dcd0a8f58">
+          <img src="../Images/delete_big.png" class="OESZ OESZ_Img OESZG_WE0dcd0a8f58" alt="" />
+         </div>
+        </div>
+        <div id="WEd7adab14e7" class="BaseDiv RKeepRatio OEWEImage OESK_WEImage_Default" style="z-index:4">
+         <div class="OESZ OESZ_DivContent OESZG_WEd7adab14e7">
+          <img src="../Images/crdsicons-WE09b25afd20.png" class="OESZ OESZ_Img OESZG_WEd7adab14e7" alt="" />
+         </div>
+        </div>
+        <div id="WE3d48d8b0a7" class="BaseDiv RNone OEWELabel OESK_WELabel_Default" style="z-index:1">
+         <div class="OESZ OESZ_DivContent OESZG_WE3d48d8b0a7">
+          <span class="OESZ OESZ_Text OESZG_WE3d48d8b0a7 ContentBox">¿Está Seguro?</span>
+         </div>
+        </div>
+        <div id="WE7699421cb6" class="BaseDiv RWidth OEWEText OESK_WEText_Default" style="z-index:2">
+         <div class="OESZ OESZ_DivContent OESZG_WE7699421cb6">
+          <span class="ContentBox">¿Está seguro de enviar este Canvas?<br /></span>
+         </div>
+        </div>
+        <div id="WE0bd13cf539" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default  animate__animated animate__bounceInUp" style="z-index:5">
+         <div class="OESZ OESZ_DivContent OESZG_WE0bd13cf539">
+          <div class="OECT OECT_Content OECTAbs OEDynTag0">
+           <div id="WE08fa55da4a" class="BaseDiv RBoth OEWECadre OESK_WECadre_Default" style="z-index:1">
+            <div class="OESZ OESZ_DivContent OESZG_WE08fa55da4a">
+             <div class="OESZ OESZ_Top OESZG_WE08fa55da4a"></div>
+             <div class="OESZ OESZ_Content OESZG_WE08fa55da4a"></div>
+             <div class="OESZ OESZ_Bottom OESZG_WE08fa55da4a"></div>
+            </div>
+           </div>
+           <div id="WE08850e81de" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default OEGo" style="z-index:2;cursor:pointer" data-ot="OK" data-ot-delay="0.2" data-ot-background="#FFFFFF" data-ot-border-color="#FFFFFF" data-ot-target="true" data-ot-target-joint="top right" data-ot-tip-joint="bottom left">
+            <div class="OESZ OESZ_DivContent OESZG_WE08850e81de">
+             
+              <div class="OECT OECT_Content OECTAbs OEDynTag0">
+               <div id="WEffd7af9ab7" class="BaseDiv RKeepRatio OEWEImage OESK_WEImage_Default OECenterAH" style="z-index:1">
+                <div class="OESZ OESZ_DivContent OESZG_WEffd7af9ab7">
+                 <img src="../Images/send_ok-WE254353a11f.png" class="OESZ OESZ_Img OESZG_WEffd7af9ab7" alt="" />
+                </div>
+               </div>
+              </div>
+             
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div id="WE99d895ae48" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default  animate__animated animate__bounceInUp" style="z-index:6">
+         <div class="OESZ OESZ_DivContent OESZG_WE99d895ae48">
+          <div class="OECT OECT_Content OECTAbs OEDynTag0">
+           <div id="WE1616e48cab" class="BaseDiv RBoth OEWECadre OESK_WECadre_Default" style="z-index:1">
+            <div class="OESZ OESZ_DivContent OESZG_WE1616e48cab">
+             <div class="OESZ OESZ_Top OESZG_WE1616e48cab"></div>
+             <div class="OESZ OESZ_Content OESZG_WE1616e48cab"></div>
+             <div class="OESZ OESZ_Bottom OESZG_WE1616e48cab"></div>
+            </div>
+           </div>
+           <div id="WE6e79edc9db" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default OEGo" style="z-index:2;cursor:pointer" data-ot="Cancel" data-ot-delay="0.2" data-ot-background="#FFFFFF" data-ot-border-color="#FFFFFF" data-ot-target="true" data-ot-target-joint="top right" data-ot-tip-joint="bottom left">
+            <div class="OESZ OESZ_DivContent OESZG_WE6e79edc9db">
+             
+              <div class="OECT OECT_Content OECTAbs OEDynTag0">
+               <div id="WE9a6b2e7475" class="BaseDiv RKeepRatio OEWEImage OESK_WEImage_Default OECenterAH" style="z-index:1">
+                <div class="OESZ OESZ_DivContent OESZG_WE9a6b2e7475">
+                 <img src="../Images/DeleteCard.png" class="OESZ OESZ_Img OESZG_WE9a6b2e7475" alt="" />
+                </div>
+               </div>
+              </div>
+             
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+
+
+     <!-- GAMECARDS -->
+
+
+     <style>
+     .rotate-diagonal-1{-webkit-animation:rotate-diagonal-1 .4s linear both;animation:rotate-diagonal-1 .4s linear both}
+     @-webkit-keyframes rotate-diagonal-1{0%{-webkit-transform:rotate3d(1,1,0,0deg);transform:rotate3d(1,1,0,0deg)}50%{-webkit-transform:rotate3d(1,1,0,-180deg);transform:rotate3d(1,1,0,-180deg)}100%{-webkit-transform:rotate3d(1,1,0,-360deg);transform:rotate3d(1,1,0,-360deg)}}@keyframes rotate-diagonal-1{0%{-webkit-transform:rotate3d(1,1,0,0deg);transform:rotate3d(1,1,0,0deg)}50%{-webkit-transform:rotate3d(1,1,0,-180deg);transform:rotate3d(1,1,0,-180deg)}100%{-webkit-transform:rotate3d(1,1,0,-360deg);transform:rotate3d(1,1,0,-360deg)}}
+
+     </style>
+
+      <!--URL BACKGROUND ../Images/CardBgAdd.png -->
+
+  <div id="GameCardsView" style="display:none">
+     <div id="WE84c74bf340" class="BaseDiv RBoth OEWECadre OESK_WECadre_Default OECenterAB" style="z-index:6000;position:fixed">
+      <div class="OESZ OESZ_DivContent OESZG_WE84c74bf340">
+       <div class="OESZ OESZ_Top OESZG_WE84c74bf340"></div>
+       <div class="OESZ OESZ_Content OESZG_WE84c74bf340"></div>
+       <div class="OESZ OESZ_Bottom OESZG_WE84c74bf340"></div>
+      </div>
+     </div>
+     <div id="WE71600d3c3c" class="BaseDiv RBoth OEWECadre OESK_WECadre_Default OECenterAB" style="z-index:6000;position:fixed">
+      <div class="OESZ OESZ_DivContent OESZG_WE71600d3c3c">
+       <div class="OESZ OESZ_Top OESZG_WE71600d3c3c"></div>
+       <div class="OESZ OESZ_Content OESZG_WE71600d3c3c"></div>
+       <div class="OESZ OESZ_Bottom OESZG_WE71600d3c3c"></div>
+      </div>
+     </div>
+     <div id="WEbb2aaf8d1e" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default OECenterAB rotate-diagonal-1" style="z-index:6000;position:fixed">
+      <div class="OESZ OESZ_DivContent OESZG_WEbb2aaf8d1e">
+       <div class="OECT OECT_Content OECTAbs OEDynTag0">
+        <div id="WE40318174b2" class="BaseDiv RWidth OEWEText OESK_WEText_Default" style="z-index:1">
+         <div class="OESZ OESZ_DivContent OESZG_WE40318174b2">
+          <span class="ContentBox">My multi-line text</span>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div id="WEac05ca20ff" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default OECenterAB" style="z-index:3;position:fixed">
+      <div class="OESZ OESZ_DivContent OESZG_WEac05ca20ff">
+       <div class="OECT OECT_Content OECTAbs OEDynTag0">
+        <div id="WE7910722f1d" class="BaseDiv RKeepRatio OEWEImage OESK_WEImage_Default" style="z-index:1">
+         <div class="OESZ OESZ_DivContent OESZG_WE7910722f1d">
+          <img src="../Images/rotation.png" class="OESZ OESZ_Img OESZG_WE7910722f1d" alt="" />
+         </div>
+        </div>
+        <div id="WEb4ee765f82" class="BaseDiv RKeepRatio OEWEImage OESK_WEImage_Default" style="z-index:2">
+         <div class="OESZ OESZ_DivContent OESZG_WEb4ee765f82">
+          <img src="../Images/rotation.png" class="OESZ OESZ_Img OESZG_WEb4ee765f82" alt="" />
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+</div>
+
+
+     <!-- FIN EMERGENTES -->
+
+
+
+
+
     </div>
    </div>
   </div>
 
-  <script type="text/javascript">
 
-    
 
-    init = <?php 
-    
-    if ($nameuser == ""){
-      echo "true";
-    } else {
-      echo "false";
-    }
-    
-    ?>;  
-  </script>
+  <!-- JAVASCRIPTS NUEVOS-->
+
+<script type="text/javascript" src="../js/classes/Secciones.js"></script>
+<script type="text/javascript" src="../js/classes/MenuControl.js"></script>
+<script type="text/javascript" src="../js/classes/AvatarSelector.js"></script>
+<script type="text/javascript" src="../js/classes/Notification.js"></script>
+<script type="text/javascript" src="../js/classes/Sincronizacion.js"></script>
+<script type="text/javascript" src="../js/classes/Cronometro.js"></script>
+<script type="text/javascript" src="../js/classes/StateMachine.js"></script>
+
+
+<script type="text/javascript" src="../js/elements/Instancias.js"></script>
+
+
+<script type="text/javascript">
+
+<?php 
+
+  if ($nameuser != ""){
+    echo '
+    NameUser = "'.$nameuser.'";
+    AvatarID = '.$nameIco.';';
+  }
+  else {
+    echo '
+    NameUser = null;
+    AvatarID = null;';
+  }
+
+ ?>
+
+</script>
+
+
+<!-- JAVASCRIPTS VIEJOS-->
 
   <script type="text/javascript" src="../js/game/base.js"></script>
-  <Script type="text/javascript" src="../js/game/canvas.js"> </Script>
-  <Script type="text/javascript" src="../js/game/competencia.js"> </Script>
-  <script type="text/javascript" src="../js/game/dashboard.js"></script>
+  <!--  <Script type="text/javascript" src="../js/game/canvas.js"> </Script> -->
+  <!-- <Script type="text/javascript" src="../js/game/competencia.js"> </Script> -->
+  <!-- <script type="text/javascript" src="../js/game/dashboard.js"></script> -->
 
-  <script>
-
-    <?php 
-
-    if ($nameuser != ""){
-
-      echo '
-    avtSlct = '.$nameIco.';
-    ico = document.getElementById(\'WE95f488f8df\').children[0].children[0]
-    selIco = document.getElementById(Avatars[avtSlct]).children[0].children[0].children[0]
-    Nmb = document.getElementById(\'WE3ddb4ed614\').children[0].children[0]
-        
-    ico.src = selIco.src;
-    Nmb.innerText = ("'.$nameuser.'").slice(0, 23);
-    
-    if(IdPartidaActiva.SprintAct == 0){
-      pn(2);
-  } else {
-      pn(1);
-  }
-  
-  ';
-    }
-    ?>
-    
-    
-    
-    Icon = ["../Images/G1-WE2164b83b07.png", "../Images/G_2-WE97b04467a0.png",
-
-"../Images/G_3-WE6f1f3ba49f.png",
-"../Images/G_4-WE1c0a0e1467.png ",
-"../Images/G_5-WE24adfee543.png ",
-"../Images/G_6-WEbb596c0c0d.png",
-"../Images/G7-WE7489823c1b.png",]
-
-document.getElementById("WEe8b6c17e09").children[0].children[0].src = "../Images/"+Icon[_phpid];
-
-
-document.getElementById("WEf07cd3261e").children[0].children[0].innerText = SprintTypeCards[Sprint-1];
-
-
-  </script>
+  <script type="text/javascript" src="../js/elements/AvatarSelector.js"></script>;
 
  </body>
 </html>

@@ -1,0 +1,6 @@
+{
+  "server":"localhost",
+  "database":"roadmap_game",
+  "user":"root",
+  "pass":"root"
+}

@@ -1,0 +1,23 @@
+{
+    "es": [
+        "Grupo",
+        "Contraseña",
+        "Idioma",
+        "Ingresar",
+        "Clave Incorrecta"
+    ],
+    "en": [
+        "Group",
+        "Password",
+        "Language",
+        "Enter",
+        "Incorrect password"
+    ],
+    "pr": [
+        "Grupo",
+        "Senha",
+        "Língua",
+        "Entrar",
+        "Senha incorreta"
+    ]
+}

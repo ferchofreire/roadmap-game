@@ -68,7 +68,7 @@ var data = new FormData()
     data.append('lang', lang_op)
     
 
-    fetch('sessions.php', {
+    fetch('back/routes.php?f=login', {
       method: 'POST',
       body: data
     })

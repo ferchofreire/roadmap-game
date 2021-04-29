@@ -1,0 +1,7 @@
+class CardView {
+
+}
+
+class Card {
+
+}

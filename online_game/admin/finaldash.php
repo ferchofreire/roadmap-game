@@ -1040,7 +1040,7 @@ function CartasDisponibles(id){
             </div>
            </div>
           </div>
-         </div><div id="WEfe06e45750" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default" style="z-index:9">
+         <!--</div><div id="WEfe06e45750" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default" style="z-index:9">
           <div class="OESZ OESZ_DivContent OESZG_WEfe06e45750">
            <div class="OECT OECT_Content OECTAbs OEDynTag0">
             <div id="WE602c732998" class="BaseDiv RWidth OEWELabel OESK_WELabel_Default OECenterAH" style="z-index:1">
@@ -1065,7 +1065,7 @@ function CartasDisponibles(id){
             </div>
            </div>
           </div>
-         </div>
+         </div>-->
         </div>
         <div class="OERelLine OEHAlignL OEVAlignB">
          <div id="WEf6de101ed8" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default" style="z-index:8">

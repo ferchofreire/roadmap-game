@@ -323,10 +323,10 @@ ImprimirCards();
 
 ;
 
-const serv_cards = '../cards.php?f=listar';
+const serv_cards = "../back/routes.php?f=CardListar";
 //const serv_conf_save = 'http://localhost/roadmap_game/conf_save.php?f=save';
-const serv_content_cargCards = '../cards.php?f=contenido&lang=-all&id=';
-const serv_save_Cardscntn = '../cards.php?f=savecontent&id=';
+const serv_content_cargCards = '../back/routes.php?f=CardContenido&lang=-all&id=';
+const serv_save_Cardscntn = '../back/routes.php?f=CardSaveContent&id=';
 
 var editID = "n";
 var lang = "es";
@@ -439,10 +439,9 @@ GuardarCambios = () => {
         
         console.log(data)
         
-        if (data[0].status == "OK"){
+        if (data[0].status == "ok"){
             _BtnGuardarCambios.style.visibility = "hidden";
             Panel(0);
-            this.location.reload(true);
         
         }
         // Respuesta;

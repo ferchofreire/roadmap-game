@@ -1,15 +1,20 @@
 <?php
 
-session_start();
-if ($_SESSION['pg'] == "adm"){
-  header("location: admin/".$_SESSION['initPart']);
-} else {
-  if ($_SESSION['pg'] == "gme"){
-    header("location: game/_".$_SESSION['url']);
-  }
-}
+mb_internal_encoding('UTF-8');
+mb_http_output('UTF-8');
+
+
+include "back/classes/loggin.php";
+include "back/classes/lang.php";
+
+$LangGalery = new Language("lang/", "loggin");
+
+$conn = new Conexion("back/conexion.json");
+
+$conn->SessionChequed("loggin");
 
 ?>
+
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="es">
  <head>
@@ -27,6 +32,12 @@ if ($_SESSION['pg'] == "adm"){
   </script>
   <script type="text/javascript" src="plugins/1.10.2.js?v=50491112400"></script>
   <script type="text/javascript" src="plugins/oe.min.js?v=50491112400"></script>
+  
+
+  <script type="text/javascript" src="js/lang.js">
+    
+  </script>
+
   <style id="OEScriptManager" type="text/css">
    .wobble-hor-top{-webkit-animation:wobble-hor-top .8s both;animation:wobble-hor-top .8s both}
    
@@ -43,7 +54,7 @@ if ($_SESSION['pg'] == "adm"){
   
   <?php
 
-include "conex.php";
+
 	
 $listargrupos = false;
 $err = false;
@@ -51,7 +62,7 @@ $err = false;
 
 //$SQL_Partida_CHEK = "SELECT id, nombre, lang FROM dinamic_partidas WHERE fecha_inicio < NOW() AND fecha_fin > NOW() AND Estado = 1 LIMIT 1";
 $SQL_Partida_CHEK = "SELECT id, nombre, lang FROM dinamic_partidas WHERE date(fecha_inicio) < NOW() AND date(fecha_fin) > (NOW() - INTERVAL 1 DAY) AND Estado = 1 LIMIT 1";
-  $checkpartida = mysqli_query($conn, $SQL_Partida_CHEK);
+  $checkpartida = mysqli_query($conn->conn(), $SQL_Partida_CHEK);
   $EstadoPartida = mysqli_num_rows($checkpartida);
   $lang = "-es";
  
@@ -76,7 +87,7 @@ $SQL_Partida_CHEK = "SELECT id, nombre, lang FROM dinamic_partidas WHERE date(fe
                  AND Din.id_partida = ".$idPartidaActiva."
                  ";
 
-               $equiposactivos = mysqli_query($conn, $SQLEQ);
+               $equiposactivos = mysqli_query($conn->conn(), $SQLEQ);
 
                if ($equiposactivos){
 				   
@@ -100,7 +111,8 @@ $SQL_Partida_CHEK = "SELECT id, nombre, lang FROM dinamic_partidas WHERE date(fe
   ?>
 
   <script type="text/javascript">
-   function err(){
+
+  function err(){
    	var p = document.getElementById("WEc753fb2dba");
    	p.style.visibility = "visible";
    	
@@ -109,12 +121,35 @@ $SQL_Partida_CHEK = "SELECT id, nombre, lang FROM dinamic_partidas WHERE date(fe
    	}, 2500);
    	
    }
+
+   GaleryServ = <?= $LangGalery->getLanguageJson() ?>;
+   ThisLang = new LangControl(GaleryServ);
    
    lang_op = "<?= $lang ?>";
-   lang_bnd = [{o:"-es", b:"WE549b6b4c6b", id: "Idioma", gr:"Grupo", btn:"Ingresar", err:"Clave Incorrecta", Pass:"Contraseña"},
-		 {o:"-en", b:"WE160e673c1f", id: "Language", gr:"Group", btn:"Enter", err:"Incorrect password", Pass:"Password"},
-		 {o:"-pr", b:"WE526c044191", id: "Língua", gr:"Grupo", btn:"Entrar", err:"Senha incorreta", Pass:"Senha"}]
+   lang_bnd = [{o:"-es", b:"WE549b6b4c6b", 
+    id: ThisLang.GetLabel("es", 2) /*"Idioma"*/, 
+    gr: ThisLang.GetLabel("es", 0) /* "Grupo" */, 
+    btn: ThisLang.GetLabel("es", 3) /*"Ingresar"*/, 
+    err: ThisLang.GetLabel("es", 4) /*"Clave Incorrecta"*/, 
+    Pass: ThisLang.GetLabel("es", 1) /*"Contraseña"*/},
+    
+    {o:"-en", b:"WE160e673c1f", 
+      id: ThisLang.GetLabel("en", 2) /*"Language"*/, 
+      gr: ThisLang.GetLabel("en", 0), 
+      btn: ThisLang.GetLabel("en", 3), 
+      err: ThisLang.GetLabel("en", 4), 
+      Pass: ThisLang.GetLabel("en", 1)},
 
+     {o:"-pr", b:"WE526c044191", 
+      id: ThisLang.GetLabel("pr", 2) /*"Língua"*/, 
+      gr:ThisLang.GetLabel("pr", 0), 
+      btn:ThisLang.GetLabel("pr", 3), 
+      err:ThisLang.GetLabel("pr", 4), 
+      Pass:ThisLang.GetLabel("pr", 1)}]
+
+    
+
+    
 function lang(e){
 	
 	lang_bnd.forEach((s)=>{

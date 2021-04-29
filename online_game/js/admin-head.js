@@ -72,7 +72,7 @@ function passwch(i){
             Data.append("newPss",  Dts_FRM[1].value)
 
 
-            fetch("../conf_save.php?f=chngepass", {
+            fetch("../back/routes.php?f=CambioPassw", {
                 method: 'POST',
                 body: Data
             })

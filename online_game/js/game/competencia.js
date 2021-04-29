@@ -122,7 +122,7 @@ function CargarTabla (){
     
     BasePanel(1)
     
-fetch('../realtime-canvas.php?f=GetPuntos&p='+_partid, {
+fetch('../back/routes.php?f=GetPuntaje&p='+_partid, {
      
     })
     

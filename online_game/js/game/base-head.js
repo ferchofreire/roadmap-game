@@ -24,7 +24,7 @@ SprintLeg = ["Undestanding the competitive environment",
 
 SprintTypeCards = ["Trends", "Patterns", "Blue Ocean", "Digital", "Test", "Metrics"]
 
-CartasDisponibles = (a) =>{
+/*CartasDisponibles = (a) =>{
 	
 	elm  = document.getElementById('WE2bd87c9368');
 	
@@ -44,10 +44,10 @@ CartasDisponibles = (a) =>{
 		elm.classList.remove("animate__slideInRight")
 	   });
 						 
-}
+} */
 
 
-_st_menu = false;
+/*_st_menu = false;
 
 Menu = ()=> {
 	elm = document.getElementById('WE0bf2c0b2ff');
@@ -63,7 +63,7 @@ Menu = ()=> {
 		setTimeout(Sender, 500)
 	}
 	_st_menu = !_st_menu
-}
+
 
 
 Sender = () =>{
@@ -84,7 +84,9 @@ Sender = () =>{
 		elms.classList.add("animate__bounceOutDown")
 	}
 }
+}*/
 
+/*
 _tmp = "";
 SprintStates = () =>{
 	
@@ -105,7 +107,7 @@ SprintStates = () =>{
 
 					Stage.classList.add("animate__tada") // animate__rotateIn
 
-					MiniRunners.style.display = "initial"; // muestra animacion corriendo;
+					MenuBar.AnimacionRunners(true); // muestra animacion corriendo;
 
 				var Titulo = document.getElementById('WE56afc4b9ec').children[0].children[0]
 				var SprinTit = document.getElementById('WE4005d8dfae').children[0].children[0]
@@ -126,18 +128,18 @@ SprintStates = () =>{
 		}
 	
 }
-
+*/
 
 
 BasePanel = (p) => {
 	FondoBasPan.style.visibility = "hidden"
-	UsrSelect.style.visibility = "hidden"
+	//UsrSelect.style.visibility = "hidden"
 	Loader.style.visibility = "hidden"
 	
 	switch(p){
 		case 0:
 			FondoBasPan.style.visibility = "hidden"
-			UsrSelect.style.visibility = "hidden"
+			//UsrSelect.style.visibility = "hidden"
 			Loader.style.visibility = "hidden"
 		break;
 		case 1:
@@ -164,7 +166,7 @@ TransursoCheckPoint = "";
 RunCheck = () => { 
 	
 	Look = false;
-	CartasDisponibles(true);
+	MenuBar.MenuCartasDisponibles(true);
 	
 	clearInterval(TimeOutCheckPoint)
 	TransursoCheckPoint = numeral(CheckPoint.hasta);
@@ -174,23 +176,23 @@ RunCheck = () => {
 	TransursoCheckPoint.subtract(1);
 	document.getElementById('WE48442240f5').innerText =TransursoCheckPoint.format('00:00:00')
 	
-	if (RealtimeData[1][0].confirmacion != "ok") {MiniRunners.style.display = "initial"; } // Mostramos runners}
+	if (RealtimeData[1][0].confirmacion != "ok") {MenuBar.AnimacionRunners(true); } // Mostramos runners}
 
 	if (TransursoCheckPoint._value <= 0){
 		clearInterval(TimeOutCheckPoint)
 		TransursoCheckPoint = "";
 		Look = true;
 		Menu();
-		CartasDisponibles(false);
+		MenuBar.MenuCartasDisponibles(false);
 
 		VariableCompetitiva = 0
 
-		MiniRunners.style.display = "none"; // quita animacion mini runners;
+		MenuBar.AnimacionRunners(false); // quita animacion mini runners;
 
 
 		fetch('../conf_save.php?f=resetTime&id='+_phpid);
 			 // (parseInt(IdPartidaActiva.SprintAct) + 1).toString();
-		fetch("../realtime-canvas.php?f=confirm&g="+_phpid+"&p="+_partid+"&s="+IdPartidaActiva.SprintAct)
+		fetch("../back/routes.php?f=ConfirmarCanvas&g="+_phpid+"&p="+_partid+"&s="+IdPartidaActiva.SprintAct)
 			 
 			 
 			 if (IdPartidaActiva.maxsprints == IdPartidaActiva.SprintAct){
@@ -230,7 +232,7 @@ RunCheck = () => {
 BajarCartas = () => {
 	
 	BasePanel(1);
-	fetch('../realtime-canvas.php?f=carga&g='+_phpid+'&p='+_partid, {
+	fetch('../back/routes.php?f=tick_carga&g='+_phpid+'&p='+_partid, {
 	 
 	})
 	
@@ -266,10 +268,11 @@ BajarCartas = () => {
 		
 		TickRealtime();
 		BasePanel(0);
-		if (init){
+
+/*		if (init){
 			BasePanel(2);
 			//init = false;
-		}
+		}*/
 		
 		SprintStates();
 	

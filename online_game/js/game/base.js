@@ -1,22 +1,22 @@
-document.getElementById('WE3001148426').setAttribute('style', 'z-index:5000;position:fixed')
+//document.getElementById('WE3001148426').setAttribute('style', 'z-index:5000;position:fixed')
 
 //document.getElementById('WE2df3a0ab3b').setAttribute('style', 'z-index:5000;position:fixed')
-document.getElementById('WE979a2ce6ec').setAttribute('style', 'z-index:5000;position:fixed')
-document.getElementById('WE0bf2c0b2ff').setAttribute('style', 'z-index:5000;position:fixed')
-const AlerMensaje = document.getElementById('WEb254cc085e')
-AlerMensaje.setAttribute('style', 'z-index:5000;position:fixed');
+//document.getElementById('WE979a2ce6ec').setAttribute('style', 'z-index:5000;position:fixed')
+//document.getElementById('WE0bf2c0b2ff').setAttribute('style', 'z-index:5000;position:fixed')
+//const AlerMensaje = document.getElementById('WEb254cc085e')
+//AlerMensaje.setAttribute('style', 'z-index:5000;position:fixed');
 
-document.getElementById('WE92894735fc').setAttribute('style', 'z-index:5000;position:fixed')
-document.getElementById('WE8c6ea1e6c8').setAttribute('style', 'z-index:6000;position:fixed')
+//document.getElementById('WE92894735fc').setAttribute('style', 'z-index:5000;position:fixed')
+//document.getElementById('WE8c6ea1e6c8').setAttribute('style', 'z-index:6000;position:fixed')
 
 const FondoBasPan = document.getElementById('WE8c6ea1e6c8');
-const UsrSelect = document.getElementById('WE1589ee12d7');
+//const UsrSelect = document.getElementById('WE1589ee12d7');
 const Loader = document.getElementById('WE8bd892b41c');
 
-const MiniRunners = document.getElementById("WEa0f2c39db6");
-MiniRunners.style.display = "none";
+//const MiniRunners = document.getElementById("WEa0f2c39db6");
+//MiniRunners.style.display = "none";
 
-function Mensaje(e, m){
+/*function Mensaje(e, m){
     AlerMensaje.style.display = "initial"
     
     AlerMensaje.className = (e) ? "BaseDiv RBoth OEWEPanel OESK_WEPanel_Default  wobble-ver-right" : "BaseDiv RBoth OEWEPanel OESK_WEPanel_Default slide-out-right"
@@ -24,17 +24,17 @@ function Mensaje(e, m){
         document.getElementById('WE1065bd7931').innerText = m;
         setTimeout(()=>{Mensaje(false)}, 3000)}
     //slide-out-right
-}
+}*/
 
 if (Pantalla == 1){
-    BajarCartas();
+    //BajarCartas();
     }
 
-up_avCrds = document.getElementById("WE60794dcfe8");
+/*up_avCrds = document.getElementById("WE60794dcfe8");
 up_avCrds.setAttribute('OnMouseOver','CartasDisponibles(true);');
-up_avCrds.setAttribute('OnClick','CartasDisponibles(true);');
+up_avCrds.setAttribute('OnClick','CartasDisponibles(true);');*/
 
-BajarCartas();
+//BajarCartas();
 
 /*
 document.getElementById("WEae0bf99d71").addEventListener("click", ()=>{
@@ -64,7 +64,7 @@ CheckScreen = () =>{
         
         document.getElementById('XBody').style.display = "none";
         document.getElementById('WE4d28880578').style.display = "";
-        if (init){BasePanel(2)}else{BasePanel(0)};
+        //if (init){BasePanel(2)}else{BasePanel(0)};  // Quita el Menu si está en modo Vertical
         
         //alert("Turn the Screen");
     } else {
@@ -75,7 +75,7 @@ CheckScreen = () =>{
     } else {
         document.getElementById('XBody').style.display = "";
         document.getElementById('WE4d28880578').style.display = "none";
-        if (init){BasePanel(2)}else{BasePanel(0)};
+        //if (init){BasePanel(2)}else{BasePanel(0)}; // Quita el Menu si está en modo Vertical
     }
 }
 CheckScreen();
@@ -88,6 +88,7 @@ CheckScreen();
     
   }
 
+/*
 avtSlct = 8;
 function UsrSlct(us){
 
@@ -117,16 +118,16 @@ function UsrSlct(us){
 
         BasePanel(1)
 
-        fetch("../conf_save.php?f=setJugador&n="+document.getElementsByName('WE85e1e4be37')[0].value+"&ic="+avtSlct)
+        fetch("../back/routes.php?f=SetJugador&n="+document.getElementsByName('WE85e1e4be37')[0].value+"&ic="+avtSlct)
         .then(response => response.text())
         .then (data => {
             console.log(data);
             BasePanel(0)
 
-            if(IdPartidaActiva.SprintAct == 0){
-                pn(2);
+            if(parseInt(IdPartidaActiva.SprintAct) == 0){
+                SeccionDashBoard.Activar();// pn(2);
             } else {
-                pn(1);
+                SeccionCanvas.Activar()(); //pn(1);
             }
             
         })
@@ -140,5 +141,8 @@ function UsrSlct(us){
     }
 }
 UsrSlct(avtSlct);
+*/
+
+
 BasePanel(1)
 
