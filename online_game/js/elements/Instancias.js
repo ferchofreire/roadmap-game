@@ -12,7 +12,7 @@ SeccionPuntos = new SeccionVisible("pan_champ", "WEe94ea83c6f", () => {
     MenuBar.Menu();
     MenuBar.SenderButton_call = null;
 
-      BasePanel(1);
+     // BasePanel(1);
       CargarTabla();
       ReposManual();
       Pantalla = 0
@@ -31,7 +31,7 @@ SeccionDashBoard = new SeccionVisible("pan_dashboard", "WE2df3a0ab3b", ()=>{
   MenuBar.SenderButton_call = null;
   
     Pantalla = 1
-      if(parseInt(IdPartidaActiva.SprintAct) > 0){
+      /* if(parseInt(IdPartidaActiva.SprintAct) > 0){
         
         if(parseInt(IdPartidaActiva.SprintAct) == 1 )
          {
@@ -80,15 +80,15 @@ SeccionDashBoard = new SeccionVisible("pan_dashboard", "WE2df3a0ab3b", ()=>{
                 
         
   
-      }
+      }*/
       
   
       MenuBar.Menu();
   
-      RunEstados();
-      VistasPaneles(0);
+      //RunEstados();
+      //VistasPaneles(0);
   
-      document.getElementById('WE60794dcfe8').style.visibility = "hidden";
+      //document.getElementById('WE60794dcfe8').style.visibility = "hidden";
   
   });
 
@@ -167,14 +167,14 @@ MenuBar = new MenusBars(
 
     "WEe8b6c17e09", // GrupoIconView
     _phpid, // ID Grupo Ativo
-    SprintTypeCards, // SprintTypeCards
+    _CardsTipo, // SprintTypeCards
     "WEf07cd3261e", // Text Sprint Types
     "WE3001148426", // Barra Titulo Color;
     "WE92894735fc"  // StageCartel
 );
 
 MenuBar.Menu();
-MenuBar.ActualizarTipoDeCards(Sprint-1);
+//MenuBar.ActualizarTipoDeCards(Sprint-1);
 
 // Notificaciones;
 

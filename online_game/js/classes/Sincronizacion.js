@@ -11,7 +11,6 @@ class DataControl{
     
 }
 
-
 class Sincronizacion{
 
     ObjDataControl;
@@ -42,7 +41,7 @@ class Sincronizacion{
     
             this.ObjDataControl.GameCards=data[0];
             this.ObjDataControl.IdPartidaActiva=data[1][0];
-            this.ObjDataControl.Sprint = parseInt(IdPartidaActiva.SprintAct);
+            this.ObjDataControl.Sprint = parseInt(this.ObjDataControl.IdPartidaActiva.SprintAct);
             this.MenuControl.Spinner(false); //BasePanel(0);
 
             this.TickSincro (this.StateMachineControl, this.ObjDataControl, this.Cronometro, null);

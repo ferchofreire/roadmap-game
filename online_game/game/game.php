@@ -39,7 +39,6 @@ $LangCriterios = new Language("../lang/", "Criterios");
   <link id="OEBase" rel="stylesheet" type="text/css" href="PopUpCentral.css?v=50491112400" />
   <link id="OEBase" rel="stylesheet" type="text/css" href="Preguntas.css?v=50491112400" />
   <link id="OEBase" rel="stylesheet" type="text/css" href="NewCards.css?v=50491112400" />
-  
   <link id="OEBase" rel="stylesheet" type="text/css" href="PoPUpCriterios.css?v=50491112400" />
 
   <!-- Modulos JavaScripts-->
@@ -466,7 +465,9 @@ how to remove the virtical space around the range input in IE*/
   ?>
   <form id="XForm" method="post" action="#"></form>
 
-<script type="text/javascript" src="../js/game/base-head.js"></script>
+<!-- <script type="text/javascript" src="../js/game/base-head.js"></script> -->
+
+
 <div id="XBody" class="BaseDiv RBoth OEPageXbody OESK_XBody_Default" style="z-index:1000">
    
   <div class="OESZ OESZ_DivContent OESZG_XBody">
@@ -756,10 +757,12 @@ how to remove the virtical space around the range input in IE*/
 
   <!-- <script type="text/javascript" src="../js/game/base.js"></script> -->
   <!-- <Script type="text/javascript" src="../js/game/canvas.js"> </Script> -->
-  <!-- <Script type="text/javascript" src="../js/game/competencia.js"> </Script> -->
+   <!-- <Script type="text/javascript" src="../js/game/competencia.js"> </Script> -->
   <!-- <script type="text/javascript" src="../js/game/dashboard.js"></script> -->
 
     <script type="text/javascript" src="../js/joiner.php?compilation=instances"></script>
+
+    <Script type="text/javascript" src="../js/game/competencia.js"> </Script> 
 
  </body>
 </html>

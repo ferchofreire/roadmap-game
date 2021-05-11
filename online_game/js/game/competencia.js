@@ -120,7 +120,7 @@ function redimencionar () {
 // realtime-canvas.php?f=GetPuntos&p=7
 function CargarTabla (){
     
-    BasePanel(1)
+    //BasePanel(1)
     
 fetch('../back/routes.php?f=GetPuntaje&p='+_partid, {
      
@@ -149,7 +149,7 @@ fetch('../back/routes.php?f=GetPuntaje&p='+_partid, {
     document.getElementById('WEe2ca2a3b27').children[0].children[0].children[5].innerText = numeral(Puestos[0].Puntos).format("0,0") + " pts";
 
     SecuenciaInicial();
-    BasePanel(0)
+   // BasePanel(0)
     giroTablero();
 });
     
@@ -159,7 +159,7 @@ fetch('../back/routes.php?f=GetPuntaje&p='+_partid, {
 var GiroTim;
 var Rodado = 60;
 var _Giro = 0;
-var FinalGiro = (Rodado*Sprint)-60; // +1
+var FinalGiro = (Rodado * 2 )-60; // +1
 var TableroDibujo = document.getElementById("WEe4ed354889")
 
 function giroTablero(){

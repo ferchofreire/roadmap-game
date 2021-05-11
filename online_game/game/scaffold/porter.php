@@ -1,4 +1,4 @@
-<div id="WEdccedd8fdc" class="BaseDiv RWidth OEWEPanel OESK_WEPanel_Default OECenterAH" style="z-index:1001">
+<div id="WEdccedd8fdc" class="BaseDiv RWidth OEWEPanel OESK_WEPanel_Default OECenterAH" style="width:600px; z-index:1001">
       <div class="OESZ OESZ_DivContent OESZG_WEdccedd8fdc">
        <div class="OECT OECT_Content OECTRel OEDynTag0">
 

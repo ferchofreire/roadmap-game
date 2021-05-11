@@ -43,7 +43,7 @@
       </div>
      </div>
 
-          <div id="WE4f0eef962c" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default OECenterAH" style="z-index:1004">
+          <div id="WE4f0eef962c" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default OECenterAH" style="width:600px;z-index:1004">
       <div class="OESZ OESZ_DivContent OESZG_WE4f0eef962c">
        <div class="OECT OECT_Content OECTRel OEDynTag0" style="overflow:visible">
         <div class="OERelLine OEHAlignC OEVAlignB">
