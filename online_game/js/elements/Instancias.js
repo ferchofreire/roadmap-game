@@ -186,6 +186,12 @@ NotificPopUp = new PopUpMensaje(
   "WEab2dc61e90"
 )
 
+CriterioPopUp = new PopUpCriterios(
+  "WEad93fc0ead",
+  MenuBar,
+  "WE5e293e7d4b"
+)
+
 PreguntaOK = new PopUpPregunta(
   "WE0f83cfd343",
   MenuBar,
@@ -204,7 +210,11 @@ PreguntaOK = new PopUpPregunta(
       _SprintsTipo, // Data del Sprint traidos desde PHP
       _CardsTipo, // Data del Sprint traidos desde PHP
       _SprintLeyenda, // Data del Sprint traidos desde PHP
-      _MecanicOrder // Orden de Mecánicas
+      _MecanicOrder, // Orden de Mecánicas
+
+      _LeyendasCriterios, // Leyendas de Criterio
+      _LeyendasMensajes, // Leyendas de mensajes
+      _lang
   );
 
 // Sistema de Sincronización:

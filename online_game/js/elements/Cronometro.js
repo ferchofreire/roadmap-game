@@ -1,1 +1,0 @@
-TiempoControl = new Cronometro(MenuBar, _phpid, _partid, DataControlGame);

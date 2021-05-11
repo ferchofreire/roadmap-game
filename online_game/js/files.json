@@ -1,5 +1,6 @@
 {"Modules":[
 
+    "classes/lang",
     "classes/Secciones",
     "classes/MenuControl",
     "classes/AvatarSelector",
@@ -15,5 +16,9 @@
     "elements/Instancias",
     "mechanics/Canvas",
     "mechanics/5Porter"
+    
+],
+
+"Pluggins":[
     
 ]}

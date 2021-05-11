@@ -66,6 +66,42 @@ class PopUpMensaje{
 
 }
 
+class PopUpCriterios{
+
+    ObjPoPup;
+    MenuBarControl;
+    Titulo;
+    Mensaje;
+    CloseBotton;
+
+    constructor (_ObjPoPup, _MenuBarControl, _CloseBotton){
+
+        this.ObjPoPup = document.getElementById(_ObjPoPup);
+        this.MenuBarControl = _MenuBarControl;
+        this.CloseBotton = document.getElementById(_CloseBotton);
+
+        this.CloseBotton.addEventListener("click", ()=>{
+            this.ObjPoPup.style.display = "none";
+        })
+
+    }
+
+    ShowMessage(titulo, mensaje, _callClosed){
+        
+        this.ObjPoPup.style.display = "initial";
+        this.ObjPoPup.children[0].children[0].children[2].innerText = titulo;
+        this.ObjPoPup.children[0].children[0].children[1].innerHTML = mensaje;
+        if (_callClosed != undefined){
+            this.CloseBotton.addEventListener("click", ()=>{
+                _callClosed();
+            })
+            
+        }
+    }
+
+
+}
+
 class PopUpPregunta {
 
     ObjPoPup;

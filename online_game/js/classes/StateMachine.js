@@ -13,9 +13,14 @@ class StateMachine {
     
     // Process Order:
     EsloganSprint;
-    ProcessOrderN; 
+    ProcessOrderN;
+    
+    LeyendaCriterios;
+    MensajesNotificac;
+    Lang
 
-    constructor(_GameDataControl, _MenuBarControl, _ArraySprintColor, _ArraySprintTipo, _ArraySprintLeyenda, _ArraySprintCardsTipo, _ArraySprintMecanicsOrder){
+    constructor(_GameDataControl, _MenuBarControl, _ArraySprintColor, _ArraySprintTipo, _ArraySprintLeyenda, _ArraySprintCardsTipo, _ArraySprintMecanicsOrder,
+        _LeyendaCriterios, _MensajesNotificac, _Lang){
 
         
         this.GameDataControl = _GameDataControl
@@ -26,6 +31,10 @@ class StateMachine {
         this.ArraySprintLeyenda = _ArraySprintLeyenda
         this.ArraySprintCardsTipo = _ArraySprintCardsTipo
         this.ArraySprintMecanicsOrder = _ArraySprintMecanicsOrder
+
+        this.LeyendaCriterios = new LangControl(_LeyendaCriterios);
+        this.MensajesNotificac = new LangControl(_MensajesNotificac);
+        this.Lang = _Lang
         
 
     }
@@ -45,7 +54,13 @@ class StateMachine {
 
                         setTimeout(()=>{
 
-                            NotificPopUp.ShowMessage("Metricas", "Metricas Correspondiente al Sprint en Curso.", ()=>SeccionCanvas.Activar());
+                            CriterioPopUp.ShowMessage(
+
+                                this.ArraySprintTipo[DataControlGame.IdPartidaActiva.SprintAct], 
+                                this.LeyendaCriterios.GetLabel(this.Lang, 
+                                    parseInt(this.GameDataControl.IdPartidaActiva.SprintAct)),  //Metricas Correspondiente al Sprint en Curso.
+
+                                ()=>SeccionCanvas.Activar());
 
                         }, 6000)
                         
@@ -54,7 +69,9 @@ class StateMachine {
                     case 1:                        
                         // Muestra de Canvas / Tablero
                         SeccionCanvas.turnoff();
-                        NotificPopUp.ShowMessage("Canvas", "El canvas ya fue enviado, espere al próximo sprint para continuar. \n Puede Visualizarlo presionando sobre \"Canvas Bussines Model\"", 
+                        NotificPopUp.ShowMessage(
+                            this.MensajesNotificac.GetLabel(this.Lang, 9), // Canvas
+                            this.MensajesNotificac.GetLabel(this.Lang, 11), // El canvas ya fue enviado, espere al próximo sprint para continuar. \n Puede Visualizarlo presionando sobre \"Canvas Bussines Model\""
                         ()=>{
                             SeccionDashBoard.Activar();
                         });

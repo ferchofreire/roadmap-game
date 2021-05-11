@@ -13,7 +13,10 @@ $conn = new Conexion("../back/conexion.json");
 
 $LangBase = new Language("../lang/", "base");
 
+
 $leyendaSprints = new Language("../lang/", "LeyendaSprints");
+
+$LangCriterios = new Language("../lang/", "Criterios");
 
 ?>
 
@@ -36,6 +39,8 @@ $leyendaSprints = new Language("../lang/", "LeyendaSprints");
   <link id="OEBase" rel="stylesheet" type="text/css" href="PopUpCentral.css?v=50491112400" />
   <link id="OEBase" rel="stylesheet" type="text/css" href="Preguntas.css?v=50491112400" />
   <link id="OEBase" rel="stylesheet" type="text/css" href="NewCards.css?v=50491112400" />
+  
+  <link id="OEBase" rel="stylesheet" type="text/css" href="PoPUpCriterios.css?v=50491112400" />
 
   <!-- Modulos JavaScripts-->
   <script type="text/javascript" src="../js/joiner.php?compilation=module"></script>
@@ -445,6 +450,9 @@ how to remove the virtical space around the range input in IE*/
     _SprintLeyenda = '.json_encode($SprintsLeyendas).';
 
     _MecanicOrder = '.json_encode($SprintsMecanicas).';
+
+    _LeyendasCriterios = '.$LangCriterios->getLanguageJson().';
+    _LeyendasMensajes = '.$LangBase->getLanguageJson().';
     
 	</script>';
 
@@ -670,6 +678,30 @@ how to remove the virtical space around the range input in IE*/
 </div>
 
 
+<!-- POP UP Criterios -->
+
+<div id="WEad93fc0ead" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default OECenterAB" style="display:none;z-index:2060;position:fixed">
+      <div class="OESZ OESZ_DivContent OESZG_WEad93fc0ead">
+       <div class="OECT OECT_Content OECTAbs OEDynTag0">
+        <div id="WE5e293e7d4b" class="BaseDiv RKeepRatio OEWEImage OESK_WEImage_Default" style="z-index:3;cursor:pointer">
+         <div class="OESZ OESZ_DivContent OESZG_WE5e293e7d4b">
+          <img src="../Images/delete_big.png" class="OESZ OESZ_Img OESZG_WE5e293e7d4b" alt="" >
+         </div>
+        </div>
+        <div id="WEa2b4fba989" class="BaseDiv RWidth OEWEText OESK_WEText_Default" style="z-index:2">
+         <div class="OESZ OESZ_DivContent OESZG_WEa2b4fba989">
+          <span class="ContentBox">-</span>
+         </div>
+        </div>
+        <div id="WEc4258b9f1d" class="BaseDiv RBoth OEWELabel OESK_WELabel_Default" style="z-index:1">
+         <div class="OESZ OESZ_DivContent OESZG_WEc4258b9f1d">
+          <span class="OESZ OESZ_Text OESZG_WEc4258b9f1d ContentBox">-</span>
+         </div>
+        </div>
+       </div>
+      </div>
+
+
      <!-- FIN EMERGENTES -->
 
 
@@ -726,15 +758,6 @@ how to remove the virtical space around the range input in IE*/
   <!-- <Script type="text/javascript" src="../js/game/canvas.js"> </Script> -->
   <!-- <Script type="text/javascript" src="../js/game/competencia.js"> </Script> -->
   <!-- <script type="text/javascript" src="../js/game/dashboard.js"></script> -->
-
-  <!-- Instancias 
-
-  <script type="text/javascript" src="../js/elements/Instancias.js"></script>
-  <script type="text/javascript" src="../js/elements/AvatarSelector.js"></script>;
-
-   Mecánicas 
-    <Script type="text/javascript" src="../js/mechanics/Canvas.js"> </Script> 
-    <Script type="text/javascript" src="../js/mechanics/5Porter.js"> </Script> -->
 
     <script type="text/javascript" src="../js/joiner.php?compilation=instances"></script>
 
