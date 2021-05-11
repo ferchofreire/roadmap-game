@@ -1,62 +1,89 @@
 class StateMachine {
 
-    ArraySprintColors = ["#66c430", "#fbbc09", "#1ab5f1", "#134785", "#ec0772", "#f47216"]
-    ArraySprintTitle = ["Stress Test", "Business Model Patterns", "Blue Ocean Strategy", "Digital Drivers", "Business Model Test", "Metrics"]
-    ArraySprintEslogan = ["Undestanding the competitive environment", 
-			 "New business models ahead", "Creating new market space", 
-			 "targeting value with new digital skils", "Testing innovations", 
-			 "implementing business model innovation"]
+    ArraySprintColors  // _SprintColor
+    ArraySprintTipo  // _SprintsTipo
+    ArraySprintLeyenda // _SprintLeyenda
 
-    ArraySprintTypeCards = ["Trends", "Patterns", "Blue Ocean", "Digital", "Test", "Metrics"]
+    ArraySprintCardsTipo  // _CardsTipo 
+    ArraySprintMecanicsOrder
 
     GameDataControl;
     MenuBarControl;
-    Steps = 0;
+    Steps = -1;
     
     // Process Order:
     EsloganSprint;
-    ProcessOrderN;
+    ProcessOrderN; 
 
-    constructor(_GameDataControl, _MenuBarControl /*,_ArrayColores*/){
+    constructor(_GameDataControl, _MenuBarControl, _ArraySprintColor, _ArraySprintTipo, _ArraySprintLeyenda, _ArraySprintCardsTipo, _ArraySprintMecanicsOrder){
 
-        /*this.ArrayCarteles = _ArrayCarteles;*/
+        
         this.GameDataControl = _GameDataControl
         this.MenuBarControl = _MenuBarControl
-        /*this.ArrayColores = _ArrayColores*/
+
+        this.ArraySprintColors = _ArraySprintColor
+        this.ArraySprintTipo = _ArraySprintTipo
+        this.ArraySprintLeyenda = _ArraySprintLeyenda
+        this.ArraySprintCardsTipo = _ArraySprintCardsTipo
+        this.ArraySprintMecanicsOrder = _ArraySprintMecanicsOrder
+        
 
     }
 
-    ProcessOrder(Type, Order){
+    ProcessOrder(){
 
+        var type = this.ArraySprintMecanicsOrder[parseInt(DataControlGame.RealtimeData[1][0].Sprint)]
+
+        console.log("cambio de step en mecanica: " + type + " orden: "+ this.Steps)
         switch(type){
-            case "Sprint":
+            case "Canvas":
+
                 switch(this.Steps){
 
                     case 0:
-                        // Cartel de Métricas;
+                        // Cartel de Métricas
+
+                        setTimeout(()=>{
+
+                            NotificPopUp.ShowMessage("Metricas", "Metricas Correspondiente al Sprint en Curso.", ()=>SeccionCanvas.Activar());
+
+                        }, 6000)
+                        
 
                     break;
-                    case 1:
-                        // Muestra de Canvas / Tablero;
+                    case 1:                        
+                        // Muestra de Canvas / Tablero
+                        SeccionCanvas.turnoff();
+                        NotificPopUp.ShowMessage("Canvas", "El canvas ya fue enviado, espere al próximo sprint para continuar. \n Puede Visualizarlo presionando sobre \"Canvas Bussines Model\"", 
+                        ()=>{
+                            SeccionDashBoard.Activar();
+                        });
+                        
+
                     break;
-                    case 1:
-                        // Confirmación;
+                    case 2:
+                        // Confirmación
+
+                        
                     break;
 
                 }
             break;
-            case "FiveForces":
 
-                switch(Order){
+            case "5Forces":
+
+                switch(this.Steps){
 
                     case 0:
                         // Mostrar Fuerza de Porter;
-
+                        Seccion5Forces.Activar();
+                        FuerzasPoter.SyncData();
 
                     break;
                     case 1:
                         // Cartel de Espera; 
-
+                        Seccion5Forces.turnoff();
+                        NotificPopUp.ShowMessage("Su Promedio", "Su grupo ingresa con un promedio de 10 \n\n Pronto Iniciarán Los Sprint, Aguarde.");
                     break;
 
                 }
@@ -65,19 +92,49 @@ class StateMachine {
         }
     }
 
+    
+    CargarTitulo(){ // se usa al iniciar la sesión;
+
+        this.MenuBarControl.SprintTitulo(
+            this.ArraySprintColors[DataControlGame.IdPartidaActiva.SprintAct], 
+            this.ArraySprintTipo[DataControlGame.IdPartidaActiva.SprintAct],
+            this.ArraySprintLeyenda[DataControlGame.IdPartidaActiva.SprintAct]
+            );
+    }
+
+    CheckOrderStepsChange(){
+
+        if (this.Steps != parseInt(DataControlGame.RealtimeData[1][0].step))
+        {
+            console.log("Cambio de Step")
+            this.Steps = parseInt(DataControlGame.RealtimeData[1][0].step);
+            this.ProcessOrder()
+        }
+    }
 
     CheckSprints(){
 
         // Si hay Cambio de Sprint;
+        
         
         //DataControlGame.IdPartidaActiva.SprintAct = DataControlGame.RealtimeData[1][0].Sprint
 
         if (DataControlGame.IdPartidaActiva.SprintAct != parseInt(DataControlGame.RealtimeData[1][0].Sprint))
         
         {
+            this.ProcessOrder()
+
             DataControlGame.IdPartidaActiva.SprintAct = DataControlGame.RealtimeData[1][0].Sprint;
             console.log("Cambio Sprint")
-            this.MenuBarControl.CartelSprint("", "", "", "", "");
+
+            this.MenuBarControl.CartelSprint(
+                this.ArraySprintColors[DataControlGame.IdPartidaActiva.SprintAct],  // _color 
+                "Sprint "+ DataControlGame.IdPartidaActiva.SprintAct + " - " + this.ArraySprintTipo[DataControlGame.IdPartidaActiva.SprintAct], // _tituloBarra
+                "Sprint "+ DataControlGame.IdPartidaActiva.SprintAct, // _Sprint
+                this.ArraySprintLeyenda[DataControlGame.IdPartidaActiva.SprintAct], // _Eslogan
+                this.ArraySprintLeyenda[DataControlGame.IdPartidaActiva.SprintAct]); // _tipoCarta
+
+
             TiempoControl.StartCrono();
             
         }
@@ -106,5 +163,9 @@ class StateMachine {
 
     }
 
-}
+    }
+
+    GetSprintColor(_Sprint){
+        return this.ArraySprintColors[_Sprint] 
+    }
 }

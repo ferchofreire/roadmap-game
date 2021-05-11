@@ -6,7 +6,11 @@
     "Estado empresa",
     "Estado de empresa",
     "Cartas disponibles:",
-    "Enviar"
+    "Enviar",
+    "Metricas",
+    "Canvas",
+    "Metricas Correspondiente al Sprint en Curso.",
+    "El canvas ya fue enviado, espere al próximo sprint para continuar. \n Puede Visualizarlo presionando sobre \"Canvas Bussines Model\""
 ],
 "-en":[
     "Group",
@@ -16,7 +20,11 @@
     "Company status",
     "Company status",
     "Available Cards:",
-    "Send"
+    "Send",
+    "Metricas",
+    "Canvas",
+    "Metricas Correspondiente al Sprint en Curso.",
+    "El canvas ya fue enviado, espere al próximo sprint para continuar. \n Puede Visualizarlo presionando sobre \"Canvas Bussines Model\""
 ],
 "-pr":[
     "Grupo",
@@ -26,6 +34,10 @@
     "Status da empresa",
     "Status da empresa",
     "Cartas acessível:",
-    "Mandar"
+    "Mandar",
+    "Metricas",
+    "Canvas",
+    "Metricas Correspondiente al Sprint en Curso.",
+    "El canvas ya fue enviado, espere al próximo sprint para continuar. \n Puede Visualizarlo presionando sobre \"Canvas Bussines Model\""
 ]
 }

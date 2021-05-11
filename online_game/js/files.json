@@ -1,0 +1,19 @@
+{"Modules":[
+
+    "classes/Secciones",
+    "classes/MenuControl",
+    "classes/AvatarSelector",
+    "classes/Notification",
+    "classes/Sincronizacion",
+    "classes/Cronometro",
+    "classes/StateMachine",
+    "mechanics/CanvasDisplayController",
+    "mechanics/5PorterHandler"
+],
+"Instances":[
+
+    "elements/Instancias",
+    "mechanics/Canvas",
+    "mechanics/5Porter"
+    
+]}

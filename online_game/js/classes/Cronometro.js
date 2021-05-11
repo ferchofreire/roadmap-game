@@ -93,6 +93,7 @@ class Cronometro{
         }
 
     StartCrono(){
+        
         var a = numeral(DataControlGame.IdPartidaActiva.tm_desde)
 		var b = numeral(DataControlGame.IdPartidaActiva.tm_hasta)
 		

@@ -2,18 +2,11 @@ class DataControl{
 
         GameCards;
         IdPartidaActiva; // Partida ID
-        MaxSprints;//":"6",
-        tm_desde;//":"19:26:12",
-        tm_hasta;//":"19:22:20",
-        timestamp;//":"19:02:20",s
-        limit_time;//":"00:20:00",
-        SprintAct;//":"2",
-        MovLimit;//":"4,4,4,4,4,4",
-        RealTimeData; // SincroData
+        RealtimeData; // SincroData
         Sprint;
 
         constructor(_RealTimeData){
-            this.RealTimeData = _RealTimeData;
+            this.RealtimeData = _RealTimeData;
         }
     
 }
@@ -26,6 +19,8 @@ class Sincronizacion{
     StateMachineControl;
     Cronometro;
     MenuControl;
+
+    CallEvents = null;
 
     constructor(_DataControl, _StateMachineControl, _Cronometro, _MenuControl){
 
@@ -48,21 +43,41 @@ class Sincronizacion{
             this.ObjDataControl.GameCards=data[0];
             this.ObjDataControl.IdPartidaActiva=data[1][0];
             this.ObjDataControl.Sprint = parseInt(IdPartidaActiva.SprintAct);
-            BasePanel(0);
+            this.MenuControl.Spinner(false); //BasePanel(0);
 
-            this.TickSincro (this.StateMachineControl, this.ObjDataControl);
+            this.TickSincro (this.StateMachineControl, this.ObjDataControl, this.Cronometro, null);
             this.Cronometro.StartCrono() // Start Crono
+            
+            this.StateMachineControl.CargarTitulo() // Revisamos Que el titulo sea correcto
+            
+            
 
         })
     }
 
-    TickSincro (_statemachine, _datacontrol) {
+    Call(){
+        
+        if (this.CallEvents != null) {
+           return this.CallEvents()
+        } else {
+            return "NO"
+        }
+        
+    }
+
+
+    TickSincro (_statemachine, _datacontrol, _Crono, _call) {
 
             // Tick de Sincronización de Cartas:
+
+            
             
             this.EventSync = new EventSource("../back/routes.php?f=tick&p="+_partid+"&g="+_phpid);
 
+
                 this.EventSync.onmessage = function(event) {
+
+                    console.log("tick -- control")
             
                     _datacontrol.RealtimeData = JSON.parse(event.data);
                     _datacontrol.IdPartidaActiva.tm_desde = _datacontrol.RealtimeData[2].desde
@@ -70,11 +85,20 @@ class Sincronizacion{
                     
             // Actualizamos Cartas:
 
-               //CanvasHandler.ActualziarCards();
+                 // Llamamos Funcines Variables (Mecanicas)
+                 if( _call != null ){ _call(); }
 
-               _statemachine.CheckSprints();
+               _statemachine.CheckSprints(); // Chequeamos Cambios de Sprints
+               _statemachine.CheckOrderStepsChange(); // Chequeamos Cambios de Steps en Mecánicas
+
+               _Crono.StartCrono(); // Chequeamos Tiempo.
+               
 
         }
+
+        
     
     }
+
+
 }

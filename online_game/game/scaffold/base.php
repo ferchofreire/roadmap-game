@@ -845,9 +845,9 @@
           <div class="OESZ OESZ_Bottom OESZG_WE3c883329b3"></div>
          </div>
         </div>
-        <div id="WEb3c772a596" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default OEGo" style="z-index:2" data-ot="Enviar" data-ot-delay="0.2" data-ot-background="#FFFFFF" data-ot-border-color="#FFFFFF" data-ot-target="true" data-ot-target-joint="top right" data-ot-tip-joint="bottom left">
+        <div id="WEb3c772a596" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default OEGo" style="z-index:2;cursor:pointer" data-ot="Enviar" data-ot-delay="0.2" data-ot-background="#FFFFFF" data-ot-border-color="#FFFFFF" data-ot-target="true" data-ot-target-joint="top right" data-ot-tip-joint="bottom left">
          <div class="OESZ OESZ_DivContent OESZG_WEb3c772a596">
-          <a href="javascript:usersend();">
+          
            <div class="OECT OECT_Content OECTAbs OEDynTag0">
             <div id="WE254353a11f" class="BaseDiv RKeepRatio OEWEImage OESK_WEImage_Default OECenterAH" style="z-index:1">
              <div class="OESZ OESZ_DivContent OESZG_WE254353a11f">
@@ -855,7 +855,7 @@
              </div>
             </div>
            </div>
-          </a>
+          
          </div>
         </div>
        </div>

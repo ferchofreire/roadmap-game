@@ -66,8 +66,8 @@ Limpieza = () => {
 }
 
 /// Emparentar Objetos:
-for (a=0; a < game_cards.length; a++){
-    game_cards[a].obj = CrearItemCards(game_cards[a].tipo, game_cards[a].id, game_cards[a].titulo, a)
+for (a=0; a < DataControlGame.GameCards.length; a++){
+    DataControlGame.GameCards[a].obj = CrearItemCards(DataControlGame.GameCards[a].tipo, DataControlGame.GameCards[a].id, DataControlGame.GameCards[a].titulo, a)
 }
 
 ColocarCards = () => {

@@ -33,6 +33,7 @@ class MenusBars{
 
     GrupoActivo;
 
+    SenderButton_call = null;
 
     constructor(  _MenuBotton,_SecctionMenuBar,_LogOutBotton,_AvatarImage,_NombreTitul,_CardsListbar,_CardsListbarButton,_SprintTittle,_RunnerAnimation,_TimeViewer, _SenderButton, _CardsListbarCloseBotton, _Spinner, _FondoBlack, _GrupoIconView, _GrupoActivo, _SprintTypeCards, _SprintTypeCardsText, _BarraTituloColor, _StageCartel){
         
@@ -55,6 +56,10 @@ class MenusBars{
         this.GrupoActivo = _GrupoActivo;
         this.SprintTypeCards = _SprintTypeCards;
         this.SprintTypeCardsText = document.getElementById(_SprintTypeCardsText);
+
+
+        // BotonSender:
+        this.SenderButton.addEventListener("click", ()=>{this.CallSender();});
 
         // Barra De Título
         this.BarraTituloColor = document.getElementById(_BarraTituloColor);
@@ -99,6 +104,17 @@ class MenusBars{
 
     }
 
+
+    VisibleMenuCards(x){
+        if (x){
+            this.CardsListbar.style.display = "initial";
+            document.getElementById(this.CardsListbarButton).style.display = "initial";
+        } else {
+            this.CardsListbar.style.display = "none";
+            document.getElementById(this.CardsListbarButton).style.display = "none";
+        }
+    }
+
     Menu(){
         
         if (this.MenuState){
@@ -129,7 +145,6 @@ class MenusBars{
             }
         } else {
             
-            console.log(this.SenderButton);
             this.SenderButton.classList.remove("animate__bounceInUp")
             this.SenderButton.classList.add("animate__bounceOutDown")
         }
@@ -168,15 +183,19 @@ class MenusBars{
     }
 
     AnimacionRunners(e){
+
         if (e){
             this.RunnerAnimation.style.display = "initial";
         } else {
             this.RunnerAnimation.style.display = "none";
         }
+        
     }
 
     ActualizarTipoDeCards(Sprint){
+
         this.SprintTypeCardsText.children[0].children[0].innerText = SprintTypeCards[Sprint];
+
     }
 
     CartelSprint(_color, _tituloBarra, _Sprint, _Eslogan, _tipoCarta){
@@ -189,6 +208,8 @@ class MenusBars{
 
         this.BarraTituloColor.style.setProperty("background-color", _color);
         this.SprintTittle.children[0].children[0].innerText = _tituloBarra;
+        this.SprintTypeCardsText.children[0].children[0].innerText = _tipoCarta;
+
 
         this.StageCartel.children[0].children[0].children[3].innerText = _Sprint;
         this.StageCartel.children[0].children[0].children[4].innerText = _Eslogan;
@@ -202,6 +223,20 @@ class MenusBars{
         }, 4000)
 
         
+    }
+
+    SprintTitulo(_Color, _TituloBarra, _tipoCarta){
+
+        this.BarraTituloColor.style.setProperty("background-color", _Color);
+        this.SprintTittle.children[0].children[0].innerText = _TituloBarra;
+        this.SprintTypeCardsText.children[0].children[0].innerText = _tipoCarta;
+
+    }
+
+    CallSender(){
+        if (this.SenderButton_call != null){
+            this.SenderButton_call();
+        }
     }
 
     

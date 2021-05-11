@@ -147,7 +147,7 @@ switch($goto){
     break;
 
 
-    case "setForcPort":
+    case "setForcePort":
 
         // Establece los datos de la fuerza de porter.
 

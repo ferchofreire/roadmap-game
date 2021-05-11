@@ -34,7 +34,7 @@ $conn->SessionChequed("loggin");
   <script type="text/javascript" src="plugins/oe.min.js?v=50491112400"></script>
   
 
-  <script type="text/javascript" src="js/lang.js">
+  <script type="text/javascript" src="js/classes/lang.js">
     
   </script>
 

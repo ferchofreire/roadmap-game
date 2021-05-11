@@ -46,7 +46,13 @@ class Sincronizacion{
                     $confirm = "no";
                 }
 
-                array_push($partidas, array("id" => $ts['id'], "Sprint" => $ts['SprintAct'], "confirmacion" => $confirm));
+                $SQL_StateMachine = mysqli_query($conn, "SELECT puntos, maquinaestados FROM dinamic_grupos WHERE id_partida = '".$partida."' AND id_grupo = '".$grupo."' LIMIT 1");
+                if (mysqli_num_rows($SQL_StateMachine) > 0){
+                    
+                    $stateArr = mysqli_fetch_assoc($SQL_StateMachine);
+                }
+
+                array_push($partidas, array("id" => $ts['id'], "Sprint" => $ts['SprintAct'], "confirmacion" => $confirm, "step" => $stateArr['maquinaestados'], "puntos" => $stateArr['puntos']));
                 $times[] = $ts['timestamp']; $times[] = $ts['limit_time'];
 
                 // if ($ts['SprintAct'] == 0){ $forces = true; }
@@ -79,7 +85,7 @@ class Sincronizacion{
         }
 
 
-        echo "retry: 15000\n";
+        echo "retry: 1000\n";
         echo "data: ".json_encode($paquet)."\n\n";
         
 

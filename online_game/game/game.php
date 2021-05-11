@@ -37,6 +37,9 @@ $leyendaSprints = new Language("../lang/", "LeyendaSprints");
   <link id="OEBase" rel="stylesheet" type="text/css" href="Preguntas.css?v=50491112400" />
   <link id="OEBase" rel="stylesheet" type="text/css" href="NewCards.css?v=50491112400" />
 
+  <!-- Modulos JavaScripts-->
+  <script type="text/javascript" src="../js/joiner.php?compilation=module"></script>
+
   <!--[if lte IE 7]>
   <link rel="stylesheet" type="text/css" href="WEFiles/Css/ie7.css?v=50491112400" />
   <![endif]-->
@@ -404,8 +407,9 @@ how to remove the virtical space around the range input in IE*/
   $SprintsTipoSprits = [];
   $SprintsTipoCards = [];
   $SprintsLeyendas = [];
+  $SprintsMecanicas = [];
 
-  $Sprint_SQL = "SELECT num, color, TipoSprint, TipoCard FROM static_sprints ORDER BY num";
+  $Sprint_SQL = "SELECT num, color, TipoSprint, TipoCard, mecanica FROM static_sprints ORDER BY num";
   $Qspr = mysqli_query($conn->conn(), $Sprint_SQL);
     if ($Qspr){
       while ($spr = mysqli_fetch_assoc($Qspr)){
@@ -414,6 +418,7 @@ how to remove the virtical space around the range input in IE*/
         array_push($SprintsTipoSprits, $spr['TipoSprint']);
         array_push($SprintsTipoCards, $spr['TipoCard']);
         array_push($SprintsLeyendas, $leyendaSprints->getLabel($lang, $spr['num']));
+        array_push($SprintsMecanicas, $spr['mecanica']);
 
       }
     } else {
@@ -438,6 +443,8 @@ how to remove the virtical space around the range input in IE*/
     _SprintsTipo =  '.json_encode($SprintsTipoSprits).';
     _CardsTipo =  '.json_encode($SprintsTipoCards).';
     _SprintLeyenda = '.json_encode($SprintsLeyendas).';
+
+    _MecanicOrder = '.json_encode($SprintsMecanicas).';
     
 	</script>';
 
@@ -460,6 +467,12 @@ how to remove the virtical space around the range input in IE*/
 
      <?php include "scaffold/base.php"?>
 
+    <!-- FuerzasPorter -->
+    <section id="pan_Porter" style="display:none">
+
+      <?php include "scaffold/porter.php" ?>
+
+    </section>
 
      <!-- Canvas -->
      <section id="pan_canvas" style="display:none">
@@ -671,7 +684,8 @@ how to remove the virtical space around the range input in IE*/
 
   <!-- JAVASCRIPTS NUEVOS-->
 
-<script type="text/javascript" src="../js/classes/Secciones.js"></script>
+  
+<!--<script type="text/javascript" src="../js/classes/Secciones.js"></script>
 <script type="text/javascript" src="../js/classes/MenuControl.js"></script>
 <script type="text/javascript" src="../js/classes/AvatarSelector.js"></script>
 <script type="text/javascript" src="../js/classes/Notification.js"></script>
@@ -679,8 +693,11 @@ how to remove the virtical space around the range input in IE*/
 <script type="text/javascript" src="../js/classes/Cronometro.js"></script>
 <script type="text/javascript" src="../js/classes/StateMachine.js"></script>
 
+<Script type="text/javascript" src="../js/mechanics/CanvasDisplayController.js"> </Script> 
+<Script type="text/javascript" src="../js/mechanics/5PorterHandler.js"> </Script> -->
 
-<script type="text/javascript" src="../js/elements/Instancias.js"></script>
+
+
 
 
 <script type="text/javascript">
@@ -705,12 +722,21 @@ how to remove the virtical space around the range input in IE*/
 
 <!-- JAVASCRIPTS VIEJOS-->
 
-  <script type="text/javascript" src="../js/game/base.js"></script>
-  <!--  <Script type="text/javascript" src="../js/game/canvas.js"> </Script> -->
+  <!-- <script type="text/javascript" src="../js/game/base.js"></script> -->
+  <!-- <Script type="text/javascript" src="../js/game/canvas.js"> </Script> -->
   <!-- <Script type="text/javascript" src="../js/game/competencia.js"> </Script> -->
   <!-- <script type="text/javascript" src="../js/game/dashboard.js"></script> -->
 
+  <!-- Instancias 
+
+  <script type="text/javascript" src="../js/elements/Instancias.js"></script>
   <script type="text/javascript" src="../js/elements/AvatarSelector.js"></script>;
+
+   Mecánicas 
+    <Script type="text/javascript" src="../js/mechanics/Canvas.js"> </Script> 
+    <Script type="text/javascript" src="../js/mechanics/5Porter.js"> </Script> -->
+
+    <script type="text/javascript" src="../js/joiner.php?compilation=instances"></script>
 
  </body>
 </html>

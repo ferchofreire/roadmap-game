@@ -50,11 +50,17 @@ class PopUpMensaje{
 
     }
 
-    ShowMessage(titulo, mensaje){
+    ShowMessage(titulo, mensaje, _callClosed){
         
         this.ObjPoPup.style.display = "initial";
         this.ObjPoPup.children[0].children[0].children[2].innerText = titulo;
         this.ObjPoPup.children[0].children[0].children[3].innerText = mensaje;
+        if (_callClosed != undefined){
+            this.CloseBotton.addEventListener("click", ()=>{
+                _callClosed();
+            })
+            
+        }
     }
 
 
